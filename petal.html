@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petal CX Agent — Jerónimo Sánchez</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e0e0e;
+    --bg2: #161616;
+    --bg3: #1e1e1e;
+    --accent: #c8f060;
+    --accent2: #7fffd4;
+    --text: #f0ede6;
+    --muted: #7a7670;
+    --border: rgba(240,237,230,0.08);
+    --radius: 4px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 16px; line-height: 1.7; overflow-x: hidden; }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 3rem; background: rgba(14,14,14,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+  .nav-logo { font-family: 'DM Mono', monospace; font-size: 13px; color: var(--accent); letter-spacing: 0.05em; text-decoration: none; }
+  .nav-back { font-size: 13px; color: var(--muted); text-decoration: none; letter-spacing: 0.03em; transition: color 0.2s; }
+  .nav-back:hover { color: var(--text); }
+  .petal-detail { max-width: 1100px; margin: 0 auto; padding: 8rem 3rem 6rem; }
+  .petal-header { margin-bottom: 3rem; }
+  .section-tag { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1rem; }
+  h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 400; line-height: 1.1; margin-bottom: 1.5rem; }
+  .petal-content { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 4rem; align-items: start; }
+  .petal-info h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: 1rem; margin-top: 2rem; }
+  .petal-info h3:first-of-type { margin-top: 0; }
+  .petal-info p { color: var(--muted); font-size: 15px; line-height: 1.7; margin-bottom: 1rem; }
+  .petal-info ul { list-style: none; padding: 0; margin: 1rem 0; }
+  .petal-info ul li { color: var(--muted); font-size: 14px; padding: 0.5rem 0; padding-left: 1.5rem; position: relative; }
+  .petal-info ul li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
+  .case-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2rem; }
+  .case-tag { font-size: 10px; font-family: 'DM Mono', monospace; padding: 3px 8px; background: var(--bg); border: 1px solid var(--border); color: var(--muted); border-radius: 2px; }
+  .demo-box { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; position: sticky; top: 120px; }
+  .demo-box h4 { font-size: 14px; font-weight: 500; margin-bottom: 1rem; color: var(--text); }
+  .demo-box p { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
+  footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; margin-top: 4rem; }
+  footer p { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+  footer a:hover { color: var(--accent); }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    .petal-detail { padding: 6rem 1.5rem 4rem; }
+    .petal-content { grid-template-columns: 1fr; gap: 2rem; }
+    .demo-box { position: static; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">JS / CD</a>
+  <a href="index.html#casos" class="nav-back">← Volver a casos</a>
+</nav>
+
+<div class="petal-detail">
+  <div class="petal-header reveal">
+    <p class="section-tag">Caso de estudio 01</p>
+    <h1>Petal — Agente de ventas<br>para floristería online</h1>
+  </div>
+  <div class="petal-content">
+    <div class="petal-info reveal">
+      <p>Petal es un agente conversacional completo diseñado para gestionar el ciclo de ventas de una floristería online ficticia, desde la consulta inicial hasta el checkout final.</p>
+      
+      <h3>Arquitectura del sistema</h3>
+      <p>El agente implementa una arquitectura multi-routine con tres capas principales:</p>
+      <ul>
+        <li><strong>Orquestador:</strong> Gestiona la intención del usuario y enruta a los playbooks especializados</li>
+        <li><strong>Checkout:</strong> Procesa pedidos con validación de stock, límites de crédito y direcciones</li>
+        <li><strong>Gestión de deuda:</strong> Maneja clientes con pagos pendientes y define condiciones de venta</li>
+      </ul>
+
+      <h3>Herramientas y backend</h3>
+      <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos, permitiendo:</p>
+      <ul>
+        <li>Consulta de inventario con disponibilidad actualizada</li>
+        <li>Validación de límites de crédito por perfil de cliente</li>
+        <li>Registro de pedidos y actualización de estado de pagos</li>
+        <li>Gestión de direcciones habituales y preferencias de entrega</li>
+      </ul>
+
+      <h3>Metodología aplicada</h3>
+      <p>El proyecto sigue un proceso estructurado con User Stories y EPICs documentadas en Notion. Se implementó testing iterativo con perfiles de usuario reales y casos edge (stock insuficiente, deuda bloqueante, SLA excedido).</p>
+
+      <div class="case-tags">
+        <span class="case-tag">Dialogflow CX</span>
+        <span class="case-tag">Gemini 2.5 Flash</span>
+        <span class="case-tag">Cloud Run</span>
+        <span class="case-tag">Google Sheets API</span>
+        <span class="case-tag">Multi-routine architecture</span>
+        <span class="case-tag">Prompt engineering</span>
+      </div>
+    </div>
+
+    <div class="demo-box reveal">
+      <h4>Prueba el agente en vivo</h4>
+      <p>Haz clic en el botón de chat flotante en la esquina inferior derecha para interactuar con Petal. Prueba consultas como:</p>
+      <ul style="list-style: none; padding: 0; font-size: 12px; color: var(--muted); margin-bottom: 1rem;">
+        <li style="padding: 0.3rem 0;">• "Quiero comprar flores"</li>
+        <li style="padding: 0.3rem 0;">• "¿Tienes rosas disponibles?"</li>
+        <li style="padding: 0.3rem 0;">• "Haz un pedido a mi dirección habitual"</li>
+      </ul>
+      <p style="font-size: 11px; color: var(--muted); border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem;">El agente usa datos ficticios. Cada interacción es procesada por Gemini 2.5 Flash con acceso a herramientas reales.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Jerónimo Sánchez</p>
+  <p>Diseñado con <a href="index.html">intención</a></p>
+</footer>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 80);
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+</script>
+
+<!-- Dialogflow Messenger Widget -->
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  location="europe-west1"
+  project-id="floristeria-petal-digital"
+  agent-id="745375ba-ac7e-4eb8-b8a0-d742891f2aa4"
+  language-code="es"
+  max-query-length="-1">
+  <df-messenger-chat
+    chat-title="Petal · Floristería CX">
+  </df-messenger-chat>
+</df-messenger>
+
+<style>
+  /* Estilos personalizados para el widget de Dialogflow Messenger */
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    /* Tipografía coherente con el portfolio */
+    --df-messenger-font-family: 'DM Sans', -apple-system, sans-serif;
+    
+    /* Colores del chat - dark theme coherente */
+    --df-messenger-chat-background: #161616;
+    --df-messenger-chat-border-color: rgba(240,237,230,0.1);
+    
+    /* Burbujas del usuario - verde lima accent */
+    --df-messenger-message-user-background: #c8f060;
+    --df-messenger-message-user-font-color: #0e0e0e;
+    
+    /* Burbujas del bot - fondo secundario con texto claro */
+    --df-messenger-message-bot-background: #1e1e1e;
+    --df-messenger-message-bot-font-color: #f0ede6;
+    
+    /* Header del chat */
+    --df-messenger-titlebar-background: #0e0e0e;
+    --df-messenger-titlebar-font-color: #f0ede6;
+    
+    /* Input del usuario */
+    --df-messenger-input-box-background: #1e1e1e;
+    --df-messenger-input-font-color: #f0ede6;
+    --df-messenger-input-placeholder-font-color: #7a7670;
+    
+    /* Botón de envío */
+    --df-messenger-send-icon-color: #c8f060;
+    --df-messenger-send-icon-color-hover: #d8ff70;
+    
+    /* Burbuja flotante (chat bubble cerrado) */
+    --df-messenger-button-titlebar-color: #c8f060;
+    --df-messenger-button-titlebar-font-color: #0e0e0e;
+    
+    /* Bordes y sombras más sutiles */
+    --df-messenger-chat-border-radius: 8px;
+    --df-messenger-message-border-radius: 6px;
+  }
+  
+  /* Animación suave de entrada para la burbuja flotante */
+  df-messenger {
+    animation: fadeInBubble 0.4s ease-out 0.5s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInBubble {
+    from {
+      opacity: 0;
+      transform: translateY(20px) scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  
+  /* Ajuste responsive */
+  @media (max-width: 768px) {
+    df-messenger {
+      bottom: 16px;
+      right: 16px;
+    }
+  }
+</style>
+
+</body>
+</html>
