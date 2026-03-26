@@ -234,6 +234,44 @@
     padding: 0.3rem 0;
   }
   
+  /* Botones de control del chat */
+  .chat-controls {
+    position: fixed;
+    right: 420px;
+    bottom: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .chat-controls.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .chat-control-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .chat-control-btn:hover {
+    background: var(--bg3);
+    color: var(--accent);
+    border-color: var(--accent);
+    transform: scale(1.05);
+  }
+  
   footer {
     border-top: 1px solid var(--border);
     padding: 2rem 3rem;
@@ -293,6 +331,10 @@
     }
     .sublayers {
       grid-template-columns: 1fr;
+    }
+    .chat-controls {
+      right: 10px;
+      bottom: 520px;
     }
   }
 </style>
@@ -420,6 +462,13 @@
   </div>
 </div>
 
+<!-- Botones de control del chat -->
+<div class="chat-controls" id="chatControls">
+  <button class="chat-control-btn" onclick="cerrarChat()" title="Cerrar chat">✕</button>
+  <button class="chat-control-btn" onclick="descargarConversacion()" title="Descargar conversación">⬇</button>
+  <button class="chat-control-btn" onclick="reiniciarChat()" title="Reiniciar conversación">🔄</button>
+</div>
+
 <footer>
   <p>© 2026 Jerónimo Sánchez</p>
   <p>Diseñado con <a href="index.html">intención</a></p>
@@ -436,6 +485,77 @@
     });
   }, { threshold: 0.1 });
   reveals.forEach(el => observer.observe(el));
+  
+  // Control de botones del chat
+  const chatControls = document.getElementById('chatControls');
+  const messenger = document.querySelector('df-messenger');
+  
+  // Mostrar botones cuando el chat está abierto
+  if (messenger) {
+    const checkChatState = setInterval(() => {
+      const isOpen = messenger.shadowRoot?.querySelector('.chat-wrapper')?.classList.contains('opened');
+      if (isOpen) {
+        chatControls.classList.add('visible');
+      } else {
+        chatControls.classList.remove('visible');
+      }
+    }, 500);
+  }
+  
+  function cerrarChat() {
+    const messenger = document.querySelector('df-messenger');
+    if (messenger) {
+      // Simular clic en el botón de cerrar del widget
+      const chatWrapper = messenger.shadowRoot?.querySelector('.chat-wrapper');
+      if (chatWrapper) {
+        chatWrapper.classList.remove('opened');
+      }
+    }
+  }
+  
+  function descargarConversacion() {
+    const messenger = document.querySelector('df-messenger');
+    if (messenger) {
+      try {
+        // Intentar obtener los mensajes del sessionStorage
+        const messages = sessionStorage.getItem('df-messenger-messages');
+        if (messages) {
+          const conversacion = JSON.parse(messages);
+          let texto = 'Conversación con Petal - Floristería CX\n';
+          texto += '==========================================\n\n';
+          
+          conversacion.forEach(msg => {
+            const autor = msg.type === 'user' ? 'Usuario' : 'Petal';
+            texto += `${autor}: ${msg.text}\n\n`;
+          });
+          
+          // Crear archivo para descargar
+          const blob = new Blob([texto], { type: 'text/plain' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `conversacion-petal-${new Date().toISOString().split('T')[0]}.txt`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        } else {
+          alert('No hay conversación para descargar aún.');
+        }
+      } catch (error) {
+        alert('No se pudo descargar la conversación.');
+        console.error('Error al descargar:', error);
+      }
+    }
+  }
+  
+  function reiniciarChat() {
+    if (confirm('¿Quieres reiniciar la conversación? Se perderá el historial actual.')) {
+      sessionStorage.removeItem('df-messenger-messages');
+      sessionStorage.removeItem('df-messenger-sessionID');
+      location.reload();
+    }
+  }
 </script>
 
 <!-- Dialogflow Messenger Widget -->
@@ -499,11 +619,6 @@
     /* Bordes y sombras más sutiles */
     --df-messenger-chat-border-radius: 8px;
     --df-messenger-message-border-radius: 6px;
-    
-    /* Botón de cerrar/minimizar */
-    --df-messenger-minimized-chat-close-icon-color: #f0ede6;
-    --df-messenger-chat-close-icon-color: #f0ede6;
-    --df-messenger-chat-close-icon-color-hover: #c8f060;
   }
   
   /* Animación suave de entrada para la burbuja flotante */
