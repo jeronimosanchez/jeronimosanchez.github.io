@@ -14,7 +14,7 @@
     --accent: #c8f060;
     --accent2: #7fffd4;
     --text: #f0ede6;
-    --muted: #7a7670;
+    --muted: #b4b2a9;
     --border: rgba(240,237,230,0.08);
     --radius: 4px;
   }
@@ -29,30 +29,271 @@
   .petal-header { margin-bottom: 3rem; }
   .section-tag { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1rem; }
   h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 400; line-height: 1.1; margin-bottom: 1.5rem; }
-  .petal-content { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 4rem; align-items: start; }
-  .petal-info h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: 1rem; margin-top: 2rem; }
-  .petal-info h3:first-of-type { margin-top: 0; }
-  .petal-info p { color: var(--muted); font-size: 15px; line-height: 1.7; margin-bottom: 1rem; }
-  .petal-info ul { list-style: none; padding: 0; margin: 1rem 0; }
-  .petal-info ul li { color: var(--muted); font-size: 14px; padding: 0.5rem 0; padding-left: 1.5rem; position: relative; }
-  .petal-info ul li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
-  .case-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2rem; }
-  .case-tag { font-size: 10px; font-family: 'DM Mono', monospace; padding: 3px 8px; background: var(--bg); border: 1px solid var(--border); color: var(--muted); border-radius: 2px; }
-  .demo-box { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; position: sticky; top: 120px; }
-  .demo-box h4 { font-size: 14px; font-weight: 500; margin-bottom: 1rem; color: var(--text); }
-  .demo-box p { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
-  footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; margin-top: 4rem; }
-  footer p { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); }
-  footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
-  footer a:hover { color: var(--accent); }
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
-  .reveal.visible { opacity: 1; transform: none; }
+  .petal-intro { color: var(--muted); font-size: 15px; line-height: 1.7; margin-bottom: 3rem; max-width: 700px; }
+  
+  /* Stats Grid */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 4rem;
+  }
+  .stat {
+    background: var(--bg2);
+    padding: 1.5rem;
+  }
+  .stat-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: #888780;
+    margin-top: 4px;
+  }
+  
+  /* Architecture Section */
+  .architecture-section { margin-bottom: 4rem; }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+  
+  /* Layers Diagram */
+  .layers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+  .layer-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+  }
+  .layer-card.active {
+    border-color: var(--accent);
+    background: rgba(200,240,96,0.03);
+  }
+  .layer-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+  }
+  .layer-card.active .layer-title {
+    color: var(--accent);
+  }
+  .layer-desc {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .arrow-down {
+    width: 2px;
+    height: 24px;
+    background: linear-gradient(to bottom, var(--accent), transparent);
+  }
+  .sublayers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 500px;
+    width: 100%;
+  }
+  .sublayer-card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+  }
+  
+  /* Content Sections */
+  .content-section {
+    margin-bottom: 3rem;
+  }
+  .content-section p {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+  .content-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .content-section ul li {
+    color: var(--muted);
+    font-size: 14px;
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  .content-section ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+  
+  /* Tech Stack Grid con categorías */
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-top: 3rem;
+  }
+  .tech-item {
+    background: var(--bg2);
+    padding: 1.25rem 1rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .tech-item.cx {
+    border-color: rgba(200,240,96,0.2);
+  }
+  .tech-item.llm {
+    border-color: rgba(127,255,212,0.2);
+  }
+  .tech-item.backend {
+    border-color: rgba(133,183,235,0.2);
+  }
+  .tech-item.methodology {
+    border-color: rgba(250,199,117,0.2);
+  }
+  .tech-name {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  .tech-item.cx .tech-name {
+    color: #c8f060;
+  }
+  .tech-item.llm .tech-name {
+    color: #7fffd4;
+  }
+  .tech-item.backend .tech-name {
+    color: #85b7eb;
+  }
+  .tech-item.methodology .tech-name {
+    color: #fac775;
+  }
+  .tech-role {
+    font-size: 10px;
+    color: #888780;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  /* Demo Box */
+  .demo-box {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2rem;
+    margin-top: 4rem;
+  }
+  .demo-box h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .demo-box p {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  .demo-box ul {
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+  .demo-box ul li {
+    padding: 0.3rem 0;
+  }
+  
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  footer p {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  footer a {
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  footer a:hover {
+    color: var(--accent);
+  }
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: none;
+  }
+  
   @media (max-width: 768px) {
-    nav { padding: 1rem 1.5rem; }
-    .petal-detail { padding: 6rem 1.5rem 4rem; }
-    .petal-content { grid-template-columns: 1fr; gap: 2rem; }
-    .demo-box { position: static; }
+    nav {
+      padding: 1rem 1.5rem;
+    }
+    .petal-detail {
+      padding: 6rem 1.5rem 4rem;
+    }
+    .stats-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .tech-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .sublayers {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 </head>
@@ -68,50 +309,114 @@
     <p class="section-tag">Caso de estudio 01</p>
     <h1>Petal — Agente de ventas<br>para floristería online</h1>
   </div>
-  <div class="petal-content">
-    <div class="petal-info reveal">
-      <p>Petal es un agente conversacional completo diseñado para gestionar el ciclo de ventas de una floristería online ficticia, desde la consulta inicial hasta el checkout final.</p>
+  
+  <p class="petal-intro reveal">Petal es un agente conversacional completo diseñado para gestionar el ciclo de ventas de una floristería online ficticia, desde la consulta inicial hasta el checkout final.</p>
+  
+  <!-- Stats Grid -->
+  <div class="stats-grid reveal">
+    <div class="stat">
+      <div class="stat-num">6</div>
+      <div class="stat-label">Playbooks activos</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">17</div>
+      <div class="stat-label">Intents mapeados</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">v7</div>
+      <div class="stat-label">Iteración actual</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">24</div>
+      <div class="stat-label">User Stories</div>
+    </div>
+  </div>
+  
+  <!-- Architecture Diagram -->
+  <div class="architecture-section reveal">
+    <h3>Arquitectura del sistema</h3>
+    <p style="color: var(--muted); font-size: 15px; margin-bottom: 1.5rem;">El agente implementa una arquitectura multi-routine con tres capas principales:</p>
+    
+    <div class="layers-container">
+      <div class="layer-card active">
+        <div class="layer-title">ORQUESTADOR</div>
+        <div class="layer-desc">Gestiona la intención del usuario y enruta a los playbooks especializados</div>
+      </div>
       
-      <h3>Arquitectura del sistema</h3>
-      <p>El agente implementa una arquitectura multi-routine con tres capas principales:</p>
-      <ul>
-        <li><strong>Orquestador:</strong> Gestiona la intención del usuario y enruta a los playbooks especializados</li>
-        <li><strong>Checkout:</strong> Procesa pedidos con validación de stock, límites de crédito y direcciones</li>
-        <li><strong>Gestión de deuda:</strong> Maneja clientes con pagos pendientes y define condiciones de venta</li>
-      </ul>
-
-      <h3>Herramientas y backend</h3>
-      <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos, permitiendo:</p>
-      <ul>
-        <li>Consulta de inventario con disponibilidad actualizada</li>
-        <li>Validación de límites de crédito por perfil de cliente</li>
-        <li>Registro de pedidos y actualización de estado de pagos</li>
-        <li>Gestión de direcciones habituales y preferencias de entrega</li>
-      </ul>
-
-      <h3>Metodología aplicada</h3>
-      <p>El proyecto sigue un proceso estructurado con User Stories y EPICs documentadas en Notion. Se implementó testing iterativo con perfiles de usuario reales y casos edge (stock insuficiente, deuda bloqueante, SLA excedido).</p>
-
-      <div class="case-tags">
-        <span class="case-tag">Dialogflow CX</span>
-        <span class="case-tag">Gemini 2.5 Flash</span>
-        <span class="case-tag">Cloud Run</span>
-        <span class="case-tag">Google Sheets API</span>
-        <span class="case-tag">Multi-routine architecture</span>
-        <span class="case-tag">Prompt engineering</span>
+      <div class="arrow-down"></div>
+      
+      <div class="sublayers">
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">CHECKOUT</div>
+          <div class="layer-desc" style="font-size: 11px;">Procesa pedidos con validación de stock, límites y direcciones</div>
+        </div>
+        
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">GESTIÓN DEUDA</div>
+          <div class="layer-desc" style="font-size: 11px;">Maneja clientes con pagos pendientes y define condiciones</div>
+        </div>
       </div>
     </div>
-
-    <div class="demo-box reveal">
-      <h4>Prueba el agente en vivo</h4>
-      <p>Haz clic en el botón de chat flotante en la esquina inferior derecha para interactuar con Petal. Prueba consultas como:</p>
-      <ul style="list-style: none; padding: 0; font-size: 12px; color: var(--muted); margin-bottom: 1rem;">
-        <li style="padding: 0.3rem 0;">• "Quiero comprar flores"</li>
-        <li style="padding: 0.3rem 0;">• "¿Tienes rosas disponibles?"</li>
-        <li style="padding: 0.3rem 0;">• "Haz un pedido a mi dirección habitual"</li>
-      </ul>
-      <p style="font-size: 11px; color: var(--muted); border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem;">El agente usa datos ficticios. Cada interacción es procesada por Gemini 2.5 Flash con acceso a herramientas reales.</p>
+  </div>
+  
+  <!-- Backend Tools -->
+  <div class="content-section reveal">
+    <h3>Herramientas y backend</h3>
+    <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos, permitiendo:</p>
+    <ul>
+      <li>Consulta de inventario con disponibilidad actualizada</li>
+      <li>Validación de límites de crédito por perfil de cliente</li>
+      <li>Registro de pedidos y actualización de estado de pagos</li>
+      <li>Gestión de direcciones habituales y preferencias de entrega</li>
+    </ul>
+  </div>
+  
+  <!-- Methodology -->
+  <div class="content-section reveal">
+    <h3>Metodología aplicada</h3>
+    <p>El proyecto sigue un proceso estructurado con User Stories y EPICs documentadas en Notion. Se implementó testing iterativo con perfiles de usuario reales y casos edge (stock insuficiente, deuda bloqueante, SLA excedido).</p>
+  </div>
+  
+  <!-- Tech Stack Grid -->
+  <div class="reveal">
+    <div class="tech-grid">
+      <div class="tech-item cx">
+        <div class="tech-name">Dialogflow CX</div>
+        <div class="tech-role">Motor CX</div>
+      </div>
+      <div class="tech-item llm">
+        <div class="tech-name">Gemini 2.5</div>
+        <div class="tech-role">LLM Engine</div>
+      </div>
+      <div class="tech-item backend">
+        <div class="tech-name">Cloud Run</div>
+        <div class="tech-role">Backend</div>
+      </div>
+      <div class="tech-item backend">
+        <div class="tech-name">Google Sheets</div>
+        <div class="tech-role">Database</div>
+      </div>
+      <div class="tech-item cx">
+        <div class="tech-name">Multi-routine</div>
+        <div class="tech-role">Architecture</div>
+      </div>
+      <div class="tech-item methodology">
+        <div class="tech-name">Prompt Eng.</div>
+        <div class="tech-role">Design</div>
+      </div>
     </div>
+  </div>
+  
+  <!-- Demo Box -->
+  <div class="demo-box reveal">
+    <h4>Prueba el agente en vivo</h4>
+    <p>Haz clic en el botón de chat flotante en la esquina inferior derecha para interactuar con Petal. Prueba consultas como:</p>
+    <ul>
+      <li>• "Quiero comprar flores"</li>
+      <li>• "¿Tienes rosas disponibles?"</li>
+      <li>• "Haz un pedido a mi dirección habitual"</li>
+    </ul>
+    <p style="font-size: 11px; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem; margin-bottom: 0;">El agente usa datos ficticios. Cada interacción es procesada por Gemini 2.5 Flash con acceso a herramientas reales.</p>
   </div>
 </div>
 
@@ -156,6 +461,7 @@
     right: 20px;
     width: 380px;
     max-width: 90vw;
+    max-height: 75vh;
     
     /* Tipografía coherente con el portfolio */
     --df-messenger-font-family: 'DM Sans', -apple-system, sans-serif;
@@ -192,6 +498,10 @@
     /* Bordes y sombras más sutiles */
     --df-messenger-chat-border-radius: 8px;
     --df-messenger-message-border-radius: 6px;
+    
+    /* Botón de cerrar visible */
+    --df-messenger-minimize-button-color: #f0ede6;
+    --df-messenger-minimize-button-color-hover: #c8f060;
   }
   
   /* Animación suave de entrada para la burbuja flotante */
