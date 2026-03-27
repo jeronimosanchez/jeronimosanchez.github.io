@@ -31,226 +31,81 @@
   h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 400; line-height: 1.1; margin-bottom: 1.5rem; }
   .petal-intro { color: var(--muted); font-size: 15px; line-height: 1.7; margin-bottom: 3rem; max-width: 700px; }
 
-  /* Stats Grid */
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: var(--border);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    overflow: hidden;
-    margin-bottom: 4rem;
-  }
-  .stat {
-    background: var(--bg2);
-    padding: 1.5rem;
-  }
-  .stat-num {
-    font-family: 'DM Serif Display', serif;
-    font-size: 2.5rem;
-    color: var(--accent);
-    line-height: 1;
-  }
-  .stat-label {
-    font-size: 12px;
-    color: #888780;
-    margin-top: 4px;
-  }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 4rem; }
+  .stat { background: var(--bg2); padding: 1.5rem; }
+  .stat-num { font-family: 'DM Serif Display', serif; font-size: 2.5rem; color: var(--accent); line-height: 1; }
+  .stat-label { font-size: 12px; color: #888780; margin-top: 4px; }
 
-  /* Architecture Section */
   .architecture-section { margin-bottom: 4rem; }
-  h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
-    margin-top: 0;
-  }
+  h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: 1.5rem; margin-top: 0; }
 
-  /* Layers Diagram */
-  .layers-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
-  }
-  .layer-card {
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    width: 100%;
-    max-width: 500px;
-  }
-  .layer-card.active {
-    border-color: var(--accent);
-    background: rgba(200,240,96,0.03);
-  }
-  .layer-title {
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    color: var(--text);
-  }
-  .layer-card.active .layer-title {
-    color: var(--accent);
-  }
-  .layer-desc {
-    font-size: 12px;
-    color: var(--muted);
-    line-height: 1.6;
-  }
-  .arrow-down {
-    width: 2px;
-    height: 24px;
-    background: linear-gradient(to bottom, var(--accent), transparent);
-  }
-  .sublayers {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    max-width: 500px;
-    width: 100%;
-  }
-  .sublayer-card {
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.25rem;
-  }
+  .layers-container { display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-bottom: 4rem; }
+  .layer-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; width: 100%; max-width: 500px; }
+  .layer-card.active { border-color: var(--accent); background: rgba(200,240,96,0.03); }
+  .layer-title { font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text); }
+  .layer-card.active .layer-title { color: var(--accent); }
+  .layer-desc { font-size: 12px; color: var(--muted); line-height: 1.6; }
+  .arrow-down { width: 2px; height: 24px; background: linear-gradient(to bottom, var(--accent), transparent); }
+  .sublayers { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 500px; width: 100%; }
+  .sublayer-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
 
-  /* Content Sections */
-  .content-section {
-    margin-bottom: 3rem;
-  }
-  .content-section p {
-    color: var(--muted);
-    font-size: 15px;
-    line-height: 1.7;
-    margin-bottom: 1rem;
-  }
-  .content-section ul {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
-  }
-  .content-section ul li {
-    color: var(--muted);
-    font-size: 14px;
-    padding: 0.5rem 0;
-    padding-left: 1.5rem;
-    position: relative;
-  }
-  .content-section ul li::before {
-    content: '→';
-    position: absolute;
-    left: 0;
-    color: var(--accent);
-  }
+  .content-section { margin-bottom: 3rem; }
+  .content-section p { color: var(--muted); font-size: 15px; line-height: 1.7; margin-bottom: 1rem; }
+  .content-section ul { list-style: none; padding: 0; margin: 1rem 0; }
+  .content-section ul li { color: var(--muted); font-size: 14px; padding: 0.5rem 0; padding-left: 1.5rem; position: relative; }
+  .content-section ul li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
 
-  /* Tech Stack Grid */
-  .tech-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    background: var(--border);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    overflow: hidden;
-    margin-top: 3rem;
-  }
-  .tech-item {
-    background: var(--bg2);
-    padding: 1.25rem 1rem;
-    text-align: center;
-    border: 1px solid transparent;
-    transition: border-color 0.2s;
-  }
+  .tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-top: 3rem; }
+  .tech-item { background: var(--bg2); padding: 1.25rem 1rem; text-align: center; border: 1px solid transparent; transition: border-color 0.2s; }
   .tech-item.cx { border-color: rgba(200,240,96,0.2); }
   .tech-item.llm { border-color: rgba(127,255,212,0.2); }
   .tech-item.backend { border-color: rgba(133,183,235,0.2); }
   .tech-item.methodology { border-color: rgba(250,199,117,0.2); }
-  .tech-name {
-    font-size: 13px;
-    font-weight: 500;
-    margin-bottom: 4px;
-  }
+  .tech-name { font-size: 13px; font-weight: 500; margin-bottom: 4px; }
   .tech-item.cx .tech-name { color: #c8f060; }
   .tech-item.llm .tech-name { color: #7fffd4; }
   .tech-item.backend .tech-name { color: #85b7eb; }
   .tech-item.methodology .tech-name { color: #fac775; }
-  .tech-role {
-    font-size: 10px;
-    color: #888780;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
+  .tech-role { font-size: 10px; color: #888780; letter-spacing: 0.05em; text-transform: uppercase; }
 
-  /* Demo Box */
-  .demo-box {
+  .demo-box { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; margin-top: 4rem; }
+  .demo-box h4 { font-size: 14px; font-weight: 500; margin-bottom: 1rem; color: var(--text); }
+  .demo-box p { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
+  .demo-box ul { list-style: none; padding: 0; font-size: 12px; color: var(--muted); margin-bottom: 1rem; }
+  .demo-box ul li { padding: 0.3rem 0; }
+
+  .reset-chat-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 24px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     background: var(--bg2);
     border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 2rem;
-    margin-top: 4rem;
-  }
-  .demo-box h4 {
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: var(--text);
-  }
-  .demo-box p {
-    font-size: 12px;
     color: var(--muted);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-  }
-  .demo-box ul {
-    list-style: none;
-    padding: 0;
-    font-size: 12px;
-    color: var(--muted);
-    margin-bottom: 1rem;
-  }
-  .demo-box ul li {
-    padding: 0.3rem 0;
-  }
-
-  footer {
-    border-top: 1px solid var(--border);
-    padding: 2rem 3rem;
+    font-size: 16px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
-    margin-top: 4rem;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
   }
-  footer p {
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    color: var(--muted);
-  }
-  footer a {
-    color: var(--muted);
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-  footer a:hover {
+  .reset-chat-btn:hover {
+    background: var(--bg3);
     color: var(--accent);
+    border-color: var(--accent);
+    transform: scale(1.08);
   }
 
-  .reveal {
-    opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-  }
-  .reveal.visible {
-    opacity: 1;
-    transform: none;
-  }
+  footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; margin-top: 4rem; }
+  footer p { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+  footer a:hover { color: var(--accent); }
+
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
 
   @media (max-width: 768px) {
     nav { padding: 1rem 1.5rem; }
@@ -276,7 +131,6 @@
 
   <p class="petal-intro reveal">Petal es un agente conversacional completo diseñado para gestionar el ciclo de ventas de una floristería online ficticia, desde la consulta inicial hasta el checkout final.</p>
 
-  <!-- Stats Grid -->
   <div class="stats-grid reveal">
     <div class="stat">
       <div class="stat-num">6</div>
@@ -296,25 +150,20 @@
     </div>
   </div>
 
-  <!-- Architecture Diagram -->
   <div class="architecture-section reveal">
     <h3>Arquitectura del sistema</h3>
     <p style="color: var(--muted); font-size: 15px; margin-bottom: 1.5rem;">El agente implementa una arquitectura multi-routine con tres capas principales:</p>
-
     <div class="layers-container">
       <div class="layer-card active">
         <div class="layer-title">ORQUESTADOR</div>
         <div class="layer-desc">Gestiona la intención del usuario y enruta a los playbooks especializados</div>
       </div>
-
       <div class="arrow-down"></div>
-
       <div class="sublayers">
         <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">CHECKOUT</div>
           <div class="layer-desc" style="font-size: 11px;">Procesa pedidos con validación de stock, límites y direcciones</div>
         </div>
-
         <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">GESTIÓN DEUDA</div>
           <div class="layer-desc" style="font-size: 11px;">Maneja clientes con pagos pendientes y define condiciones</div>
@@ -323,7 +172,6 @@
     </div>
   </div>
 
-  <!-- Backend Tools -->
   <div class="content-section reveal">
     <h3>Herramientas y backend</h3>
     <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos, permitiendo:</p>
@@ -335,13 +183,11 @@
     </ul>
   </div>
 
-  <!-- Methodology -->
   <div class="content-section reveal">
     <h3>Metodología aplicada</h3>
     <p>El proyecto sigue un proceso estructurado con User Stories y EPICs documentadas en Notion. Se implementó testing iterativo con perfiles de usuario reales y casos edge (stock insuficiente, deuda bloqueante, SLA excedido).</p>
   </div>
 
-  <!-- Tech Stack Grid -->
   <div class="reveal">
     <div class="tech-grid">
       <div class="tech-item cx">
@@ -371,7 +217,6 @@
     </div>
   </div>
 
-  <!-- Demo Box -->
   <div class="demo-box reveal">
     <h4>Prueba el agente en vivo</h4>
     <p>Haz clic en el botón de chat flotante en la esquina inferior derecha para interactuar con Petal. Prueba consultas como:</p>
@@ -383,6 +228,8 @@
     <p style="font-size: 11px; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem; margin-bottom: 0;">El agente usa datos ficticios. Cada interacción es procesada por Gemini 2.5 Flash con acceso a herramientas reales.</p>
   </div>
 </div>
+
+<button class="reset-chat-btn" onclick="reiniciarChat()" title="Reiniciar conversación">↻</button>
 
 <footer>
   <p>© 2026 Jerónimo Sánchez</p>
@@ -400,6 +247,13 @@
     });
   }, { threshold: 0.1 });
   reveals.forEach(el => observer.observe(el));
+
+  function reiniciarChat() {
+    const messenger = document.querySelector('df-messenger');
+    if (messenger) {
+      messenger.startNewSession({retainHistory: false});
+    }
+  }
 </script>
 
 <!-- Dialogflow Messenger Widget -->
