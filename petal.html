@@ -55,6 +55,59 @@
   .content-section ul li { color: var(--muted); font-size: 14px; padding: 0.5rem 0; padding-left: 1.5rem; position: relative; }
   .content-section ul li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
 
+  /* Funcionalidades clave */
+  .features-section { margin-bottom: 4rem; }
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 3rem;
+    margin-top: 1.5rem;
+  }
+  .feature-category-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .feature-item {
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .feature-item:last-child { border-bottom: none; }
+  .feature-bar {
+    width: 2px;
+    border-radius: 1px;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .feature-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 2px;
+  }
+  .feature-desc {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .wip-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--accent);
+    background: rgba(200,240,96,0.08);
+    border: 1px solid rgba(200,240,96,0.2);
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+    letter-spacing: 0.05em;
+  }
+
   .tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-top: 3rem; }
   .tech-item { background: var(--bg2); padding: 1.25rem 1rem; text-align: center; border: 1px solid transparent; transition: border-color 0.2s; }
   .tech-item.cx { border-color: rgba(200,240,96,0.2); }
@@ -113,6 +166,7 @@
     .stats-grid { grid-template-columns: 1fr 1fr; }
     .tech-grid { grid-template-columns: 1fr 1fr; }
     .sublayers { grid-template-columns: 1fr; }
+    .features-grid { grid-template-columns: 1fr; gap: 2rem; }
   }
 </style>
 </head>
@@ -182,6 +236,115 @@
       <li>Gestión de direcciones habituales y preferencias de entrega</li>
     </ul>
   </div>
+
+  <!-- NUEVA SECCIÓN: Funcionalidades clave -->
+  <div class="features-section reveal">
+    <h3>Funcionalidades clave</h3>
+    <div class="features-grid">
+
+      <div class="feature-category">
+        <p class="feature-category-label">Transaccional</p>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Compra guiada <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Flujo completo hasta checkout con validación de stock</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Discovery conversacional <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">~300 productos navegables por categoría, temporada y precio</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Validación en tiempo real <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Stock, límites de crédito y SLA vía API</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-category">
+        <p class="feature-category-label">Gestión de clientes</p>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Perfiles de cliente <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Identificación, registro y datos habituales</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Gestión de deuda <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Pagos pendientes y condiciones de compra</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Límites de crédito <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Control automático por tipo y estado de pago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-category">
+        <p class="feature-category-label">Soporte y escalación</p>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Escalación a humano <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Handoff contextualizado ante límites del agente</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">FAQ y políticas <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Respuestas sobre envíos, horarios y políticas de tienda</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Cierre de sesión <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Despedida controlada con resumen de interacción</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-category">
+        <p class="feature-category-label">Inteligencia conversacional</p>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Detección de intención <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Clasificación y enrutamiento automático por motivo</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Tono adaptativo <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Ajuste de comunicación según perfil de cliente</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Memoria de sesión <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Contexto mantenido entre turnos de conversación</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- FIN NUEVA SECCIÓN -->
 
   <div class="content-section reveal">
     <h3>Metodología aplicada</h3>
