@@ -40,13 +40,13 @@
   h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: 1.5rem; margin-top: 0; }
 
   .layers-container { display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-bottom: 4rem; }
-  .layer-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; width: 100%; max-width: 500px; }
+  .layer-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; width: 100%; max-width: 700px; }
   .layer-card.active { border-color: var(--accent); background: rgba(200,240,96,0.03); }
   .layer-title { font-size: 14px; font-weight: 500; margin-bottom: 0.5rem; color: var(--text); }
   .layer-card.active .layer-title { color: var(--accent); }
   .layer-desc { font-size: 12px; color: var(--muted); line-height: 1.6; }
   .arrow-down { width: 2px; height: 24px; background: linear-gradient(to bottom, var(--accent), transparent); }
-  .sublayers { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 500px; width: 100%; }
+  .sublayers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 700px; width: 100%; }
   .sublayer-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
 
   .content-section { margin-bottom: 3rem; }
@@ -206,21 +206,33 @@
 
   <div class="architecture-section reveal">
     <h3>Arquitectura del sistema</h3>
-    <p style="color: var(--muted); font-size: 15px; margin-bottom: 1.5rem;">El agente implementa una arquitectura multi-routine con tres capas principales:</p>
+    <p style="color: var(--muted); font-size: 15px; margin-bottom: 1.5rem;">El agente implementa una arquitectura multi-routine con un orquestador central que enruta a cinco playbooks especializados:</p>
     <div class="layers-container">
       <div class="layer-card active">
         <div class="layer-title">ORQUESTADOR</div>
-        <div class="layer-desc">Gestiona la intención del usuario y enruta a los playbooks especializados</div>
+        <div class="layer-desc">Identifica al cliente, clasifica la intención y enruta al playbook correcto</div>
       </div>
       <div class="arrow-down"></div>
       <div class="sublayers">
         <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">COMPRA</div>
+          <div class="layer-desc" style="font-size: 11px;">Discovery de catálogo, refinamiento progresivo y selección de producto</div>
+        </div>
+        <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">CHECKOUT</div>
-          <div class="layer-desc" style="font-size: 11px;">Procesa pedidos con validación de stock, límites y direcciones</div>
+          <div class="layer-desc" style="font-size: 11px;">Validación de pedido, dirección y confirmación final</div>
         </div>
         <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">GESTIÓN DEUDA</div>
-          <div class="layer-desc" style="font-size: 11px;">Maneja clientes con pagos pendientes y define condiciones</div>
+          <div class="layer-desc" style="font-size: 11px;">Pagos pendientes y condiciones de compra</div>
+        </div>
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">REGISTRO</div>
+          <div class="layer-desc" style="font-size: 11px;">Alta de clientes nuevos con datos y dirección</div>
+        </div>
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">HANDOFF</div>
+          <div class="layer-desc" style="font-size: 11px;">Escalación contextualizada a agente humano</div>
         </div>
       </div>
     </div>
@@ -228,13 +240,7 @@
 
   <div class="content-section reveal">
     <h3>Herramientas y backend</h3>
-    <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos, permitiendo:</p>
-    <ul>
-      <li>Consulta de inventario con disponibilidad actualizada</li>
-      <li>Validación de límites de crédito por perfil de cliente</li>
-      <li>Registro de pedidos y actualización de estado de pagos</li>
-      <li>Gestión de direcciones habituales y preferencias de entrega</li>
-    </ul>
+    <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos operativa.</p>
   </div>
 
   <!-- NUEVA SECCIÓN: Funcionalidades clave -->
