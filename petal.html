@@ -243,7 +243,7 @@
     <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos operativa.</p>
   </div>
 
-  <!-- NUEVA SECCIÓN: Funcionalidades clave -->
+  <!-- Funcionalidades clave -->
   <div class="features-section reveal">
     <h3>Funcionalidades clave</h3>
     <div class="features-grid">
@@ -350,7 +350,6 @@
 
     </div>
   </div>
-  <!-- FIN NUEVA SECCIÓN -->
 
   <div class="content-section reveal">
     <h3>Metodología aplicada</h3>
@@ -425,9 +424,10 @@
   }
 </script>
 
-<!-- Dialogflow Messenger Widget -->
+<!-- Dialogflow Messenger Widget — Personalizado con design system Petal -->
 <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+
 <df-messenger
   location="europe-west1"
   project-id="floristeria-petal-digital"
@@ -435,20 +435,57 @@
   language-code="es"
   max-query-length="-1">
   <df-messenger-chat-bubble
-    chat-title="Petal · Floristería CX">
+    chat-title="Petal"
+    chat-subtitle="Floristería · Asistente virtual">
   </df-messenger-chat-bubble>
 </df-messenger>
+
 <style>
   df-messenger {
     z-index: 999;
     position: fixed;
     bottom: 16px;
     right: 16px;
-    --df-messenger-font-color: #000;
+
+    /* Tamaño */
+    --df-messenger-chat-window-height: 520px;
+    --df-messenger-chat-window-width: 380px;
+    --df-messenger-chat-border-radius: 4px;
+
+    /* Tipografía */
     --df-messenger-font-family: 'DM Sans', sans-serif;
-    --df-messenger-chat-background: #f3f6fc;
-    --df-messenger-message-user-background: #d3e3fd;
-    --df-messenger-message-bot-background: #fff;
+
+    /* Header */
+    --df-messenger-chat-header-background: #0e0e0e;
+    --df-messenger-chat-title-color: #f0ede6;
+    --df-messenger-chat-subtitle-color: #7a7670;
+    --df-messenger-chat-header-border-bottom: 1px solid rgba(240,237,230,0.08);
+
+    /* Fondo del chat */
+    --df-messenger-chat-background: #161616;
+
+    /* Mensajes del bot */
+    --df-messenger-message-bot-background: #1e1e1e;
+    --df-messenger-message-bot-font-color: #f0ede6;
+    --df-messenger-message-bot-border-radius: 4px;
+
+    /* Mensajes del usuario */
+    --df-messenger-message-user-background: #c8f060;
+    --df-messenger-message-user-font-color: #0e0e0e;
+    --df-messenger-message-user-border-radius: 4px;
+
+    /* Input */
+    --df-messenger-input-background: #0e0e0e;
+    --df-messenger-input-font-color: #f0ede6;
+    --df-messenger-input-placeholder-font-color: #7a7670;
+    --df-messenger-input-border-top: 1px solid rgba(240,237,230,0.08);
+
+    /* Botón enviar */
+    --df-messenger-send-icon-color: #c8f060;
+
+    /* Burbuja flotante */
+    --df-messenger-minimized-chat-bubble-background: #c8f060;
+    --df-messenger-minimized-chat-bubble-icon-color: #0e0e0e;
   }
 </style>
 
