@@ -282,10 +282,22 @@
     --df-messenger-chat-scroll-hover-color: rgba(200,240,96,0.3);
   }
 
-  /* Fix input color para navegadores problemáticos */
-  df-messenger df-messenger-chat df-messenger-input input {
+  /* Fix input — forzar tema oscuro */
+  df-messenger df-messenger-chat df-messenger-input input,
+  df-messenger input,
+  df-messenger textarea {
     color: #f0ede6 !important;
     background: #1e1e1e !important;
+    border: 1px solid rgba(240,237,230,0.1) !important;
+    caret-color: #c8f060 !important;
+  }
+  df-messenger input::placeholder {
+    color: #666 !important;
+  }
+  /* Forzar fondo oscuro en el área de input completa */
+  df-messenger df-messenger-chat .input-container,
+  df-messenger df-messenger-chat [class*="input"] {
+    background: #161616 !important;
   }
 
   /* Animación de entrada del chat */
@@ -567,43 +579,68 @@
     chat-subtitle="Floristería · Asistente virtual"
     placeholder="Pregunta algo...">
   </df-messenger-chat-bubble>
-  <df-messenger-welcome-message
-    message="¡Hola! 🌸 Bienvenido a Floristería Petal. Puedo ayudarte a elegir flores para cualquier ocasión, consultar disponibilidad o hacer un pedido. ¿Por dónde empezamos?">
-  </df-messenger-welcome-message>
 </df-messenger>
 
 <script>
-  // Inyectar chips estáticos después del welcome message
+  // Welcome message + chips — inyección via JS porque df-messenger-welcome-message no funciona en todas las versiones
+  const WELCOME_MSG = '¡Hola! 🌸 Bienvenido a Floristería Petal. Puedo ayudarte a elegir flores para cualquier ocasión, consultar disponibilidad o hacer un pedido. ¿Por dónde empezamos?';
   const WELCOME_CHIPS = [
     { label: '💐 Comprar flores', message: 'Quiero comprar flores' },
     { label: '🕐 Horario', message: '¿Cuál es vuestro horario?' },
     { label: '📝 Registrarme', message: 'Quiero registrarme' },
   ];
 
-  function injectWelcomeChips() {
+  let welcomeInjected = false;
+
+  function injectWelcome() {
+    if (welcomeInjected) return;
     const messenger = document.querySelector('df-messenger');
     if (!messenger) return;
 
-    // Esperar a que el chat se abra
     messenger.addEventListener('df-messenger-chat-opened', () => {
+      if (welcomeInjected) return;
       setTimeout(() => {
         try {
+          // Acceder al Shadow DOM del messenger
           const chatEl = messenger.shadowRoot?.querySelector('df-messenger-chat');
           if (!chatEl) return;
-          const chatWrapper = chatEl.shadowRoot?.querySelector('.chat-wrapper, .message-list-wrapper, df-message-list');
-          if (!chatWrapper) return;
+          const messageList = chatEl.shadowRoot?.querySelector('df-message-list');
+          if (!messageList) {
+            // Fallback: intentar con otro selector
+            const altList = chatEl.shadowRoot?.querySelector('.message-list, [class*="message"]');
+            if (!altList) return;
+          }
+          const target = messageList || chatEl.shadowRoot?.querySelector('.message-list, [class*="message"]');
+          if (!target) return;
 
-          // Solo inyectar si no se ha hecho ya
-          if (chatWrapper.querySelector('.petal-welcome-chips')) return;
+          // Verificar que no hay mensajes todavía (solo inyectar en chat vacío)
+          const existingMessages = target.querySelectorAll('[class*="message"], [class*="bot"]');
+          if (existingMessages.length > 1) return;
 
-          const chipsContainer = document.createElement('div');
-          chipsContainer.className = 'petal-welcome-chips';
-          chipsContainer.style.cssText = `
+          // Crear burbuja de welcome
+          const welcomeDiv = document.createElement('div');
+          welcomeDiv.className = 'petal-welcome';
+          welcomeDiv.style.cssText = `
+            padding: 12px 16px;
+            margin: 12px;
+            background: #1e1e1e;
+            color: #f0ede6;
+            border-radius: 18px 18px 18px 4px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            max-width: 85%;
+          `;
+          welcomeDiv.textContent = WELCOME_MSG;
+
+          // Crear chips
+          const chipsDiv = document.createElement('div');
+          chipsDiv.className = 'petal-chips';
+          chipsDiv.style.cssText = `
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
-            padding: 8px 16px 16px;
-            justify-content: flex-start;
+            padding: 8px 12px 16px;
           `;
 
           WELCOME_CHIPS.forEach(chip => {
@@ -621,36 +658,33 @@
               transition: all 0.2s ease;
               white-space: nowrap;
             `;
-            btn.addEventListener('mouseenter', () => {
+            btn.onmouseenter = () => {
               btn.style.background = 'rgba(200,240,96,0.12)';
               btn.style.borderColor = 'rgba(200,240,96,0.4)';
-              btn.style.transform = 'translateY(-1px)';
-            });
-            btn.addEventListener('mouseleave', () => {
+            };
+            btn.onmouseleave = () => {
               btn.style.background = 'rgba(200,240,96,0.06)';
               btn.style.borderColor = 'rgba(200,240,96,0.2)';
-              btn.style.transform = 'none';
-            });
-            btn.addEventListener('click', () => {
+            };
+            btn.onclick = () => {
               messenger.sendMessage(chip.message);
-              chipsContainer.style.display = 'none';
-            });
-            chipsContainer.appendChild(btn);
+              chipsDiv.style.display = 'none';
+            };
+            chipsDiv.appendChild(btn);
           });
 
-          chatWrapper.appendChild(chipsContainer);
+          target.prepend(chipsDiv);
+          target.prepend(welcomeDiv);
+          welcomeInjected = true;
         } catch (e) {
-          // Shadow DOM access puede fallar en algunos navegadores
-          console.log('Chips injection: shadow DOM not accessible');
+          console.log('Welcome injection failed:', e);
         }
-      }, 600);
+      }, 400);
     });
   }
 
-  // Intentar inyectar cuando el messenger cargue
-  document.addEventListener('df-messenger-loaded', injectWelcomeChips);
-  // Fallback si el evento ya ocurrió
-  setTimeout(injectWelcomeChips, 2000);
+  document.addEventListener('df-messenger-loaded', injectWelcome);
+  setTimeout(injectWelcome, 2000);
 </script>
 
 </body>
