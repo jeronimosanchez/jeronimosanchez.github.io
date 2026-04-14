@@ -127,29 +127,47 @@
   .demo-box ul { list-style: none; padding: 0; font-size: 12px; color: var(--muted); margin-bottom: 1rem; }
   .demo-box ul li { padding: 0.3rem 0; }
 
+  /* ============================================
+     BOTÓN RESET CHAT — Estilizado Petal
+     ============================================ */
   .reset-chat-btn {
     position: fixed;
-    bottom: 80px;
+    bottom: 84px;
     right: 24px;
     z-index: 1000;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     background: var(--bg2);
-    border: 1px solid var(--border);
-    color: var(--muted);
-    font-size: 16px;
+    border: 1px solid rgba(200,240,96,0.2);
+    color: var(--accent);
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    opacity: 0.7;
   }
   .reset-chat-btn:hover {
-    background: var(--bg3);
+    background: rgba(200,240,96,0.1);
     color: var(--accent);
     border-color: var(--accent);
-    transform: scale(1.08);
+    transform: scale(1.1) rotate(180deg);
+    opacity: 1;
+    box-shadow: 0 4px 16px rgba(200,240,96,0.15);
+  }
+  .reset-chat-btn::after {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+  }
+  .reset-chat-btn:hover::after {
+    border-color: rgba(200,240,96,0.1);
   }
 
   footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; margin-top: 4rem; }
@@ -167,6 +185,116 @@
     .tech-grid { grid-template-columns: 1fr 1fr; }
     .sublayers { grid-template-columns: 1fr; }
     .features-grid { grid-template-columns: 1fr; gap: 2rem; }
+    /* Mobile: chat fullscreen */
+    df-messenger {
+      --df-messenger-chat-window-height: 100vh !important;
+      --df-messenger-chat-window-width: 100vw !important;
+      --df-messenger-chat-border-radius: 0 !important;
+    }
+    .reset-chat-btn { bottom: 76px; right: 16px; }
+  }
+
+  /* ============================================
+     DIALOGFLOW MESSENGER — Tema Petal Dark
+     ============================================ */
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+
+    /* Tipografía */
+    --df-messenger-font-family: 'DM Sans', sans-serif;
+    --df-messenger-font-color: #f0ede6;
+    --df-messenger-font-size: 14px;
+
+    /* Fondo del chat */
+    --df-messenger-chat-background: #161616;
+    --df-messenger-chat-border: 1px solid rgba(240,237,230,0.1);
+    --df-messenger-chat-border-radius: 16px;
+    --df-messenger-chat-window-height: 520px;
+    --df-messenger-chat-window-width: 380px;
+    --df-messenger-chat-padding: 16px;
+
+    /* Barra de título */
+    --df-messenger-titlebar-background: #0e0e0e;
+    --df-messenger-titlebar-font-color: #f0ede6;
+    --df-messenger-titlebar-font-size: 14px;
+    --df-messenger-titlebar-padding: 14px 16px;
+    --df-messenger-titlebar-border-bottom: 1px solid rgba(240,237,230,0.08);
+    --df-messenger-titlebar-icon-padding: 0 12px 0 0;
+
+    /* Mensajes del usuario */
+    --df-messenger-message-user-background: #c8f060;
+    --df-messenger-message-user-font-color: #0e0e0e;
+    --df-messenger-message-user-border-radius: 18px 18px 4px 18px;
+    --df-messenger-message-user-padding: 10px 16px;
+
+    /* Mensajes del bot */
+    --df-messenger-message-bot-background: #1e1e1e;
+    --df-messenger-message-bot-font-color: #f0ede6;
+    --df-messenger-message-bot-border-radius: 18px 18px 18px 4px;
+    --df-messenger-message-bot-padding: 10px 16px;
+
+    /* Input */
+    --df-messenger-input-background: #1e1e1e;
+    --df-messenger-input-font-color: #f0ede6;
+    --df-messenger-input-font-size: 14px;
+    --df-messenger-input-border-radius: 24px;
+    --df-messenger-input-padding: 12px 16px;
+    --df-messenger-input-box-shadow: none;
+    --df-messenger-input-placeholder-font-color: #666;
+    --df-messenger-input-border: 1px solid rgba(240,237,230,0.06);
+
+    /* Botón flotante (burbuja) */
+    --df-messenger-chat-bubble-background: #c8f060;
+    --df-messenger-chat-bubble-icon-color: #0e0e0e;
+    --df-messenger-chat-bubble-size: 56px;
+    --df-messenger-chat-bubble-border-radius: 50%;
+    --df-messenger-chat-bubble-box-shadow: 0 4px 20px rgba(200,240,96,0.25);
+
+    /* Botón enviar */
+    --df-messenger-send-icon-color: #c8f060;
+    --df-messenger-send-icon-color-hover: #d4f580;
+
+    /* Suggestion chips */
+    --df-messenger-chip-background: rgba(200,240,96,0.06);
+    --df-messenger-chip-font-color: #c8f060;
+    --df-messenger-chip-border: 1px solid rgba(200,240,96,0.2);
+    --df-messenger-chip-border-radius: 20px;
+    --df-messenger-chip-font-size: 12px;
+    --df-messenger-chip-padding: 6px 14px;
+    --df-messenger-chip-hover-background: rgba(200,240,96,0.12);
+    --df-messenger-chip-hover-border: 1px solid rgba(200,240,96,0.4);
+
+    /* Typing indicator */
+    --df-messenger-typing-indicator-background: #1e1e1e;
+    --df-messenger-typing-indicator-dot-color: #c8f060;
+
+    /* Welcome message */
+    --df-messenger-welcome-message-font-color: #f0ede6;
+    --df-messenger-welcome-message-background: #1e1e1e;
+    --df-messenger-welcome-message-border-radius: 18px 18px 18px 4px;
+    --df-messenger-welcome-message-padding: 12px 16px;
+
+    /* Scrollbar */
+    --df-messenger-chat-scroll-color: rgba(200,240,96,0.15);
+    --df-messenger-chat-scroll-hover-color: rgba(200,240,96,0.3);
+  }
+
+  /* Fix input color para navegadores problemáticos */
+  df-messenger df-messenger-chat df-messenger-input input {
+    color: #f0ede6 !important;
+    background: #1e1e1e !important;
+  }
+
+  /* Animación de entrada del chat */
+  df-messenger df-messenger-chat {
+    animation: chatSlideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @keyframes chatSlideIn {
+    from { opacity: 0; transform: translateY(12px) scale(0.96); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
   }
 </style>
 </head>
@@ -195,7 +323,7 @@
       <div class="stat-label">Intents mapeados</div>
     </div>
     <div class="stat">
-      <div class="stat-num">v8</div>
+      <div class="stat-num">v48</div>
       <div class="stat-label">Iteración actual</div>
     </div>
     <div class="stat">
@@ -220,7 +348,7 @@
         </div>
         <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">CHECKOUT</div>
-          <div class="layer-desc" style="font-size: 11px;">Validación de pedido, dirección y confirmación final</div>
+          <div class="layer-desc" style="font-size: 11px;">Validación de pedido, resumen completo y confirmación final</div>
         </div>
         <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">GESTIÓN DEUDA</div>
@@ -228,7 +356,7 @@
         </div>
         <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">REGISTRO</div>
-          <div class="layer-desc" style="font-size: 11px;">Alta de clientes nuevos con datos y dirección</div>
+          <div class="layer-desc" style="font-size: 11px;">Alta con dirección unificada y verificación de datos</div>
         </div>
         <div class="sublayer-card">
           <div class="layer-title" style="font-size: 13px;">HANDOFF</div>
@@ -243,7 +371,7 @@
     <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos operativa.</p>
   </div>
 
-  <!-- NUEVA SECCIÓN: Funcionalidades clave -->
+  <!-- Funcionalidades clave -->
   <div class="features-section reveal">
     <h3>Funcionalidades clave</h3>
     <div class="features-grid">
@@ -350,7 +478,6 @@
 
     </div>
   </div>
-  <!-- FIN NUEVA SECCIÓN -->
 
   <div class="content-section reveal">
     <h3>Metodología aplicada</h3>
@@ -390,11 +517,12 @@
     <h4>Prueba el agente en vivo</h4>
     <p>Haz clic en el botón de chat flotante en la esquina inferior derecha para interactuar con Petal. Prueba consultas como:</p>
     <ul>
-      <li>• "Quiero comprar flores"</li>
+      <li>• "Quiero comprar flores para un cumpleaños"</li>
       <li>• "¿Tienes rosas disponibles?"</li>
-      <li>• "Haz un pedido a mi dirección habitual"</li>
+      <li>• "Quiero registrarme"</li>
+      <li>• "¿Cuál es vuestro horario?"</li>
     </ul>
-    <p style="font-size: 11px; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem; margin-bottom: 0;">El agente usa datos ficticios. Cada interacción es procesada por Gemini 2.5 Flash con acceso a herramientas reales.</p>
+    <p style="font-size: 11px; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem; margin-bottom: 0;">El agente usa datos ficticios. Cada interacción es procesada por Gemini 2.5 Flash con acceso a herramientas reales en Cloud Run.</p>
   </div>
 </div>
 
@@ -435,30 +563,95 @@
   language-code="es"
   max-query-length="-1">
   <df-messenger-chat-bubble
-    chat-title="Petal · Floristería CX">
+    chat-title="Petal"
+    chat-subtitle="Floristería · Asistente virtual"
+    placeholder="Pregunta algo...">
   </df-messenger-chat-bubble>
+  <df-messenger-welcome-message
+    message="¡Hola! 🌸 Bienvenido a Floristería Petal. Puedo ayudarte a elegir flores para cualquier ocasión, consultar disponibilidad o hacer un pedido. ¿Por dónde empezamos?">
+  </df-messenger-welcome-message>
 </df-messenger>
-<style>
-  df-messenger {
-    z-index: 999;
-    position: fixed;
-    bottom: 16px;
-    right: 16px;
-    --df-messenger-font-color: #000;
-    --df-messenger-font-family: 'DM Sans', sans-serif;
-    --df-messenger-chat-background: #f3f6fc;
-    --df-messenger-message-user-background: #d3e3fd;
-    --df-messenger-message-bot-background: #fff;
-    --df-messenger-input-background: #fff;
-    --df-messenger-input-font-color: #1a1a1a;
-    --df-messenger-input-box-shadow: none;
-    --df-messenger-input-placeholder-font-color: #888;
+
+<script>
+  // Inyectar chips estáticos después del welcome message
+  const WELCOME_CHIPS = [
+    { label: '💐 Comprar flores', message: 'Quiero comprar flores' },
+    { label: '🕐 Horario', message: '¿Cuál es vuestro horario?' },
+    { label: '📝 Registrarme', message: 'Quiero registrarme' },
+  ];
+
+  function injectWelcomeChips() {
+    const messenger = document.querySelector('df-messenger');
+    if (!messenger) return;
+
+    // Esperar a que el chat se abra
+    messenger.addEventListener('df-messenger-chat-opened', () => {
+      setTimeout(() => {
+        try {
+          const chatEl = messenger.shadowRoot?.querySelector('df-messenger-chat');
+          if (!chatEl) return;
+          const chatWrapper = chatEl.shadowRoot?.querySelector('.chat-wrapper, .message-list-wrapper, df-message-list');
+          if (!chatWrapper) return;
+
+          // Solo inyectar si no se ha hecho ya
+          if (chatWrapper.querySelector('.petal-welcome-chips')) return;
+
+          const chipsContainer = document.createElement('div');
+          chipsContainer.className = 'petal-welcome-chips';
+          chipsContainer.style.cssText = `
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 8px 16px 16px;
+            justify-content: flex-start;
+          `;
+
+          WELCOME_CHIPS.forEach(chip => {
+            const btn = document.createElement('button');
+            btn.textContent = chip.label;
+            btn.style.cssText = `
+              background: rgba(200,240,96,0.06);
+              color: #c8f060;
+              border: 1px solid rgba(200,240,96,0.2);
+              border-radius: 20px;
+              padding: 6px 14px;
+              font-family: 'DM Sans', sans-serif;
+              font-size: 12px;
+              cursor: pointer;
+              transition: all 0.2s ease;
+              white-space: nowrap;
+            `;
+            btn.addEventListener('mouseenter', () => {
+              btn.style.background = 'rgba(200,240,96,0.12)';
+              btn.style.borderColor = 'rgba(200,240,96,0.4)';
+              btn.style.transform = 'translateY(-1px)';
+            });
+            btn.addEventListener('mouseleave', () => {
+              btn.style.background = 'rgba(200,240,96,0.06)';
+              btn.style.borderColor = 'rgba(200,240,96,0.2)';
+              btn.style.transform = 'none';
+            });
+            btn.addEventListener('click', () => {
+              messenger.sendMessage(chip.message);
+              chipsContainer.style.display = 'none';
+            });
+            chipsContainer.appendChild(btn);
+          });
+
+          chatWrapper.appendChild(chipsContainer);
+        } catch (e) {
+          // Shadow DOM access puede fallar en algunos navegadores
+          console.log('Chips injection: shadow DOM not accessible');
+        }
+      }, 600);
+    });
   }
-  df-messenger df-messenger-chat df-messenger-input input {
-    color: #1a1a1a !important;
-    background: #fff !important;
-  }
-</style>
+
+  // Intentar inyectar cuando el messenger cargue
+  document.addEventListener('df-messenger-loaded', injectWelcomeChips);
+  // Fallback si el evento ya ocurrió
+  setTimeout(injectWelcomeChips, 2000);
+</script>
 
 </body>
 </html>
