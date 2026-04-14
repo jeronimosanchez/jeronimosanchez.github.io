@@ -30,12 +30,15 @@
   .section-tag { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1rem; }
   h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 400; line-height: 1.1; margin-bottom: 1.5rem; }
   .petal-intro { color: var(--muted); font-size: 15px; line-height: 1.7; margin-bottom: 3rem; max-width: 700px; }
+
   .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 4rem; }
   .stat { background: var(--bg2); padding: 1.5rem; }
   .stat-num { font-family: 'DM Serif Display', serif; font-size: 2.5rem; color: var(--accent); line-height: 1; }
   .stat-label { font-size: 12px; color: #888780; margin-top: 4px; }
+
   .architecture-section { margin-bottom: 4rem; }
   h3 { font-size: 1.2rem; font-weight: 500; margin-bottom: 1.5rem; margin-top: 0; }
+
   .layers-container { display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-bottom: 4rem; }
   .layer-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; width: 100%; max-width: 700px; }
   .layer-card.active { border-color: var(--accent); background: rgba(200,240,96,0.03); }
@@ -45,19 +48,68 @@
   .arrow-down { width: 2px; height: 24px; background: linear-gradient(to bottom, var(--accent), transparent); }
   .sublayers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 700px; width: 100%; }
   .sublayer-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+
   .content-section { margin-bottom: 3rem; }
   .content-section p { color: var(--muted); font-size: 15px; line-height: 1.7; margin-bottom: 1rem; }
+  .content-section ul { list-style: none; padding: 0; margin: 1rem 0; }
+  .content-section ul li { color: var(--muted); font-size: 14px; padding: 0.5rem 0; padding-left: 1.5rem; position: relative; }
+  .content-section ul li::before { content: '→'; position: absolute; left: 0; color: var(--accent); }
+
+  /* Funcionalidades clave */
   .features-section { margin-bottom: 4rem; }
-  .features-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 3rem; margin-top: 1.5rem; }
-  .feature-category-label { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.75rem; }
-  .feature-item { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 3rem;
+    margin-top: 1.5rem;
+  }
+  .feature-category-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .feature-item {
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
   .feature-item:last-child { border-bottom: none; }
-  .feature-bar { width: 2px; border-radius: 1px; background: var(--accent); flex-shrink: 0; }
-  .feature-name { font-size: 13px; font-weight: 500; color: var(--text); margin-bottom: 2px; }
-  .feature-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
-  .wip-badge { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--accent); background: rgba(200,240,96,0.08); border: 1px solid rgba(200,240,96,0.2); padding: 1px 6px; border-radius: 3px; margin-left: 6px; vertical-align: middle; letter-spacing: 0.05em; }
+  .feature-bar {
+    width: 2px;
+    border-radius: 1px;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .feature-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 2px;
+  }
+  .feature-desc {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .wip-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--accent);
+    background: rgba(200,240,96,0.08);
+    border: 1px solid rgba(200,240,96,0.2);
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+    letter-spacing: 0.05em;
+  }
+
   .tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-top: 3rem; }
-  .tech-item { background: var(--bg2); padding: 1.25rem 1rem; text-align: center; border: 1px solid transparent; }
+  .tech-item { background: var(--bg2); padding: 1.25rem 1rem; text-align: center; border: 1px solid transparent; transition: border-color 0.2s; }
   .tech-item.cx { border-color: rgba(200,240,96,0.2); }
   .tech-item.llm { border-color: rgba(127,255,212,0.2); }
   .tech-item.backend { border-color: rgba(133,183,235,0.2); }
@@ -68,19 +120,46 @@
   .tech-item.backend .tech-name { color: #85b7eb; }
   .tech-item.methodology .tech-name { color: #fac775; }
   .tech-role { font-size: 10px; color: #888780; letter-spacing: 0.05em; text-transform: uppercase; }
+
   .demo-box { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; margin-top: 4rem; }
   .demo-box h4 { font-size: 14px; font-weight: 500; margin-bottom: 1rem; color: var(--text); }
   .demo-box p { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
   .demo-box ul { list-style: none; padding: 0; font-size: 12px; color: var(--muted); margin-bottom: 1rem; }
   .demo-box ul li { padding: 0.3rem 0; }
-  .reset-chat-btn { position: fixed; bottom: 80px; right: 24px; z-index: 1000; width: 40px; height: 40px; border-radius: 50%; background: var(--bg2); border: 1px solid var(--border); color: var(--muted); font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; }
-  .reset-chat-btn:hover { background: var(--bg3); color: var(--accent); border-color: var(--accent); transform: scale(1.08); }
+
+  .reset-chat-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 24px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .reset-chat-btn:hover {
+    background: var(--bg3);
+    color: var(--accent);
+    border-color: var(--accent);
+    transform: scale(1.08);
+  }
+
   footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; margin-top: 4rem; }
   footer p { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); }
   footer a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
   footer a:hover { color: var(--accent); }
+
   .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
   .reveal.visible { opacity: 1; transform: none; }
+
   @media (max-width: 768px) {
     nav { padding: 1rem 1.5rem; }
     .petal-detail { padding: 6rem 1.5rem 4rem; }
@@ -107,10 +186,22 @@
   <p class="petal-intro reveal">Petal es un agente conversacional completo diseñado para gestionar el ciclo de ventas de una floristería online ficticia, desde la consulta inicial hasta el checkout final.</p>
 
   <div class="stats-grid reveal">
-    <div class="stat"><div class="stat-num">6</div><div class="stat-label">Playbooks activos</div></div>
-    <div class="stat"><div class="stat-num">17</div><div class="stat-label">Intents mapeados</div></div>
-    <div class="stat"><div class="stat-num">v8</div><div class="stat-label">Iteración actual</div></div>
-    <div class="stat"><div class="stat-num">24</div><div class="stat-label">User Stories</div></div>
+    <div class="stat">
+      <div class="stat-num">6</div>
+      <div class="stat-label">Playbooks activos</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">17</div>
+      <div class="stat-label">Intents mapeados</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">v8</div>
+      <div class="stat-label">Iteración actual</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">24</div>
+      <div class="stat-label">User Stories</div>
+    </div>
   </div>
 
   <div class="architecture-section reveal">
@@ -123,11 +214,26 @@
       </div>
       <div class="arrow-down"></div>
       <div class="sublayers">
-        <div class="sublayer-card"><div class="layer-title" style="font-size: 13px;">COMPRA</div><div class="layer-desc" style="font-size: 11px;">Discovery de catálogo, refinamiento progresivo y selección de producto</div></div>
-        <div class="sublayer-card"><div class="layer-title" style="font-size: 13px;">CHECKOUT</div><div class="layer-desc" style="font-size: 11px;">Validación de pedido, dirección y confirmación final</div></div>
-        <div class="sublayer-card"><div class="layer-title" style="font-size: 13px;">GESTIÓN DEUDA</div><div class="layer-desc" style="font-size: 11px;">Pagos pendientes y condiciones de compra</div></div>
-        <div class="sublayer-card"><div class="layer-title" style="font-size: 13px;">REGISTRO</div><div class="layer-desc" style="font-size: 11px;">Alta de clientes nuevos con datos y dirección</div></div>
-        <div class="sublayer-card"><div class="layer-title" style="font-size: 13px;">HANDOFF</div><div class="layer-desc" style="font-size: 11px;">Escalación contextualizada a agente humano</div></div>
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">COMPRA</div>
+          <div class="layer-desc" style="font-size: 11px;">Discovery de catálogo, refinamiento progresivo y selección de producto</div>
+        </div>
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">CHECKOUT</div>
+          <div class="layer-desc" style="font-size: 11px;">Validación de pedido, dirección y confirmación final</div>
+        </div>
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">GESTIÓN DEUDA</div>
+          <div class="layer-desc" style="font-size: 11px;">Pagos pendientes y condiciones de compra</div>
+        </div>
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">REGISTRO</div>
+          <div class="layer-desc" style="font-size: 11px;">Alta de clientes nuevos con datos y dirección</div>
+        </div>
+        <div class="sublayer-card">
+          <div class="layer-title" style="font-size: 13px;">HANDOFF</div>
+          <div class="layer-desc" style="font-size: 11px;">Escalación contextualizada a agente humano</div>
+        </div>
       </div>
     </div>
   </div>
@@ -137,35 +243,114 @@
     <p>El sistema se conecta en tiempo real a un backend en Cloud Run que accede a Google Sheets como base de datos operativa.</p>
   </div>
 
+  <!-- NUEVA SECCIÓN: Funcionalidades clave -->
   <div class="features-section reveal">
     <h3>Funcionalidades clave</h3>
     <div class="features-grid">
+
       <div class="feature-category">
         <p class="feature-category-label">Transaccional</p>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Compra guiada <span class="wip-badge">WIP</span></p><p class="feature-desc">Flujo completo hasta checkout con validación de stock</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Discovery conversacional <span class="wip-badge">WIP</span></p><p class="feature-desc">~300 productos navegables por categoría, temporada y precio</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Validación en tiempo real <span class="wip-badge">WIP</span></p><p class="feature-desc">Stock, límites de crédito y SLA vía API</p></div></div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Compra guiada <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Flujo completo hasta checkout con validación de stock</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Discovery conversacional <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">~300 productos navegables por categoría, temporada y precio</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Validación en tiempo real <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Stock, límites de crédito y SLA vía API</p>
+          </div>
+        </div>
       </div>
+
       <div class="feature-category">
         <p class="feature-category-label">Gestión de clientes</p>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Perfiles de cliente <span class="wip-badge">WIP</span></p><p class="feature-desc">Identificación, registro y datos habituales</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Gestión de deuda <span class="wip-badge">WIP</span></p><p class="feature-desc">Pagos pendientes y condiciones de compra</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Límites de crédito <span class="wip-badge">WIP</span></p><p class="feature-desc">Control automático por tipo y estado de pago</p></div></div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Perfiles de cliente <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Identificación, registro y datos habituales</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Gestión de deuda <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Pagos pendientes y condiciones de compra</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Límites de crédito <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Control automático por tipo y estado de pago</p>
+          </div>
+        </div>
       </div>
+
       <div class="feature-category">
         <p class="feature-category-label">Soporte y escalación</p>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Escalación a humano <span class="wip-badge">WIP</span></p><p class="feature-desc">Handoff contextualizado ante límites del agente</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">FAQ y políticas <span class="wip-badge">WIP</span></p><p class="feature-desc">Respuestas sobre envíos, horarios y políticas de tienda</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Cierre de sesión <span class="wip-badge">WIP</span></p><p class="feature-desc">Despedida controlada con resumen de interacción</p></div></div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Escalación a humano <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Handoff contextualizado ante límites del agente</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">FAQ y políticas <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Respuestas sobre envíos, horarios y políticas de tienda</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Cierre de sesión <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Despedida controlada con resumen de interacción</p>
+          </div>
+        </div>
       </div>
+
       <div class="feature-category">
         <p class="feature-category-label">Inteligencia conversacional</p>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Detección de intención <span class="wip-badge">WIP</span></p><p class="feature-desc">Clasificación y enrutamiento automático por motivo</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Tono adaptativo <span class="wip-badge">WIP</span></p><p class="feature-desc">Ajuste de comunicación según perfil de cliente</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Memoria de sesión <span class="wip-badge">WIP</span></p><p class="feature-desc">Contexto mantenido entre turnos de conversación</p></div></div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Detección de intención <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Clasificación y enrutamiento automático por motivo</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Tono adaptativo <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Ajuste de comunicación según perfil de cliente</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-bar"></div>
+          <div>
+            <p class="feature-name">Memoria de sesión <span class="wip-badge">WIP</span></p>
+            <p class="feature-desc">Contexto mantenido entre turnos de conversación</p>
+          </div>
+        </div>
       </div>
+
     </div>
   </div>
+  <!-- FIN NUEVA SECCIÓN -->
 
   <div class="content-section reveal">
     <h3>Metodología aplicada</h3>
@@ -174,12 +359,30 @@
 
   <div class="reveal">
     <div class="tech-grid">
-      <div class="tech-item cx"><div class="tech-name">Dialogflow CX</div><div class="tech-role">Motor CX</div></div>
-      <div class="tech-item llm"><div class="tech-name">Gemini 2.5</div><div class="tech-role">LLM Engine</div></div>
-      <div class="tech-item backend"><div class="tech-name">Cloud Run</div><div class="tech-role">Backend</div></div>
-      <div class="tech-item backend"><div class="tech-name">Google Sheets</div><div class="tech-role">Database</div></div>
-      <div class="tech-item cx"><div class="tech-name">Multi-routine</div><div class="tech-role">Architecture</div></div>
-      <div class="tech-item methodology"><div class="tech-name">Prompt Eng.</div><div class="tech-role">Design</div></div>
+      <div class="tech-item cx">
+        <div class="tech-name">Dialogflow CX</div>
+        <div class="tech-role">Motor CX</div>
+      </div>
+      <div class="tech-item llm">
+        <div class="tech-name">Gemini 2.5</div>
+        <div class="tech-role">LLM Engine</div>
+      </div>
+      <div class="tech-item backend">
+        <div class="tech-name">Cloud Run</div>
+        <div class="tech-role">Backend</div>
+      </div>
+      <div class="tech-item backend">
+        <div class="tech-name">Google Sheets</div>
+        <div class="tech-role">Database</div>
+      </div>
+      <div class="tech-item cx">
+        <div class="tech-name">Multi-routine</div>
+        <div class="tech-role">Architecture</div>
+      </div>
+      <div class="tech-item methodology">
+        <div class="tech-name">Prompt Eng.</div>
+        <div class="tech-role">Design</div>
+      </div>
     </div>
   </div>
 
@@ -222,10 +425,9 @@
   }
 </script>
 
-<!-- Dialogflow Messenger Widget — Design system Petal -->
+<!-- Dialogflow Messenger Widget -->
 <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
-
 <df-messenger
   location="europe-west1"
   project-id="floristeria-petal-digital"
@@ -233,54 +435,27 @@
   language-code="es"
   max-query-length="-1">
   <df-messenger-chat-bubble
-    chat-title="Petal"
-    chat-subtitle="Floristería · Asistente virtual">
+    chat-title="Petal · Floristería CX">
   </df-messenger-chat-bubble>
 </df-messenger>
-
 <style>
   df-messenger {
     z-index: 999;
     position: fixed;
     bottom: 16px;
     right: 16px;
-
-    --df-messenger-chat-window-height: 520px;
-    --df-messenger-chat-window-width: 380px;
-    --df-messenger-chat-border-radius: 4px;
+    --df-messenger-font-color: #000;
     --df-messenger-font-family: 'DM Sans', sans-serif;
-
-    /* Header */
-    --df-messenger-chat-header-background: #0e0e0e;
-    --df-messenger-chat-title-color: #f0ede6;
-    --df-messenger-chat-subtitle-color: #7a7670;
-    --df-messenger-chat-header-border-bottom: 1px solid rgba(240,237,230,0.08);
-
-    /* Fondo */
-    --df-messenger-chat-background: #161616;
-
-    /* Bot */
-    --df-messenger-message-bot-background: #1e1e1e;
-    --df-messenger-message-bot-font-color: #f0ede6;
-    --df-messenger-message-bot-border-radius: 4px;
-
-    /* Usuario */
-    --df-messenger-message-user-background: #c8f060;
-    --df-messenger-message-user-font-color: #0e0e0e;
-    --df-messenger-message-user-border-radius: 4px;
-
-    /* Input — gris oscuro claro para que el texto sea legible */
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
     --df-messenger-input-background: #2a2a2a;
     --df-messenger-input-font-color: #f0ede6;
-    --df-messenger-input-placeholder-font-color: #7a7670;
-    --df-messenger-input-border-top: 1px solid rgba(240,237,230,0.08);
-
-    /* Enviar */
-    --df-messenger-send-icon-color: #c8f060;
-
-    /* Burbuja flotante */
-    --df-messenger-minimized-chat-bubble-background: #c8f060;
-    --df-messenger-minimized-chat-bubble-icon-color: #0e0e0e;
+    --df-messenger-input-box-shadow: none;
+  }
+  df-messenger df-messenger-chat df-messenger-input input {
+    color: #f0ede6 !important;
+    background: #2a2a2a !important;
   }
 </style>
 
