@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Compras — Petal · Jerónimo Sánchez</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#0e0e0e;--bg2:#161616;--bg3:#1e1e1e;
+    --accent:#c8f060;--accent2:#7fffd4;
+    --text:#f0ede6;--muted:#b4b2a9;
+    --border:rgba(240,237,230,0.08);--radius:4px;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;font-size:16px;line-height:1.7;overflow-x:hidden}
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 3rem;background:rgba(14,14,14,0.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+  .nav-logo{font-family:'DM Mono',monospace;font-size:13px;color:var(--accent);letter-spacing:0.05em;text-decoration:none}
+  .nav-back{font-size:13px;color:var(--muted);text-decoration:none;letter-spacing:0.03em;transition:color .2s}
+  .nav-back:hover{color:var(--text)}
+  .page{max-width:1100px;margin:0 auto;padding:8rem 3rem 6rem}
+  .section-tag{font-family:'DM Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:1rem}
+  h1{font-family:'DM Serif Display',serif;font-size:clamp(2rem,4vw,3rem);font-weight:400;line-height:1.15;margin-bottom:1rem}
+  .intro{color:var(--muted);font-size:15px;max-width:680px;margin-bottom:3rem}
+  h2{font-size:1.1rem;font-weight:500;margin-bottom:1.25rem;color:var(--text)}
+  .formula-block{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.75rem;margin-bottom:3rem}
+  .formula{font-family:'DM Mono',monospace;font-size:13px;color:var(--accent);margin-bottom:1.25rem;letter-spacing:0.02em}
+  .formula-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-top:1.25rem}
+  .formula-factor{background:var(--bg3);padding:1rem}
+  .factor-name{font-family:'DM Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:.4rem}
+  .factor-desc{font-size:12px;color:var(--muted);line-height:1.5}
+  .perfiles-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-bottom:3rem}
+  .perfil-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem}
+  .perfil-card.hi{border-color:rgba(200,240,96,0.25)}
+  .perfil-label{font-family:'DM Mono',monospace;font-size:10px;color:var(--accent);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:.5rem}
+  .perfil-title{font-size:13px;font-weight:500;color:var(--text);margin-bottom:.35rem}
+  .perfil-trigger{font-size:11px;color:var(--muted);margin-bottom:.75rem;font-style:italic}
+  .weight-bars{display:flex;flex-direction:column;gap:6px}
+  .weight-row{display:flex;align-items:center;gap:8px}
+  .wk{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);width:82px;flex-shrink:0}
+  .wt{flex:1;height:4px;background:rgba(240,237,230,.06);border-radius:2px}
+  .wf{height:100%;border-radius:2px;background:var(--accent)}
+  .wp{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);width:30px;text-align:right;flex-shrink:0}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.5rem}
+  .tab-btn{font-family:'DM Mono',monospace;font-size:11px;padding:5px 12px;border-radius:3px;border:1px solid var(--border);background:var(--bg2);color:var(--muted);cursor:pointer;transition:all .15s;letter-spacing:.03em}
+  .tab-btn.on{background:rgba(200,240,96,.08);border-color:rgba(200,240,96,.3);color:var(--accent)}
+  .tab-btn:hover:not(.on){border-color:rgba(240,237,230,.2);color:var(--text)}
+  .panel{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem}
+  .utt{background:rgba(200,240,96,.04);border-left:2px solid rgba(200,240,96,.4);padding:.75rem 1rem;margin-bottom:1.5rem;border-radius:0 var(--radius) var(--radius) 0}
+  .utt-lbl{font-family:'DM Mono',monospace;font-size:10px;color:var(--accent);letter-spacing:.1em;margin-bottom:4px}
+  .utt-txt{font-size:14px;color:var(--text);font-style:italic}
+  .utt-pf{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);margin-top:4px}
+  .wps{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.5rem}
+  .wp-pill{background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:8px 12px;text-align:center;min-width:68px}
+  .wpk{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);margin-bottom:2px}
+  .wpv{font-family:'DM Serif Display',serif;font-size:18px;color:var(--accent);line-height:1}
+  .slots-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem}
+  .sbox{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:1rem}
+  .sbox-t{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.75rem}
+  .sb{display:inline-block;font-size:11px;padding:2px 8px;border-radius:3px;margin:2px}
+  .ss{background:rgba(74,222,128,.08);color:#4ade80;border:1px solid rgba(74,222,128,.2)}
+  .sw{background:rgba(250,199,117,.08);color:#fac775;border:1px solid rgba(250,199,117,.2)}
+  .si{background:rgba(127,255,212,.08);color:#7fffd4;border:1px solid rgba(127,255,212,.15)}
+  .sd{background:rgba(248,113,113,.08);color:#f87171;border:1px solid rgba(248,113,113,.2)}
+  .snote{font-size:11px;color:var(--muted);margin-top:8px;font-style:italic}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  thead th{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);font-weight:400;padding:8px 10px;text-align:center;border-bottom:1px solid var(--border);letter-spacing:.05em}
+  thead th:first-child{text-align:left}
+  tbody td{padding:10px;border-bottom:1px solid rgba(240,237,230,.04);text-align:center}
+  tbody td:first-child{text-align:left}
+  .pn{font-size:12px;font-weight:500;color:var(--text)}
+  .pc{font-size:10px;color:var(--muted);margin-top:1px}
+  .cok{color:#4ade80}.cz{color:#f87171;opacity:.7}.cn{color:var(--muted)}
+  .ct{font-weight:500;font-size:14px;color:var(--text)}
+  .rb{font-family:'DM Mono',monospace;font-size:10px;padding:2px 8px;border-radius:3px}
+  .r1{background:rgba(74,222,128,.08);color:#4ade80;border:1px solid rgba(74,222,128,.2)}
+  .r2{background:rgba(127,255,212,.08);color:#7fffd4;border:1px solid rgba(127,255,212,.15)}
+  .r3{background:rgba(250,199,117,.08);color:#fac775;border:1px solid rgba(250,199,117,.2)}
+  .rx{background:rgba(248,113,113,.08);color:#f87171;border:1px solid rgba(248,113,113,.2)}
+  .xrow{opacity:.45}
+  footer{border-top:1px solid var(--border);padding:2rem 3rem;display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;margin-top:4rem}
+  footer p{font-family:'DM Mono',monospace;font-size:11px;color:var(--muted)}
+  footer a{color:var(--muted);text-decoration:none;transition:color .2s}
+  footer a:hover{color:var(--accent)}
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}
+  .reveal.visible{opacity:1;transform:none}
+  @media(max-width:768px){
+    nav{padding:1rem 1.5rem}
+    .page{padding:6rem 1.5rem 4rem}
+    .formula-grid{grid-template-columns:1fr 1fr}
+    .perfiles-grid{grid-template-columns:1fr}
+    .slots-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">JS / CD</a>
+  <a href="petal.html" class="nav-back">← Volver a Petal</a>
+</nav>
+
+<div class="page">
+  <div class="reveal">
+    <p class="section-tag">Petal · Artefacto de diseño</p>
+    <h1>Sistema de scoring dinámico<br>Playbook Compra</h1>
+    <p class="intro">El playbook de Compra no muestra productos al azar. Implementa un algoritmo de ranking donde los pesos cambian según el contexto del primer utterance — 4 perfiles, 9 escenarios, reglas de negocio explícitas.</p>
+  </div>
+
+  <div class="reveal">
+    <h2>La fórmula</h2>
+    <div class="formula-block">
+      <div class="formula">Score = (Relevancia × W1) + (Popularidad × W2) + (Stock × W3) + Bonus_Estacionalidad</div>
+      <div class="formula-grid">
+        <div class="formula-factor"><div class="factor-name">Relevancia</div><div class="factor-desc">Coincidencia entre slots del usuario y atributos del producto. Ocasión +40, color +30, tipo +20, receptor +10.</div></div>
+        <div class="formula-factor"><div class="factor-name">Popularidad</div><div class="factor-desc">Ventas_Anuales normalizado sobre el máximo del catálogo. Desempate entre productos igualmente relevantes.</div></div>
+        <div class="formula-factor"><div class="factor-name">Stock</div><div class="factor-desc">Stock=0 excluye el producto. Stock 1–10 → 50pts. Stock &gt;10 → 100pts.</div></div>
+        <div class="formula-factor"><div class="factor-name">Estacionalidad</div><div class="factor-desc">+10pts fijos si el producto tiene temporada activa. No penaliza — solo bonifica.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reveal">
+    <h2>4 perfiles de peso</h2>
+    <div class="perfiles-grid">
+      <div class="perfil-card">
+        <div class="perfil-label">Perfil 1</div>
+        <div class="perfil-title">Orientado a producto</div>
+        <div class="perfil-trigger">El usuario da tipo o color antes que la ocasión</div>
+        <div class="weight-bars">
+          <div class="weight-row"><span class="wk">Tipo</span><div class="wt"><div class="wf" style="width:35%"></div></div><span class="wp">35%</span></div>
+          <div class="weight-row"><span class="wk">Color</span><div class="wt"><div class="wf" style="width:30%"></div></div><span class="wp">30%</span></div>
+          <div class="weight-row"><span class="wk">Popularidad</span><div class="wt"><div class="wf" style="width:25%"></div></div><span class="wp">25%</span></div>
+          <div class="weight-row"><span class="wk">Stock</span><div class="wt"><div class="wf" style="width:10%"></div></div><span class="wp">10%</span></div>
+        </div>
+      </div>
+      <div class="perfil-card">
+        <div class="perfil-label">Perfil 2</div>
+        <div class="perfil-title">Orientado a situación</div>
+        <div class="perfil-trigger">El usuario da ocasión o receptor</div>
+        <div class="weight-bars">
+          <div class="weight-row"><span class="wk">Ocasión</span><div class="wt"><div class="wf" style="width:45%"></div></div><span class="wp">45%</span></div>
+          <div class="weight-row"><span class="wk">Receptor</span><div class="wt"><div class="wf" style="width:15%"></div></div><span class="wp">15%</span></div>
+          <div class="weight-row"><span class="wk">Popularidad</span><div class="wt"><div class="wf" style="width:25%"></div></div><span class="wp">25%</span></div>
+          <div class="weight-row"><span class="wk">Stock</span><div class="wt"><div class="wf" style="width:15%"></div></div><span class="wp">15%</span></div>
+        </div>
+      </div>
+      <div class="perfil-card">
+        <div class="perfil-label">Perfil 3</div>
+        <div class="perfil-title">Sin contexto</div>
+        <div class="perfil-trigger">El usuario no da ningún slot — se hace una pregunta previa</div>
+        <div class="weight-bars">
+          <div class="weight-row"><span class="wk">Popularidad</span><div class="wt"><div class="wf" style="width:70%"></div></div><span class="wp">70%</span></div>
+          <div class="weight-row"><span class="wk">Stock</span><div class="wt"><div class="wf" style="width:20%"></div></div><span class="wp">20%</span></div>
+          <div class="weight-row"><span class="wk">Estacional.</span><div class="wt"><div class="wf" style="width:10%"></div></div><span class="wp">10%</span></div>
+        </div>
+      </div>
+      <div class="perfil-card hi">
+        <div class="perfil-label">Perfil 4</div>
+        <div class="perfil-title">Completo</div>
+        <div class="perfil-trigger">El usuario da producto + ocasión en el primer utterance</div>
+        <div class="weight-bars">
+          <div class="weight-row"><span class="wk">Tipo</span><div class="wt"><div class="wf" style="width:25%"></div></div><span class="wp">25%</span></div>
+          <div class="weight-row"><span class="wk">Color</span><div class="wt"><div class="wf" style="width:20%"></div></div><span class="wp">20%</span></div>
+          <div class="weight-row"><span class="wk">Ocasión</span><div class="wt"><div class="wf" style="width:25%"></div></div><span class="wp">25%</span></div>
+          <div class="weight-row"><span class="wk">Popularidad</span><div class="wt"><div class="wf" style="width:20%"></div></div><span class="wp">20%</span></div>
+          <div class="weight-row"><span class="wk">Stock</span><div class="wt"><div class="wf" style="width:10%"></div></div><span class="wp">10%</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reveal">
+    <h2>9 escenarios — slots y ranking</h2>
+    <div class="tabs" id="tabs"></div>
+    <div class="panel" id="panel"></div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Jerónimo Sánchez</p>
+  <p><a href="petal.html">← Volver a Petal</a></p>
+</footer>
+
+<script>
+const S=[
+  {id:1,n:"Todo completo",pf:"Perfil 4 — completo",u:"2 ramos de rosas rojas para cumpleaños",
+   pesos:[["Tipo",25],["Color",20],["Ocasión",25],["Popularidad",20],["Stock",10]],
+   pre:[["ocasión","Regalo","s"],["color","Rojo","s"],["producto","Rosas","s"],["cantidad","2","s"]],
+   post:[["tamaño","S/M/L si variantes","w"]],q:null,nota:null,
+   prods:[{n:"Ramo de Rosas Rojas M",c:"Regalo · Stock: alto",sc:[25,20,25,20,10],b:10,t:110,r:1},{n:"Ramo de Rosas Rojas S",c:"Regalo · Stock: alto",sc:[25,20,18,10,10],b:10,t:93,r:2},{n:"Ramo de Rosas Rojas XL",c:"Regalo · Stock: bajo",sc:[25,20,22,5,5],b:0,t:77,r:3},{n:"Bouquet de Tulipanes Rojos",c:"Regalo · Stock: alto",sc:[20,20,15,10,10],b:0,t:75,r:0}]},
+  {id:2,n:"Producto sin ocasión",pf:"Perfil 1 — orientado a producto",u:"Quiero rosas rojas",
+   pesos:[["Tipo",35],["Color",30],["Popularidad",25],["Stock",10]],
+   pre:[["color","Rojo","s"],["producto","Rosas","s"],["ocasión","—","i"]],
+   post:[["tamaño","S/M/L si variantes","w"],["cantidad","pendiente","w"]],q:null,nota:null,
+   prods:[{n:"Ramo de Rosas Rojas M",c:"Stock: alto · Ventas: 130",sc:[35,30,25,10,0],b:0,t:100,r:1},{n:"Ramo de Rosas Rojas S",c:"Stock: alto · Ventas: 90",sc:[35,30,18,10,0],b:0,t:93,r:2},{n:"Ramo de Rosas Rojas XL",c:"Stock: bajo · Ventas: 45",sc:[35,30,9,5,0],b:0,t:79,r:3}]},
+  {id:3,n:"Ocasión sin producto",pf:"Perfil 2 — orientado a situación",u:"Algo para una boda",
+   pesos:[["Ocasión",45],["Receptor",15],["Popularidad",25],["Stock",15]],
+   pre:[["ocasión","Boda","s"],["color","—","i"],["producto","—","i"]],
+   post:[["tamaño","S/M/L si variantes","w"],["cantidad","pendiente","w"]],q:null,nota:null,
+   prods:[{n:"Ramo de novia blanco M",c:"Boda · Stock: alto",sc:[45,0,22,15,0],b:10,t:92,r:1},{n:"Centro de mesa blanco L",c:"Boda · Stock: alto",sc:[45,0,18,15,0],b:10,t:88,r:2},{n:"Bouquet de peonías S",c:"Boda · Stock: medio",sc:[45,0,12,8,0],b:10,t:75,r:3},{n:"Ramo de Rosas Rojas M",c:"Regalo · Stock: alto",sc:[0,0,25,15,0],b:0,t:40,r:0}]},
+  {id:4,n:"Receptor implícito",pf:"Perfil 2 + modificador receptor",u:"Para mi madre",
+   pesos:[["Ocasión inf.",35],["Receptor",25],["Popularidad",25],["Stock",15]],
+   pre:[["receptor","madre","s"],["ocasión","Regalo (inferida)","w"],["color","—","i"]],
+   post:[["tamaño","S/M/L si variantes","w"],["cantidad","pendiente","w"]],q:null,nota:"madre/abuela → clásicas · pareja → románticas · amigo → alegres · empresa → formales",
+   prods:[{n:"Ramo de lirios blancos M",c:"Regalo · Clásico · Stock: alto",sc:[35,25,18,15,0],b:0,t:93,r:1},{n:"Ramo de claveles rosa M",c:"Regalo · Clásico · Stock: alto",sc:[35,22,15,15,0],b:0,t:87,r:2},{n:"Ramo de Rosas Rojas M",c:"Regalo · Stock: alto",sc:[35,10,25,15,0],b:0,t:85,r:3}]},
+  {id:5,n:"Presupuesto sin producto",pf:"Filtro blando precio",u:"Algo no muy caro",
+   pesos:[["Precio ≤20€",30],["Popularidad",50],["Stock",20]],
+   pre:[["presupuesto","≤20€ (bajo)","w"],["ocasión","—","i"],["producto","—","i"]],
+   post:[["tamaño","S/M/L si variantes","w"],["cantidad","pendiente","w"]],q:null,nota:null,
+   prods:[{n:"Ramo de Tulipanes S",c:"Stock: alto · 12€",sc:[30,45,20,0,0],b:0,t:95,r:1},{n:"Ramo de Margaritas S",c:"Stock: alto · 11€",sc:[30,38,20,0,0],b:0,t:88,r:2},{n:"Planta suculenta S",c:"Stock: alto · 15€",sc:[30,30,20,0,0],b:0,t:80,r:3},{n:"Ramo de Rosas Rojas M",c:"37€ — fuera de rango",sc:[0,0,0,0,0],b:0,t:0,r:0}]},
+  {id:6,n:"Sin contexto",pf:"Perfil 3 — sin contexto",u:"Quiero flores",
+   pesos:[["Popularidad",70],["Stock",20],["Estacional.",10]],
+   pre:[["ninguno","vacío","d"]],
+   post:[["tamaño","S/M/L si variantes","w"],["cantidad","pendiente","w"]],
+   q:"¿Para qué ocasión son las flores?",nota:null,
+   prods:[{n:"Ramo de Rosas Rojas M",c:"Stock: alto · Ventas: 130",sc:[0,91,20,10,0],b:0,t:121,r:1},{n:"Ramo de Tulipanes M",c:"Stock: alto · Ventas: 95",sc:[0,67,20,10,0],b:0,t:97,r:2},{n:"Ramo de Girasoles M",c:"Stock: alto · Ventas: 80",sc:[0,56,20,10,0],b:10,t:96,r:3}]},
+  {id:7,n:"Resultado vacío",pf:"Relajación de filtro duro",u:"Rosas azules para boda",
+   pesos:[["Ocasión",45],["Producto",30],["Popularidad",15],["Stock",10]],
+   pre:[["ocasión","Boda","s"],["producto","Rosas","s"],["color","Azul — sin stock","d"]],
+   post:[["color","confirmación","w"],["tamaño","S/M/L si variantes","w"],["cantidad","pendiente","w"]],
+   q:null,nota:"Relaja color → busca rosas de boda en cualquier color disponible",
+   prods:[{n:"Ramo de novia blanco M",c:"Boda · Rosas · Stock: alto",sc:[45,30,12,10,0],b:10,t:107,r:1},{n:"Ramo de novia blanco S",c:"Boda · Rosas · Stock: alto",sc:[45,30,8,10,0],b:10,t:103,r:2},{n:"Ramo de rosas blancas M",c:"Boda · Stock: medio",sc:[45,25,10,5,0],b:0,t:85,r:3}]},
+  {id:8,n:"Multicolor",pf:"Mapeo semántico → color",u:"Flores de colores para decorar",
+   pesos:[["Ocasión",40],["Color=Multi",25],["Popularidad",25],["Stock",10]],
+   pre:[["ocasión","Decoración","s"],["color","Multicolor (inferido)","w"]],
+   post:[["tamaño","S/M/L si variantes","w"],["cantidad","pendiente","w"]],
+   q:null,nota:"\"de colores\" / \"variadas\" → busca color=Multicolor, si vacío → color=Variado",
+   prods:[{n:"Centro de mesa multicolor L",c:"Decoración · Multicolor · Stock: alto",sc:[40,25,20,10,0],b:5,t:100,r:1},{n:"Ramo variado primaveral M",c:"Decoración · Variado · Stock: alto",sc:[40,22,18,10,0],b:5,t:95,r:2},{n:"Arreglo multicolor S",c:"Decoración · Multicolor · Stock: medio",sc:[40,25,10,5,0],b:0,t:80,r:3}]},
+  {id:9,n:"Precio en utterance",pf:"Filtro duro parcial por precio",u:"Rosas de menos de 50€",
+   pesos:[["Producto",40],["Precio ≤50€",25],["Popularidad",25],["Stock",10]],
+   pre:[["producto","Rosas","s"],["precio","≤50€ (filtro duro)","w"],["ocasión","—","i"]],
+   post:[["tamaño","solo variantes ≤50€","w"],["cantidad","pendiente","w"]],
+   q:null,nota:"Variantes por encima del precio quedan excluidas aunque el producto esté disponible",
+   prods:[{n:"Ramo de Rosas Rojas S",c:"22€ · Stock: alto",sc:[40,25,22,10,0],b:0,t:97,r:1},{n:"Ramo de Rosas Rojas M",c:"37€ · Stock: alto",sc:[40,20,25,10,0],b:0,t:95,r:2},{n:"Ramo de Rosas Blancas S",c:"18€ · Stock: medio",sc:[35,25,15,5,0],b:0,t:80,r:3},{n:"Ramo de Rosas XL San Valentín",c:"132€ — fuera de rango",sc:[0,0,0,0,0],b:0,t:0,r:0}]}
+];
+
+const TC={s:'ss',w:'sw',i:'si',d:'sd'};
+const RC={1:'r1',2:'r2',3:'r3',0:'rx'};
+const RL={1:'#1',2:'#2',3:'#3',0:'excluido'};
+let active=0;
+
+function renderTabs(){
+  document.getElementById('tabs').innerHTML=S.map((s,i)=>
+    `<button class="tab-btn${i===active?' on':''}" onclick="go(${i})">${s.id}. ${s.n}</button>`
+  ).join('');
+}
+
+function renderPanel(s){
+  const pKeys=s.pesos.map(p=>p[0]);
+  const pills=s.pesos.map(p=>`<div class="wp-pill"><div class="wpk">${p[0]}</div><div class="wpv">${p[1]}%</div></div>`).join('');
+  const pre=s.pre.map(([k,v,t])=>`<span class="sb ${TC[t]}">${k}: <b>${v}</b></span>`).join('');
+  const post=s.post.map(([k,v,t])=>`<span class="sb ${TC[t]}">${k}: <b>${v}</b></span>`).join('');
+  const ths=pKeys.map(k=>`<th>${k}<br><span style="opacity:.5;font-size:9px;">×${(s.pesos.find(p=>p[0]===k)[1]/100).toFixed(2)}</span></th>`).join('');
+  const rows=s.prods.map(p=>{
+    const ex=p.r===0;
+    const cells=p.sc.map(v=>`<td class="${v===0?'cz':'cn'}">${v}</td>`).join('');
+    return `<tr class="${ex?'xrow':''}"><td><div class="pn">${p.n}</div><div class="pc">${p.c}</div></td>${cells}<td class="cn">${p.b>0?'+'+p.b:'0'}</td><td class="ct">${p.t}</td><td><span class="rb ${RC[p.r]}">${RL[p.r]}</span></td></tr>`;
+  }).join('');
+
+  document.getElementById('panel').innerHTML=`
+    <div class="utt">
+      <div class="utt-lbl">Utterance · Escenario ${s.id}</div>
+      <div class="utt-txt">"${s.u}"</div>
+      <div class="utt-pf">${s.pf}</div>
+    </div>
+    <div class="wps">${pills}</div>
+    <div class="slots-grid">
+      <div class="sbox">
+        <div class="sbox-t">Antes de mostrar</div>
+        ${pre}
+        ${s.q?`<div class="snote">Pregunta: "${s.q}"</div>`:''}
+        ${s.nota?`<div class="snote">${s.nota}</div>`:''}
+      </div>
+      <div class="sbox">
+        <div class="sbox-t">Después de elegir</div>
+        ${post}
+        <div class="snote">→ Checkout</div>
+      </div>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr><th style="text-align:left;width:28%">Producto</th>${ths}<th>Bonus</th><th>Score</th><th>Resultado</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+function go(i){active=i;renderTabs();renderPanel(S[i]);}
+renderTabs();
+renderPanel(S[0]);
+
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach((e,i)=>{if(e.isIntersecting){setTimeout(()=>e.target.classList.add('visible'),i*100);obs.unobserve(e.target);}});
+},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
