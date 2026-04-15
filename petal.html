@@ -55,6 +55,8 @@
   .feature-bar { width: 2px; border-radius: 1px; background: var(--accent); flex-shrink: 0; }
   .feature-name { font-size: 13px; font-weight: 500; color: var(--text); margin-bottom: 2px; }
   .feature-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .feature-link { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--accent); text-decoration: none; letter-spacing: 0.05em; display: inline-flex; align-items: center; gap: 4px; margin-top: 6px; opacity: 0.8; transition: opacity 0.2s; border-bottom: 1px solid rgba(200,240,96,0.3); padding-bottom: 1px; }
+  .feature-link:hover { opacity: 1; }
   .wip-badge { font-family: 'DM Mono', monospace; font-size: 9px; color: var(--accent); background: rgba(200,240,96,0.08); border: 1px solid rgba(200,240,96,0.2); padding: 1px 6px; border-radius: 3px; margin-left: 6px; vertical-align: middle; letter-spacing: 0.05em; }
   .tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-top: 3rem; }
   .tech-item { background: var(--bg2); padding: 1.25rem 1rem; text-align: center; border: 1px solid transparent; transition: border-color 0.2s; }
@@ -73,6 +75,14 @@
   .demo-box p { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
   .demo-box ul { list-style: none; padding: 0; font-size: 12px; color: var(--muted); margin-bottom: 1rem; }
   .demo-box ul li { padding: 0.3rem 0; }
+  /* Scoring callout */
+  .scoring-callout { background: rgba(200,240,96,0.03); border: 1px solid rgba(200,240,96,0.15); border-radius: var(--radius); padding: 1.5rem; margin-top: 1.5rem; display: flex; align-items: flex-start; gap: 1.5rem; }
+  .scoring-callout-text { flex: 1; }
+  .scoring-callout-label { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.5rem; }
+  .scoring-callout-title { font-size: 14px; font-weight: 500; color: var(--text); margin-bottom: 0.4rem; }
+  .scoring-callout-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .scoring-callout-link { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-top: 0.75rem; padding: 6px 14px; border: 1px solid rgba(200,240,96,0.3); border-radius: 3px; transition: all 0.2s; white-space: nowrap; }
+  .scoring-callout-link:hover { background: rgba(200,240,96,0.08); border-color: var(--accent); }
   .reset-chat-btn { position: fixed; bottom: 84px; right: 24px; z-index: 1000; width: 36px; height: 36px; border-radius: 50%; background: var(--bg2); border: 1px solid rgba(200,240,96,0.2); color: var(--accent); font-size: 14px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 2px 8px rgba(0,0,0,0.3); opacity: 0.7; }
   .reset-chat-btn:hover { background: rgba(200,240,96,0.1); border-color: var(--accent); transform: scale(1.1) rotate(180deg); opacity: 1; box-shadow: 0 4px 16px rgba(200,240,96,0.15); }
   footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; margin-top: 4rem; }
@@ -89,11 +99,11 @@
     .tech-grid { grid-template-columns: 1fr 1fr; }
     .sublayers { grid-template-columns: 1fr; }
     .features-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .scoring-callout { flex-direction: column; gap: 1rem; }
     df-messenger { --df-messenger-chat-window-height: 100vh !important; --df-messenger-chat-window-width: 100vw !important; --df-messenger-chat-border-radius: 0 !important; }
     .reset-chat-btn { bottom: 76px; right: 16px; }
   }
 
-  /* Dialogflow Messenger — Solo burbuja lime + fuente */
   df-messenger {
     z-index: 999;
     position: fixed;
@@ -161,7 +171,11 @@
       <div class="feature-category">
         <p class="feature-category-label">Transaccional</p>
         <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Compra guiada <span class="wip-badge">WIP</span></p><p class="feature-desc">Flujo completo hasta checkout con validación de stock</p></div></div>
-        <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Discovery conversacional <span class="wip-badge">WIP</span></p><p class="feature-desc">~300 productos navegables por categoría, temporada y precio</p></div></div>
+        <div class="feature-item"><div class="feature-bar"></div><div>
+          <p class="feature-name">Discovery conversacional <span class="wip-badge">WIP</span></p>
+          <p class="feature-desc">Sistema de scoring dinámico con 9 escenarios de slot filling. Los pesos cambian según el contexto del primer utterance.</p>
+          <a href="petal-compras.html" class="feature-link">Ver especificación de diseño →</a>
+        </div></div>
         <div class="feature-item"><div class="feature-bar"></div><div><p class="feature-name">Validación en tiempo real <span class="wip-badge">WIP</span></p><p class="feature-desc">Stock, límites de crédito y SLA vía API</p></div></div>
       </div>
       <div class="feature-category">
@@ -188,6 +202,15 @@
   <div class="content-section reveal">
     <h3>Metodología aplicada</h3>
     <p>El proyecto sigue un proceso estructurado con User Stories y EPICs documentadas en Notion. Se implementó testing iterativo con perfiles de usuario reales y casos edge (stock insuficiente, deuda bloqueante, SLA excedido).</p>
+    <p>El diseño de cada funcionalidad precede a la implementación. El playbook de Compra, por ejemplo, implementa un algoritmo de scoring dinámico con pesos variables según el contexto del primer utterance — 4 perfiles de peso, 9 escenarios documentados con sus reglas de negocio y criterios mínimos de activación.</p>
+    <div class="scoring-callout">
+      <div class="scoring-callout-text">
+        <p class="scoring-callout-label">Artefacto de diseño</p>
+        <p class="scoring-callout-title">Sistema de scoring dinámico — Playbook Compra</p>
+        <p class="scoring-callout-desc">Especificación completa del algoritmo de ranking de productos: 4 perfiles de peso, 9 escenarios de slot filling, reglas de negocio y criterios mínimos de activación por escenario.</p>
+      </div>
+      <a href="petal-compras.html" class="scoring-callout-link">Ver especificación →</a>
+    </div>
   </div>
 
   <div class="reveal">
@@ -239,7 +262,6 @@
   }
 </script>
 
-<!-- Dialogflow Messenger -->
 <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 <df-messenger
