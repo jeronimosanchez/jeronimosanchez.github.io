@@ -93,93 +93,19 @@
     .reset-chat-btn { bottom: 76px; right: 16px; }
   }
 
-  /* ============================================
-     DIALOGFLOW MESSENGER — Tema Petal Dark
-     Variables v1 + v2 + ::part selectors
-     ============================================ */
+  /* Dialogflow Messenger — Solo burbuja lime + fuente */
   df-messenger {
     z-index: 999;
     position: fixed;
     bottom: 16px;
     right: 16px;
     --df-messenger-font-family: 'DM Sans', sans-serif;
-    --df-messenger-font-color: #f0ede6;
-    --df-messenger-chat-background: #161616;
-    --df-messenger-chat-background-color: #161616;
-    --df-messenger-chat-border-radius: 16px;
-    --df-messenger-chat-window-height: 520px;
-    --df-messenger-chat-window-width: 380px;
-    --df-messenger-titlebar-background: #0e0e0e;
-    --df-messenger-titlebar-background-color: #0e0e0e;
-    --df-messenger-titlebar-font-color: #f0ede6;
-    --df-messenger-titlebar-title-font-color: #f0ede6;
-    --df-messenger-message-user-background: #c8f060;
-    --df-messenger-message-user-background-color: #c8f060;
-    --df-messenger-message-user-font-color: #0e0e0e;
-    --df-messenger-message-bot-background: #1e1e1e;
-    --df-messenger-message-bot-background-color: #1e1e1e;
-    --df-messenger-message-bot-font-color: #f0ede6;
-    --df-messenger-input-background: #1e1e1e;
-    --df-messenger-input-background-color: #1e1e1e;
-    --df-messenger-input-box-color: #1e1e1e;
-    --df-messenger-input-font-color: #f0ede6;
-    --df-messenger-input-box-focus-color: #2a2a2a;
-    --df-messenger-input-placeholder-font-color: #888780;
     --df-messenger-chat-bubble-background: #c8f060;
-    --df-messenger-chat-bubble-background-color: #c8f060;
     --df-messenger-chat-bubble-icon-color: #0e0e0e;
     --df-messenger-chat-bubble-size: 56px;
-    --df-messenger-send-icon: #c8f060;
     --df-messenger-send-icon-color: #c8f060;
-    --df-messenger-chip-background: rgba(200,240,96,0.06);
-    --df-messenger-chip-background-color: rgba(200,240,96,0.06);
-    --df-messenger-chip-font-color: #c8f060;
-    --df-messenger-chip-border-color: rgba(200,240,96,0.2);
-    --df-messenger-chip-border-radius: 20px;
-    --df-messenger-typing-dots-color: #c8f060;
-    --df-messenger-typing-background: #1e1e1e;
-  }
-
-  /* ::part selectors — penetra Shadow DOM */
-  df-messenger::part(input) {
-    background: #1e1e1e !important;
-    color: #f0ede6 !important;
-    caret-color: #c8f060 !important;
-    border: 1px solid rgba(240,237,230,0.1) !important;
-    border-radius: 24px !important;
-  }
-  df-messenger::part(input)::placeholder {
-    color: #888780 !important;
-  }
-  df-messenger::part(input-wrapper) {
-    background: #161616 !important;
-    border-top: 1px solid rgba(240,237,230,0.06) !important;
-    padding: 8px 12px !important;
-  }
-  df-messenger::part(message-bot) {
-    background: #1e1e1e !important;
-    color: #f0ede6 !important;
-    border-radius: 18px 18px 18px 4px !important;
-  }
-  df-messenger::part(message-user) {
-    background: #c8f060 !important;
-    color: #0e0e0e !important;
-    border-radius: 18px 18px 4px 18px !important;
-  }
-  df-messenger::part(chat) {
-    background: #161616 !important;
-    border: 1px solid rgba(240,237,230,0.1) !important;
-    border-radius: 16px !important;
-  }
-  df-messenger::part(titlebar) {
-    background: #0e0e0e !important;
-    color: #f0ede6 !important;
-  }
-  df-messenger::part(chip) {
-    background: rgba(200,240,96,0.06) !important;
-    color: #c8f060 !important;
-    border: 1px solid rgba(200,240,96,0.2) !important;
-    border-radius: 20px !important;
+    --df-messenger-message-user-background: #c8f060;
+    --df-messenger-message-user-font-color: #0e0e0e;
   }
 </style>
 </head>
@@ -326,25 +252,9 @@
   <df-messenger-chat-bubble
     chat-title="Petal"
     chat-subtitle="Floristería · Asistente virtual"
-    placeholder="Pregunta algo...">
+    placeholder="Flores, pedidos, consultas...">
   </df-messenger-chat-bubble>
 </df-messenger>
-
-<style>
-  df-messenger {
-    z-index: 999;
-    position: fixed;
-    bottom: 16px;
-    right: 16px;
-    --df-messenger-font-family: 'DM Sans', sans-serif;
-    --df-messenger-chat-border-radius: 8px;
-    --df-messenger-message-border-radius: 6px;
-    --df-messenger-button-titlebar-color: #c8f060;
-    --df-messenger-button-titlebar-font-color: #0e0e0e;
-    --df-messenger-send-icon-color: #c8f060;
-    --df-messenger-send-icon-color-hover: #d8ff70;
-  }
-</style>
 
 </body>
 </html>
