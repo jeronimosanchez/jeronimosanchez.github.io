@@ -265,35 +265,39 @@
     };
   }
 
-  document.addEventListener('df-messenger-loaded', function() {
-    const messenger = document.querySelector('df-messenger');
-    if (messenger) { messenger.setQueryParameters({ parameters: getTimeParams() }); }
-  });
-
   function reiniciarChat() {
     const messenger = document.querySelector('df-messenger');
     if (messenger) {
+      messenger.setAttribute('query-parameters', JSON.stringify({ parameters: getTimeParams() }));
       messenger.startNewSession({ retainHistory: false });
-      messenger.setQueryParameters({ parameters: getTimeParams() });
     }
   }
 </script>
 
 <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
-<df-messenger
-  location="europe-west1"
-  project-id="floristeria-petal-digital"
-  agent-id="745375ba-ac7e-4eb8-b8a0-d742891f2aa4"
-  language-code="es"
-  max-query-length="-1"
-  intent="WELCOME">
-  <df-messenger-chat-bubble
-    chat-title="Petal"
-    chat-subtitle="Floristería · Asistente virtual"
-    placeholder="Flores, pedidos, consultas...">
-  </df-messenger-chat-bubble>
-</df-messenger>
+<script>
+  /* Creación dinámica del widget con query-parameters ya configurados.
+     Garantiza que hora_actual llega al agente desde la primera petición
+     (incluido el WELCOME), sin depender del timing de df-messenger-loaded. */
+  (function() {
+    const messenger = document.createElement('df-messenger');
+    messenger.setAttribute('location', 'europe-west1');
+    messenger.setAttribute('project-id', 'floristeria-petal-digital');
+    messenger.setAttribute('agent-id', '745375ba-ac7e-4eb8-b8a0-d742891f2aa4');
+    messenger.setAttribute('language-code', 'es');
+    messenger.setAttribute('max-query-length', '-1');
+    messenger.setAttribute('intent', 'WELCOME');
+    messenger.setAttribute('query-parameters', JSON.stringify({ parameters: getTimeParams() }));
+
+    const bubble = document.createElement('df-messenger-chat-bubble');
+    bubble.setAttribute('chat-title', 'Petal');
+    bubble.setAttribute('chat-subtitle', 'Floristería · Asistente virtual');
+    bubble.setAttribute('placeholder', 'Flores, pedidos, consultas...');
+    messenger.appendChild(bubble);
+    document.body.appendChild(messenger);
+  })();
+</script>
 
 </body>
 </html>
