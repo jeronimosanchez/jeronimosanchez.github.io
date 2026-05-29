@@ -256,9 +256,26 @@
   }, { threshold: 0.1 });
   reveals.forEach(el => observer.observe(el));
 
+  function getTimeParams() {
+    const now = new Date();
+    return {
+      hora_actual: now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Europe/Madrid' }),
+      dia_semana: now.toLocaleDateString('es-ES', { weekday: 'long', timeZone: 'Europe/Madrid' }),
+      fecha_actual: now.toLocaleDateString('es-ES', { timeZone: 'Europe/Madrid' })
+    };
+  }
+
+  document.addEventListener('df-messenger-loaded', function() {
+    const messenger = document.querySelector('df-messenger');
+    if (messenger) { messenger.setQueryParameters({ parameters: getTimeParams() }); }
+  });
+
   function reiniciarChat() {
     const messenger = document.querySelector('df-messenger');
-    if (messenger) { messenger.startNewSession({retainHistory: false}); }
+    if (messenger) {
+      messenger.startNewSession({ retainHistory: false });
+      messenger.setQueryParameters({ parameters: getTimeParams() });
+    }
   }
 </script>
 
