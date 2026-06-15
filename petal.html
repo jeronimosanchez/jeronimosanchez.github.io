@@ -75,7 +75,6 @@
   .demo-box p { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
   .demo-box ul { list-style: none; padding: 0; font-size: 12px; color: var(--muted); margin-bottom: 1rem; }
   .demo-box ul li { padding: 0.3rem 0; }
-  /* Scoring callout */
   .scoring-callout { background: rgba(200,240,96,0.03); border: 1px solid rgba(200,240,96,0.15); border-radius: var(--radius); padding: 1.5rem; margin-top: 1.5rem; display: flex; align-items: flex-start; gap: 1.5rem; }
   .scoring-callout-text { flex: 1; }
   .scoring-callout-label { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.5rem; }
@@ -83,6 +82,55 @@
   .scoring-callout-desc { font-size: 12px; color: var(--muted); line-height: 1.5; }
   .scoring-callout-link { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-top: 0.75rem; padding: 6px 14px; border: 1px solid rgba(200,240,96,0.3); border-radius: 3px; transition: all 0.2s; white-space: nowrap; }
   .scoring-callout-link:hover { background: rgba(200,240,96,0.08); border-color: var(--accent); }
+
+  /* Version selector */
+  .version-selector {
+    position: fixed;
+    bottom: 130px;
+    right: 16px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+  }
+  .version-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+  .version-pills {
+    display: flex;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 3px;
+    gap: 2px;
+  }
+  .version-pill {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 5px 12px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--muted);
+    background: transparent;
+    letter-spacing: 0.04em;
+  }
+  .version-pill.active {
+    background: var(--accent);
+    color: #0e0e0e;
+    font-weight: 500;
+  }
+  .version-pill:not(.active):hover {
+    color: var(--text);
+  }
+
   .reset-chat-btn { position: fixed; bottom: 84px; right: 24px; z-index: 1000; width: 36px; height: 36px; border-radius: 50%; background: var(--bg2); border: 1px solid rgba(200,240,96,0.2); color: var(--accent); font-size: 14px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 2px 8px rgba(0,0,0,0.3); opacity: 0.7; }
   .reset-chat-btn:hover { background: rgba(200,240,96,0.1); border-color: var(--accent); transform: scale(1.1) rotate(180deg); opacity: 1; box-shadow: 0 4px 16px rgba(200,240,96,0.15); }
   footer { border-top: 1px solid var(--border); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: 0 auto; margin-top: 4rem; }
@@ -102,6 +150,7 @@
     .scoring-callout { flex-direction: column; gap: 1rem; }
     df-messenger { --df-messenger-chat-window-height: 100vh !important; --df-messenger-chat-window-width: 100vw !important; --df-messenger-chat-border-radius: 0 !important; }
     .reset-chat-btn { bottom: 76px; right: 16px; }
+    .version-selector { bottom: 128px; right: 12px; }
   }
 
   df-messenger {
@@ -226,7 +275,7 @@
 
   <div class="demo-box reveal">
     <h4>Prueba el agente en vivo</h4>
-    <p>Haz clic en el botón de chat flotante en la esquina inferior derecha para interactuar con Petal. Prueba consultas como:</p>
+    <p>Usa el selector de versión (esquina inferior derecha) para comparar <strong style="color:var(--text)">Petal 1.0</strong> (producción estable) con <strong style="color:var(--accent)">Petal 1.1</strong> (desarrollo activo). Haz clic en el botón de chat flotante para interactuar.</p>
     <ul>
       <li>• "Quiero comprar flores para un cumpleaños"</li>
       <li>• "¿Tienes rosas disponibles?"</li>
@@ -234,6 +283,15 @@
       <li>• "¿Cuál es vuestro horario?"</li>
     </ul>
     <p style="font-size: 11px; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 1rem; margin-bottom: 0;">El agente usa datos ficticios. Cada interacción es procesada por Gemini 2.5 Flash con acceso a herramientas reales en Cloud Run.</p>
+  </div>
+</div>
+
+<!-- Version selector -->
+<div class="version-selector">
+  <span class="version-label">Versión del agente</span>
+  <div class="version-pills">
+    <button class="version-pill active" id="pill-v10" onclick="switchVersion('v10')">v1.0</button>
+    <button class="version-pill" id="pill-v11" onclick="switchVersion('v11')">v1.1</button>
   </div>
 </div>
 
@@ -256,6 +314,13 @@
   }, { threshold: 0.1 });
   reveals.forEach(el => observer.observe(el));
 
+  const AGENTS = {
+    v10: { id: '745375ba-ac7e-4eb8-b8a0-d742891f2aa4', label: 'Petal 1.0' },
+    v11: { id: 'cea66b60-192d-4b5a-af10-28f8661032e0', label: 'Petal 1.1' }
+  };
+
+  let currentVersion = 'v10';
+
   function getTimeParams() {
     const now = new Date();
     return {
@@ -263,6 +328,37 @@
       dia_semana: now.toLocaleDateString('es-ES', { weekday: 'long', timeZone: 'Europe/Madrid' }),
       fecha_actual: now.toLocaleDateString('es-ES', { timeZone: 'Europe/Madrid' })
     };
+  }
+
+  function mountMessenger(version) {
+    const existing = document.querySelector('df-messenger');
+    if (existing) existing.remove();
+
+    const messenger = document.createElement('df-messenger');
+    messenger.setAttribute('location', 'europe-west1');
+    messenger.setAttribute('project-id', 'floristeria-petal-digital');
+    messenger.setAttribute('agent-id', AGENTS[version].id);
+    messenger.setAttribute('language-code', 'es');
+    messenger.setAttribute('max-query-length', '-1');
+    messenger.setAttribute('intent', 'WELCOME');
+    messenger.setAttribute('query-parameters', JSON.stringify({ parameters: getTimeParams() }));
+
+    const bubble = document.createElement('df-messenger-chat-bubble');
+    bubble.setAttribute('chat-title', AGENTS[version].label);
+    bubble.setAttribute('chat-subtitle', 'Floristería · Asistente virtual');
+    bubble.setAttribute('placeholder', 'Flores, pedidos, consultas...');
+    messenger.appendChild(bubble);
+    document.body.appendChild(messenger);
+  }
+
+  function switchVersion(version) {
+    if (version === currentVersion) return;
+    currentVersion = version;
+
+    document.getElementById('pill-v10').classList.toggle('active', version === 'v10');
+    document.getElementById('pill-v11').classList.toggle('active', version === 'v11');
+
+    mountMessenger(version);
   }
 
   function reiniciarChat() {
@@ -277,26 +373,7 @@
 <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 <script>
-  /* Creación dinámica del widget con query-parameters ya configurados.
-     Garantiza que hora_actual llega al agente desde la primera petición
-     (incluido el WELCOME), sin depender del timing de df-messenger-loaded. */
-  (function() {
-    const messenger = document.createElement('df-messenger');
-    messenger.setAttribute('location', 'europe-west1');
-    messenger.setAttribute('project-id', 'floristeria-petal-digital');
-    messenger.setAttribute('agent-id', '745375ba-ac7e-4eb8-b8a0-d742891f2aa4');
-    messenger.setAttribute('language-code', 'es');
-    messenger.setAttribute('max-query-length', '-1');
-    messenger.setAttribute('intent', 'WELCOME');
-    messenger.setAttribute('query-parameters', JSON.stringify({ parameters: getTimeParams() }));
-
-    const bubble = document.createElement('df-messenger-chat-bubble');
-    bubble.setAttribute('chat-title', 'Petal');
-    bubble.setAttribute('chat-subtitle', 'Floristería · Asistente virtual');
-    bubble.setAttribute('placeholder', 'Flores, pedidos, consultas...');
-    messenger.appendChild(bubble);
-    document.body.appendChild(messenger);
-  })();
+  mountMessenger('v10');
 </script>
 
 </body>
