@@ -103,14 +103,14 @@
    "producto": "Ramo de Claveles",
    "color": "Rojo",
    "talla": "S",
-   "estado": "provisional",
-   "v": "75ed1efc"
+   "estado": "final",
+   "v": "19091614"
   },
   "ramo-de-claveles-rojo-m": {
    "producto": "Ramo de Claveles",
    "color": "Rojo",
    "talla": "M",
-   "estado": "provisional",
+   "estado": "final",
    "v": "a663dd9f"
   },
   "ramo-de-claveles-rojo-l": {
@@ -125,7 +125,7 @@
    "color": "Amarillo",
    "talla": "S",
    "estado": "provisional",
-   "v": "6e2324b6"
+   "v": "468bc4b9"
   },
   "ramo-de-girasoles-amarillo-m": {
    "producto": "Ramo de Girasoles",
@@ -153,7 +153,7 @@
    "color": "Naranja",
    "talla": "M",
    "estado": "provisional",
-   "v": "bb1fad87"
+   "v": "faac8d17"
   },
   "ramo-de-gerberas-naranja-l": {
    "producto": "Ramo de Gerberas",
@@ -166,8 +166,8 @@
    "producto": "Ramo de Margaritas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "provisional",
-   "v": "5325c5f4"
+   "estado": "final",
+   "v": "5a26518c"
   },
   "ramo-de-margaritas-blanco-m": {
    "producto": "Ramo de Margaritas",
