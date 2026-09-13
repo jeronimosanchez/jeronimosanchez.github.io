@@ -1,103 +1,1336 @@
 {
  "base": "https://jeronimosanchez.github.io/petal/",
- "tipos": {
-  "Ramo": {
-   "incluye": ""
-  },
-  "Planta en Maceta": {
-   "incluye": ""
-  },
-  "Corona Fúnebre": {
-   "incluye": ""
-  },
-  "Centro de Mesa": {
-   "incluye": ""
-  }
- },
  "productos": {
   "Ramo de Rosas": {
-   "descripcion": ""
-  },
-  "Ramo de Peonías": {
-   "descripcion": ""
-  },
-  "Ramo de Claveles": {
-   "descripcion": ""
-  },
-  "Ramo de Girasoles": {
-   "descripcion": ""
-  },
-  "Ramo de Gerberas": {
-   "descripcion": ""
-  },
-  "Ramo de Margaritas": {
-   "descripcion": ""
-  },
-  "Ramo Primavera Tulipanes Mix": {
-   "descripcion": ""
-  },
-  "Geranio Maceta": {
-   "descripcion": ""
-  },
-  "Orquídea Phalaenopsis": {
-   "descripcion": ""
+   "descripcion": "{n} rosas de tallo largo, con el botón a medio abrir y sus hojas verdes, recogidas en un ramo redondo. Un clásico que nunca falla: lo dice todo sin necesidad de palabras."
   },
   "Corona Fúnebre Rosas y Crisantemos": {
-   "descripcion": ""
-  },
-  "Centro de Mesa Rosas y Eucalipto": {
-   "descripcion": ""
+   "descripcion": "{n} flores entre rosas y crisantemos, dispuestas en círculo sobre una base de verde. Un homenaje sereno y lleno de respeto para despedir a un ser querido."
   }
  },
  "fotos": {
-  "ramo-de-rosas-rojo-s": {
-   "producto": "Ramo de Rosas",
+  "albahaca-genovesa-maceta-verde-s": {
+   "producto": "Albahaca Genovesa Maceta",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "aloe-vera-mini-verde-s": {
+   "producto": "Aloe Vera Mini",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "anthurium-blanco-unico": {
+   "producto": "Anthurium",
+   "color": "Blanco",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "anthurium-rojo-unico": {
+   "producto": "Anthurium",
    "color": "Rojo",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "arco-floral-boda-girasoles-y-margaritas-amarillo-y-blanco-xl": {
+   "producto": "Arco Floral Boda Girasoles y Margaritas",
+   "color": "Amarillo y Blanco",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "3bc1a320"
+  },
+  "arco-floral-boda-rosas-y-eucalipto-rosa-y-verde-xl": {
+   "producto": "Arco Floral Boda Rosas y Eucalipto",
+   "color": "Rosa y Verde",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "9f4ed20d"
+  },
+  "arreglo-condolencias-lujo-blanco-l": {
+   "producto": "Arreglo Condolencias Lujo",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "arreglo-floral-blanco-y-verde-m": {
+   "producto": "Arreglo Floral",
+   "color": "Blanco y Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "445b56b2"
+  },
+  "arreglo-floral-eventos-multicolor-s": {
+   "producto": "Arreglo Floral Eventos",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "arreglo-floral-eventos-multicolor-m": {
+   "producto": "Arreglo Floral Eventos",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "arreglo-floral-eventos-multicolor-l": {
+   "producto": "Arreglo Floral Eventos",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "arreglo-orquideas-multicolor-s": {
+   "producto": "Arreglo Orquídeas",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "arreglo-orquideas-multicolor-m": {
+   "producto": "Arreglo Orquídeas",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "arreglo-orquideas-multicolor-l": {
+   "producto": "Arreglo Orquídeas",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "arreglo-peonias-rosa-s": {
+   "producto": "Arreglo Peonías",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "arreglo-peonias-rosa-m": {
+   "producto": "Arreglo Peonías",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "arreglo-peonias-rosa-l": {
+   "producto": "Arreglo Peonías",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "arreglo-primavera-flores-silvestres-multicolor-s": {
+   "producto": "Arreglo Primavera Flores Silvestres",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "arreglo-tropical-anthurium-rojo-m": {
+   "producto": "Arreglo Tropical Anthurium",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "arreglo-verano-lavanda-provenzal-morado-s": {
+   "producto": "Arreglo Verano Lavanda Provenzal",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "aspidistra-verde-l": {
+   "producto": "Aspidistra",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "begonia-maculata-verde-m": {
+   "producto": "Begonia Maculata",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "bonsai-acer-palmatum-verde-l": {
+   "producto": "Bonsái Acer Palmatum",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "bonsai-ficus-retusa-verde-l": {
+   "producto": "Bonsái Ficus Retusa",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "bonsai-olmo-chino-verde-l": {
+   "producto": "Bonsái Olmo Chino",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "bouquet-de-novia-vintage-blanco-y-rosa-l": {
+   "producto": "Bouquet de Novia Vintage",
+   "color": "Blanco y Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "685ccdca"
+  },
+  "boutonniere-claveles-blanco-unico": {
+   "producto": "Boutonniere Claveles",
+   "color": "Blanco",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "boutonniere-rosas-rojo-unico": {
+   "producto": "Boutonniere Rosas",
+   "color": "Rojo",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "buganvilla-maceta-verde-l": {
+   "producto": "Buganvilla Maceta",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "cactus-echinocactus-verde-m": {
+   "producto": "Cactus Echinocactus",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "cactus-opuntia-verde-m": {
+   "producto": "Cactus Opuntia",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "caja-rosas-preservadas-deluxe-rojo-l": {
+   "producto": "Caja Rosas Preservadas Deluxe",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "calathea-medallion-verde-m": {
+   "producto": "Calathea Medallion",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "centro-funerario-vertical-blanco-l": {
+   "producto": "Centro Funerario Vertical",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "centro-invierno-ramas-nevadas-blanco-s": {
+   "producto": "Centro Invierno Ramas Nevadas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "centro-navidad-pino-natural-verde-y-rojo-m": {
+   "producto": "Centro Navidad Pino Natural",
+   "color": "Verde y Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "f10809b4"
+  },
+  "centro-otono-calabaza-naranja-m": {
+   "producto": "Centro Otoño Calabaza",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "centro-de-mesa-boda-eucalipto-verde-s": {
+   "producto": "Centro de Mesa Boda Eucalipto",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "centro-de-mesa-boda-eucalipto-verde-m": {
+   "producto": "Centro de Mesa Boda Eucalipto",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "centro-de-mesa-boda-hortensias-azul-s": {
+   "producto": "Centro de Mesa Boda Hortensias",
+   "color": "Azul",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "centro-de-mesa-boda-hortensias-azul-m": {
+   "producto": "Centro de Mesa Boda Hortensias",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "centro-de-mesa-boda-peonias-rosa-s": {
+   "producto": "Centro de Mesa Boda Peonías",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "centro-de-mesa-boda-peonias-rosa-m": {
+   "producto": "Centro de Mesa Boda Peonías",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "centro-de-mesa-boda-rosas-blanco-s": {
+   "producto": "Centro de Mesa Boda Rosas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "centro-de-mesa-boda-rosas-blanco-m": {
+   "producto": "Centro de Mesa Boda Rosas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "centro-de-mesa-navideno-verde-y-rojo-m": {
+   "producto": "Centro de Mesa Navideño",
+   "color": "Verde y Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "f10809b4"
+  },
+  "centro-de-mesa-orquideas-blanco-s": {
+   "producto": "Centro de Mesa Orquídeas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "centro-de-mesa-orquideas-blanco-m": {
+   "producto": "Centro de Mesa Orquídeas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "centro-de-mesa-rosas-y-eucalipto-rosa-y-verde-s": {
+   "producto": "Centro de Mesa Rosas y Eucalipto",
+   "color": "Rosa y Verde",
    "talla": "S",
    "estado": "provisional",
-   "v": "4930f9e4"
+   "v": "e17f4b2c"
   },
-  "ramo-de-rosas-rojo-m": {
-   "producto": "Ramo de Rosas",
+  "centro-de-mesa-rosas-y-eucalipto-rosa-y-verde-m": {
+   "producto": "Centro de Mesa Rosas y Eucalipto",
+   "color": "Rosa y Verde",
+   "talla": "M",
+   "estado": "final",
+   "v": "fa342ae2"
+  },
+  "centro-de-mesa-tulipanes-multicolor-s": {
+   "producto": "Centro de Mesa Tulipanes",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "cesta-primavera-jacintos-aromaticos-multicolor-m": {
+   "producto": "Cesta Primavera Jacintos Aromáticos",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "cesta-verano-margaritas-campo-blanco-y-amarillo-s": {
+   "producto": "Cesta Verano Margaritas Campo",
+   "color": "Blanco y Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "647ff4ee"
+  },
+  "cesta-de-flores-silvestres-multicolor-s": {
+   "producto": "Cesta de Flores Silvestres",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "cesta-de-frutas-y-flores-multicolor-l": {
+   "producto": "Cesta de Frutas y Flores",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "cesta-de-margaritas-silvestres-blanco-s": {
+   "producto": "Cesta de Margaritas Silvestres",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "clematide-trepadora-maceta-verde-m": {
+   "producto": "Clemátide Trepadora Maceta",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "cojin-funerario-claveles-blanco-l": {
+   "producto": "Cojín Funerario Claveles",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "cojin-funerario-rosas-blancas-blanco-l": {
+   "producto": "Cojín Funerario Rosas Blancas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-adviento-con-velas-verde-y-rojo-m": {
+   "producto": "Corona Adviento con Velas",
+   "color": "Verde y Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "f10809b4"
+  },
+  "corona-cabeza-flores-secas-beige-s": {
+   "producto": "Corona Cabeza Flores Secas",
+   "color": "Beige",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "8c0a88f2"
+  },
+  "corona-cabeza-novia-flores-silvestres-multicolor-s": {
+   "producto": "Corona Cabeza Novia Flores Silvestres",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-cabeza-novia-rosas-rosa-s": {
+   "producto": "Corona Cabeza Novia Rosas",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "corona-funeral-gladiolos-multicolor-m": {
+   "producto": "Corona Funeral Gladiolos",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funeral-gladiolos-multicolor-l": {
+   "producto": "Corona Funeral Gladiolos",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-claveles-blanco-m": {
+   "producto": "Corona Fúnebre Claveles",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-claveles-blanco-l": {
+   "producto": "Corona Fúnebre Claveles",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-clasica-rosas-rosa-m": {
+   "producto": "Corona Fúnebre Clásica Rosas",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "corona-funebre-clasica-rosas-rosa-l": {
+   "producto": "Corona Fúnebre Clásica Rosas",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "corona-funebre-lirios-blanco-m": {
+   "producto": "Corona Fúnebre Lirios",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-lirios-blanco-l": {
+   "producto": "Corona Fúnebre Lirios",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-lujo-especial-blanco-l": {
+   "producto": "Corona Fúnebre Lujo Especial",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-otono-hojas-y-bayas-naranja-m": {
+   "producto": "Corona Otoño Hojas y Bayas",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "corsage-dama-orquideas-blanco-unico": {
+   "producto": "Corsage Dama Orquídeas",
+   "color": "Blanco",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "crassula-ovata-arbol-jade-verde-s": {
+   "producto": "Crassula Ovata (Árbol Jade)",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "cruz-de-claveles-y-lirios-blanco-xl": {
+   "producto": "Cruz de Claveles y Lirios",
+   "color": "Blanco",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "cruz-de-gladiolos-blancos-blanco-xl": {
+   "producto": "Cruz de Gladiolos Blancos",
+   "color": "Blanco",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "cruz-de-rosas-blancas-blanco-xl": {
+   "producto": "Cruz de Rosas Blancas",
+   "color": "Blanco",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "dalia-amarillo-unico": {
+   "producto": "Dalia",
+   "color": "Amarillo",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "dalia-rojo-unico": {
+   "producto": "Dalia",
+   "color": "Rojo",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "dalia-rosa-unico": {
+   "producto": "Dalia",
+   "color": "Rosa",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "dieffenbachia-verde-l": {
+   "producto": "Dieffenbachia",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "dracaena-marginata-verde-l": {
+   "producto": "Dracaena Marginata",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "echeveria-elegans-verde-s": {
+   "producto": "Echeveria Elegans",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "eucalipto-baby-blue-verde-azulado-m": {
+   "producto": "Eucalipto Baby Blue",
+   "color": "Verde Azulado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "ficus-lyrata-verde-xl": {
+   "producto": "Ficus Lyrata",
+   "color": "Verde",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "filodendro-scandens-verde-m": {
+   "producto": "Filodendro Scandens",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "fittonia-blanco-s": {
+   "producto": "Fittonia",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "fittonia-rojo-s": {
+   "producto": "Fittonia",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "geranio-maceta-rojo-m": {
+   "producto": "Geranio Maceta",
    "color": "Rojo",
    "talla": "M",
    "estado": "final",
-   "v": "1fa811bc"
+   "v": "99525426"
   },
-  "ramo-de-rosas-rojo-l": {
-   "producto": "Ramo de Rosas",
-   "color": "Rojo",
+  "geranio-maceta-rosa-m": {
+   "producto": "Geranio Maceta",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "guirnalda-flores-boda-blanco-y-verde-xl": {
+   "producto": "Guirnalda Flores Boda",
+   "color": "Blanco y Verde",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "445b56b2"
+  },
+  "guirnalda-de-eucalipto-verde-m": {
+   "producto": "Guirnalda de Eucalipto",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "haworthia-fasciata-verde-s": {
+   "producto": "Haworthia Fasciata",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "helecho-de-boston-verde-l": {
+   "producto": "Helecho de Boston",
+   "color": "Verde",
    "talla": "L",
-   "estado": "final",
-   "v": "1068bac6"
+   "estado": "sin foto",
+   "v": "e36d5f84"
   },
-  "ramo-de-rosas-blanco-m": {
-   "producto": "Ramo de Rosas",
+  "iris-amarillo-unico": {
+   "producto": "Iris",
+   "color": "Amarillo",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "iris-azul-unico": {
+   "producto": "Iris",
+   "color": "Azul",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "iris-morado-unico": {
+   "producto": "Iris",
+   "color": "Morado",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "jazmin-maceta-verde-m": {
+   "producto": "Jazmín Maceta",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "lavanda-angustifolia-maceta-verde-m": {
+   "producto": "Lavanda Angustifolia Maceta",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "maranta-tricolor-verde-m": {
+   "producto": "Maranta Tricolor",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "menta-piperita-maceta-verde-s": {
+   "producto": "Menta Piperita Maceta",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "monstera-deliciosa-verde-l": {
+   "producto": "Monstera Deliciosa",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "orquidea-phalaenopsis-amarillo-m": {
+   "producto": "Orquídea Phalaenopsis",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "orquidea-phalaenopsis-blanco-m": {
+   "producto": "Orquídea Phalaenopsis",
    "color": "Blanco",
    "talla": "M",
    "estado": "final",
-   "v": "d8d2aa88"
+   "v": "012544d9"
   },
-  "ramo-de-peonias-rosa-s": {
-   "producto": "Ramo de Peonías",
-   "color": "Rosa",
-   "talla": "S",
-   "estado": "final",
-   "v": "dcca14a2"
+  "orquidea-phalaenopsis-gigante-blanco-l": {
+   "producto": "Orquídea Phalaenopsis Gigante",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
   },
-  "ramo-de-peonias-rosa-m": {
-   "producto": "Ramo de Peonías",
+  "orquidea-phalaenopsis-morado-m": {
+   "producto": "Orquídea Phalaenopsis",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "orquidea-phalaenopsis-rosa-m": {
+   "producto": "Orquídea Phalaenopsis",
    "color": "Rosa",
    "talla": "M",
-   "estado": "final",
-   "v": "37c6ef50"
+   "estado": "sin foto",
+   "v": "488ad21e"
   },
-  "ramo-de-peonias-rosa-l": {
-   "producto": "Ramo de Peonías",
+  "pack-oficina-verde-3-plantas-verde-m": {
+   "producto": "Pack Oficina Verde 3 Plantas",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "palma-funeraria-clasica-verde-y-blanco-xl": {
+   "producto": "Palma Funeraria Clásica",
+   "color": "Verde y Blanco",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "f3cfb29d"
+  },
+  "palma-funeraria-premium-verde-y-blanco-l": {
+   "producto": "Palma Funeraria Premium",
+   "color": "Verde y Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "f3cfb29d"
+  },
+  "palmera-areca-verde-xl": {
+   "producto": "Palmera Areca",
+   "color": "Verde",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "peperomia-caperata-verde-s": {
+   "producto": "Peperomia Caperata",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "petunias-colgantes-mixtas-multicolor-m": {
+   "producto": "Petunias Colgantes Mixtas",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "pilea-peperomioides-verde-s": {
+   "producto": "Pilea Peperomioides",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "potho-dorado-colgante-verde-m": {
+   "producto": "Potho Dorado Colgante",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "protea-king-rosa-unico": {
+   "producto": "Protea King",
+   "color": "Rosa",
+   "talla": "Único",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-100-rosas-rojas-premium-rojo-l": {
+   "producto": "Ramo 100 Rosas Rojas Premium",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-bienvenida-nuevo-hogar-multicolor-m": {
+   "producto": "Ramo Bienvenida Nuevo Hogar",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-blanco-pureza-blanco-m": {
+   "producto": "Ramo Blanco Pureza",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-corporativo-sobrio-blanco-y-verde-l": {
+   "producto": "Ramo Corporativo Sobrio",
+   "color": "Blanco y Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "445b56b2"
+  },
+  "ramo-dama-honor-lirios-rosa-m": {
+   "producto": "Ramo Dama Honor Lirios",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-dia-de-la-madre-lirios-blanco-l": {
+   "producto": "Ramo Día de la Madre Lirios",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-dia-de-la-madre-rosas-rosa-l": {
+   "producto": "Ramo Día de la Madre Rosas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "final",
-   "v": "ec01b820"
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-dia-de-la-madre-tulipanes-multicolor-l": {
+   "producto": "Ramo Día de la Madre Tulipanes",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-enhorabuena-graduacion-multicolor-l": {
+   "producto": "Ramo Enhorabuena Graduación",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-exotico-strelitzia-naranja-y-azul-l": {
+   "producto": "Ramo Exótico Strelitzia",
+   "color": "Naranja y Azul",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "aa65215d"
+  },
+  "ramo-funerario-economico-blanco-m": {
+   "producto": "Ramo Funerario Económico",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-gracias-tulipanes-mix-multicolor-m": {
+   "producto": "Ramo Gracias Tulipanes Mix",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-mejorate-pronto-multicolor-m": {
+   "producto": "Ramo Mejórate Pronto",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-mimosa-amarilla-amarillo-m": {
+   "producto": "Ramo Mimosa Amarilla",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-nacimiento-bebe-azul-azul-m": {
+   "producto": "Ramo Nacimiento Bebé Azul",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-nacimiento-bebe-neutro-blanco-m": {
+   "producto": "Ramo Nacimiento Bebé Neutro",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-rosas-nacimiento-bebe-rosa-m": {
+   "producto": "Ramo de Rosas Nacimiento Bebé",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-otono-tonos-calidos-naranja-m": {
+   "producto": "Ramo Otoño Tonos Cálidos",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-pascua-lirios-blanco-l": {
+   "producto": "Ramo Pascua Lirios",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-primavera-narcisos-amarillo-m": {
+   "producto": "Ramo Primavera Narcisos",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-primavera-tulipanes-mix-multicolor-m": {
+   "producto": "Ramo Primavera Tulipanes Mix",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "provisional",
+   "v": "6d46d6ed"
+  },
+  "ramo-san-valentin-corazon-rojo-l": {
+   "producto": "Ramo San Valentín Corazón",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-san-valentin-rosas-rojo-xl": {
+   "producto": "Ramo San Valentín Rosas",
+   "color": "Rojo",
+   "talla": "XL",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-verano-girasoles-amarillo-l": {
+   "producto": "Ramo Verano Girasoles",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-anemonas-blanco-s": {
+   "producto": "Ramo de Anémonas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-anemonas-blanco-m": {
+   "producto": "Ramo de Anémonas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-anemonas-blanco-l": {
+   "producto": "Ramo de Anémonas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-anemonas-morado-s": {
+   "producto": "Ramo de Anémonas",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-anemonas-morado-m": {
+   "producto": "Ramo de Anémonas",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-anemonas-morado-l": {
+   "producto": "Ramo de Anémonas",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-anemonas-rosa-s": {
+   "producto": "Ramo de Anémonas",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-anemonas-rosa-m": {
+   "producto": "Ramo de Anémonas",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-anemonas-rosa-l": {
+   "producto": "Ramo de Anémonas",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-astromelias-blanco-s": {
+   "producto": "Ramo de Astromelias",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-astromelias-blanco-m": {
+   "producto": "Ramo de Astromelias",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-astromelias-blanco-l": {
+   "producto": "Ramo de Astromelias",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-astromelias-multicolor-s": {
+   "producto": "Ramo de Astromelias",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-astromelias-multicolor-m": {
+   "producto": "Ramo de Astromelias",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-astromelias-multicolor-l": {
+   "producto": "Ramo de Astromelias",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-astromelias-naranja-s": {
+   "producto": "Ramo de Astromelias",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-astromelias-naranja-m": {
+   "producto": "Ramo de Astromelias",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-astromelias-naranja-l": {
+   "producto": "Ramo de Astromelias",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-astromelias-rosa-s": {
+   "producto": "Ramo de Astromelias",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-astromelias-rosa-m": {
+   "producto": "Ramo de Astromelias",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-astromelias-rosa-l": {
+   "producto": "Ramo de Astromelias",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-azucenas-blanco-s": {
+   "producto": "Ramo de Azucenas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-azucenas-blanco-m": {
+   "producto": "Ramo de Azucenas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-azucenas-blanco-l": {
+   "producto": "Ramo de Azucenas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-azucenas-naranja-s": {
+   "producto": "Ramo de Azucenas",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-azucenas-naranja-m": {
+   "producto": "Ramo de Azucenas",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-azucenas-naranja-l": {
+   "producto": "Ramo de Azucenas",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-azucenas-rosa-s": {
+   "producto": "Ramo de Azucenas",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-azucenas-rosa-m": {
+   "producto": "Ramo de Azucenas",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-azucenas-rosa-l": {
+   "producto": "Ramo de Azucenas",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-calas-amarillo-s": {
+   "producto": "Ramo de Calas",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-calas-amarillo-m": {
+   "producto": "Ramo de Calas",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-calas-amarillo-l": {
+   "producto": "Ramo de Calas",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-calas-blanco-s": {
+   "producto": "Ramo de Calas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-calas-blanco-m": {
+   "producto": "Ramo de Calas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-calas-blanco-l": {
+   "producto": "Ramo de Calas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-calas-morado-s": {
+   "producto": "Ramo de Calas",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-calas-morado-m": {
+   "producto": "Ramo de Calas",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-calas-morado-l": {
+   "producto": "Ramo de Calas",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-claveles-amarillo-s": {
+   "producto": "Ramo de Claveles",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-claveles-amarillo-m": {
+   "producto": "Ramo de Claveles",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-claveles-amarillo-l": {
+   "producto": "Ramo de Claveles",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-claveles-blanco-s": {
+   "producto": "Ramo de Claveles",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-claveles-blanco-m": {
+   "producto": "Ramo de Claveles",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-claveles-blanco-l": {
+   "producto": "Ramo de Claveles",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-claveles-multicolor-s": {
+   "producto": "Ramo de Claveles",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-claveles-multicolor-m": {
+   "producto": "Ramo de Claveles",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-claveles-multicolor-l": {
+   "producto": "Ramo de Claveles",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
   },
   "ramo-de-claveles-rojo-s": {
    "producto": "Ramo de Claveles",
@@ -120,26 +1353,327 @@
    "estado": "final",
    "v": "53999e52"
   },
-  "ramo-de-girasoles-amarillo-s": {
-   "producto": "Ramo de Girasoles",
+  "ramo-de-claveles-rosa-s": {
+   "producto": "Ramo de Claveles",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-claveles-rosa-m": {
+   "producto": "Ramo de Claveles",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-claveles-rosa-l": {
+   "producto": "Ramo de Claveles",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-crisantemos-amarillo-s": {
+   "producto": "Ramo de Crisantemos",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "provisional",
-   "v": "468bc4b9"
+   "estado": "sin foto",
+   "v": "b390e108"
   },
-  "ramo-de-girasoles-amarillo-m": {
-   "producto": "Ramo de Girasoles",
+  "ramo-de-crisantemos-amarillo-m": {
+   "producto": "Ramo de Crisantemos",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "provisional",
-   "v": "66b3cd3e"
+   "estado": "sin foto",
+   "v": "b390e108"
   },
-  "ramo-de-girasoles-amarillo-l": {
-   "producto": "Ramo de Girasoles",
+  "ramo-de-crisantemos-amarillo-l": {
+   "producto": "Ramo de Crisantemos",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "provisional",
-   "v": "82a81610"
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-crisantemos-blanco-s": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-crisantemos-blanco-m": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-crisantemos-blanco-l": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-crisantemos-multicolor-s": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-crisantemos-multicolor-m": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-crisantemos-multicolor-l": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-crisantemos-naranja-s": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-crisantemos-naranja-m": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-crisantemos-naranja-l": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-crisantemos-rojo-s": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-crisantemos-rojo-m": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-crisantemos-rojo-l": {
+   "producto": "Ramo de Crisantemos",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-delphinium-azul-s": {
+   "producto": "Ramo de Delphinium",
+   "color": "Azul",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-delphinium-azul-m": {
+   "producto": "Ramo de Delphinium",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-delphinium-azul-l": {
+   "producto": "Ramo de Delphinium",
+   "color": "Azul",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-delphinium-blanco-s": {
+   "producto": "Ramo de Delphinium",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-delphinium-blanco-m": {
+   "producto": "Ramo de Delphinium",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-delphinium-blanco-l": {
+   "producto": "Ramo de Delphinium",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-flores-secas-vintage-beige-m": {
+   "producto": "Ramo de Flores Secas Vintage",
+   "color": "Beige",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "8c0a88f2"
+  },
+  "ramo-de-fresias-amarillo-s": {
+   "producto": "Ramo de Fresias",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-fresias-amarillo-m": {
+   "producto": "Ramo de Fresias",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-fresias-amarillo-l": {
+   "producto": "Ramo de Fresias",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-fresias-blanco-s": {
+   "producto": "Ramo de Fresias",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-fresias-blanco-m": {
+   "producto": "Ramo de Fresias",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-fresias-blanco-l": {
+   "producto": "Ramo de Fresias",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-fresias-multicolor-s": {
+   "producto": "Ramo de Fresias",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-fresias-multicolor-m": {
+   "producto": "Ramo de Fresias",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-fresias-multicolor-l": {
+   "producto": "Ramo de Fresias",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-fresias-rosa-s": {
+   "producto": "Ramo de Fresias",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-fresias-rosa-m": {
+   "producto": "Ramo de Fresias",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-fresias-rosa-l": {
+   "producto": "Ramo de Fresias",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-gerberas-amarillo-s": {
+   "producto": "Ramo de Gerberas",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-gerberas-amarillo-m": {
+   "producto": "Ramo de Gerberas",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-gerberas-amarillo-l": {
+   "producto": "Ramo de Gerberas",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-gerberas-blanco-s": {
+   "producto": "Ramo de Gerberas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-gerberas-blanco-m": {
+   "producto": "Ramo de Gerberas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-gerberas-blanco-l": {
+   "producto": "Ramo de Gerberas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-gerberas-multicolor-s": {
+   "producto": "Ramo de Gerberas",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-gerberas-multicolor-m": {
+   "producto": "Ramo de Gerberas",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-gerberas-multicolor-l": {
+   "producto": "Ramo de Gerberas",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
   },
   "ramo-de-gerberas-naranja-s": {
    "producto": "Ramo de Gerberas",
@@ -162,6 +1696,307 @@
    "estado": "provisional",
    "v": "f63b174a"
   },
+  "ramo-de-gerberas-rojo-s": {
+   "producto": "Ramo de Gerberas",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-gerberas-rojo-m": {
+   "producto": "Ramo de Gerberas",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-gerberas-rojo-l": {
+   "producto": "Ramo de Gerberas",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-gerberas-rosa-s": {
+   "producto": "Ramo de Gerberas",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-gerberas-rosa-m": {
+   "producto": "Ramo de Gerberas",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-gerberas-rosa-l": {
+   "producto": "Ramo de Gerberas",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-girasoles-amarillo-s": {
+   "producto": "Ramo de Girasoles",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "provisional",
+   "v": "468bc4b9"
+  },
+  "ramo-de-girasoles-amarillo-m": {
+   "producto": "Ramo de Girasoles",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "provisional",
+   "v": "66b3cd3e"
+  },
+  "ramo-de-girasoles-amarillo-l": {
+   "producto": "Ramo de Girasoles",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "provisional",
+   "v": "82a81610"
+  },
+  "ramo-de-gladiolos-blanco-s": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-gladiolos-blanco-m": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-gladiolos-blanco-l": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-gladiolos-rojo-s": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-gladiolos-rojo-m": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-gladiolos-rojo-l": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-gladiolos-rosa-s": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-gladiolos-rosa-m": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-gladiolos-rosa-l": {
+   "producto": "Ramo de Gladiolos",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-hortensias-azul-s": {
+   "producto": "Ramo de Hortensias",
+   "color": "Azul",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-hortensias-azul-m": {
+   "producto": "Ramo de Hortensias",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-hortensias-azul-l": {
+   "producto": "Ramo de Hortensias",
+   "color": "Azul",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-hortensias-blanco-s": {
+   "producto": "Ramo de Hortensias",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-hortensias-blanco-m": {
+   "producto": "Ramo de Hortensias",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-hortensias-blanco-l": {
+   "producto": "Ramo de Hortensias",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-hortensias-rosa-s": {
+   "producto": "Ramo de Hortensias",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-hortensias-rosa-m": {
+   "producto": "Ramo de Hortensias",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-hortensias-rosa-l": {
+   "producto": "Ramo de Hortensias",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lavanda-seca-morado-s": {
+   "producto": "Ramo de Lavanda Seca",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-lirios-amarillo-s": {
+   "producto": "Ramo de Lirios",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-lirios-amarillo-m": {
+   "producto": "Ramo de Lirios",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-lirios-amarillo-l": {
+   "producto": "Ramo de Lirios",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-lirios-blanco-s": {
+   "producto": "Ramo de Lirios",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lirios-blanco-m": {
+   "producto": "Ramo de Lirios",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lirios-blanco-l": {
+   "producto": "Ramo de Lirios",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lirios-naranja-s": {
+   "producto": "Ramo de Lirios",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-lirios-naranja-m": {
+   "producto": "Ramo de Lirios",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-lirios-naranja-l": {
+   "producto": "Ramo de Lirios",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-lirios-rosa-s": {
+   "producto": "Ramo de Lirios",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lirios-rosa-m": {
+   "producto": "Ramo de Lirios",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lirios-rosa-l": {
+   "producto": "Ramo de Lirios",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-margaritas-amarillo-s": {
+   "producto": "Ramo de Margaritas",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-margaritas-amarillo-m": {
+   "producto": "Ramo de Margaritas",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-margaritas-amarillo-l": {
+   "producto": "Ramo de Margaritas",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
   "ramo-de-margaritas-blanco-s": {
    "producto": "Ramo de Margaritas",
    "color": "Blanco",
@@ -183,26 +2018,1657 @@
    "estado": "provisional",
    "v": "294018fb"
   },
-  "ramo-primavera-tulipanes-mix-multicolor-m": {
-   "producto": "Ramo Primavera Tulipanes Mix",
+  "ramo-de-margaritas-multicolor-s": {
+   "producto": "Ramo de Margaritas",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-margaritas-multicolor-m": {
+   "producto": "Ramo de Margaritas",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "provisional",
-   "v": "6d46d6ed"
+   "estado": "sin foto",
+   "v": "01304eb3"
   },
-  "geranio-maceta-rojo-m": {
-   "producto": "Geranio Maceta",
+  "ramo-de-margaritas-multicolor-l": {
+   "producto": "Ramo de Margaritas",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-margaritas-naranja-s": {
+   "producto": "Ramo de Margaritas",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-margaritas-naranja-m": {
+   "producto": "Ramo de Margaritas",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-margaritas-naranja-l": {
+   "producto": "Ramo de Margaritas",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-margaritas-rosa-s": {
+   "producto": "Ramo de Margaritas",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-margaritas-rosa-m": {
+   "producto": "Ramo de Margaritas",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-margaritas-rosa-l": {
+   "producto": "Ramo de Margaritas",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-novia-calas-blanco-l": {
+   "producto": "Ramo de Novia Calas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-novia-lirios-blanco-l": {
+   "producto": "Ramo de Novia Lirios",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-novia-romantico-multicolor-l": {
+   "producto": "Ramo de Novia Romántico",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-novia-orquideas-blanco-l": {
+   "producto": "Ramo de Novia Orquídeas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-novia-peonias-rosa-l": {
+   "producto": "Ramo de Novia Peonías",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-novia-rosas-blanco-l": {
+   "producto": "Ramo de Novia Rosas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-novia-tulipanes-blanco-l": {
+   "producto": "Ramo de Novia Tulipanes",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-pampa-seca-beige-l": {
+   "producto": "Ramo de Pampa Seca",
+   "color": "Beige",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "8c0a88f2"
+  },
+  "ramo-de-peonias-blanco-s": {
+   "producto": "Ramo de Peonías",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-peonias-blanco-m": {
+   "producto": "Ramo de Peonías",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-peonias-blanco-l": {
+   "producto": "Ramo de Peonías",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-peonias-coral-s": {
+   "producto": "Ramo de Peonías",
+   "color": "Coral",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "ca429dcd"
+  },
+  "ramo-de-peonias-coral-m": {
+   "producto": "Ramo de Peonías",
+   "color": "Coral",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "ca429dcd"
+  },
+  "ramo-de-peonias-coral-l": {
+   "producto": "Ramo de Peonías",
+   "color": "Coral",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "ca429dcd"
+  },
+  "ramo-de-peonias-rosa-s": {
+   "producto": "Ramo de Peonías",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "final",
+   "v": "dcca14a2"
+  },
+  "ramo-de-peonias-rosa-m": {
+   "producto": "Ramo de Peonías",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "final",
+   "v": "37c6ef50"
+  },
+  "ramo-de-peonias-rosa-l": {
+   "producto": "Ramo de Peonías",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "final",
+   "v": "ec01b820"
+  },
+  "ramo-de-ranunculos-amarillo-s": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-ranunculos-amarillo-m": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-ranunculos-amarillo-l": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-ranunculos-blanco-s": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-ranunculos-blanco-m": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-ranunculos-blanco-l": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-ranunculos-rojo-s": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-ranunculos-rojo-m": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-ranunculos-rojo-l": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-ranunculos-rosa-s": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-ranunculos-rosa-m": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-ranunculos-rosa-l": {
+   "producto": "Ramo de Ranúnculos",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-rosas-amarillo-s": {
+   "producto": "Ramo de Rosas",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-rosas-amarillo-m": {
+   "producto": "Ramo de Rosas",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-rosas-amarillo-l": {
+   "producto": "Ramo de Rosas",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-rosas-blanco-s": {
+   "producto": "Ramo de Rosas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-rosas-blanco-m": {
+   "producto": "Ramo de Rosas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "provisional",
+   "v": "d8d2aa88"
+  },
+  "ramo-de-rosas-blanco-l": {
+   "producto": "Ramo de Rosas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-rosas-morado-s": {
+   "producto": "Ramo de Rosas",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-rosas-morado-m": {
+   "producto": "Ramo de Rosas",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-rosas-morado-l": {
+   "producto": "Ramo de Rosas",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-rosas-naranja-s": {
+   "producto": "Ramo de Rosas",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-rosas-naranja-m": {
+   "producto": "Ramo de Rosas",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-rosas-naranja-l": {
+   "producto": "Ramo de Rosas",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-rosas-rojo-s": {
+   "producto": "Ramo de Rosas",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "provisional",
+   "v": "4930f9e4"
+  },
+  "ramo-de-rosas-rojo-m": {
+   "producto": "Ramo de Rosas",
    "color": "Rojo",
    "talla": "M",
    "estado": "final",
-   "v": "99525426"
+   "v": "1fa811bc"
   },
-  "orquidea-phalaenopsis-blanco-m": {
-   "producto": "Orquídea Phalaenopsis",
+  "ramo-de-rosas-rojo-l": {
+   "producto": "Ramo de Rosas",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "final",
+   "v": "1068bac6"
+  },
+  "ramo-de-rosas-rosa-s": {
+   "producto": "Ramo de Rosas",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-rosas-rosa-m": {
+   "producto": "Ramo de Rosas",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-rosas-rosa-l": {
+   "producto": "Ramo de Rosas",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-tulipanes-amarillo-s": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-tulipanes-amarillo-m": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-tulipanes-amarillo-l": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-tulipanes-blanco-s": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-tulipanes-blanco-m": {
+   "producto": "Ramo de Tulipanes",
    "color": "Blanco",
    "talla": "M",
-   "estado": "final",
-   "v": "012544d9"
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-tulipanes-blanco-l": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-tulipanes-multicolor-s": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-tulipanes-multicolor-m": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-tulipanes-multicolor-l": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-tulipanes-morado-s": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-tulipanes-morado-m": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-tulipanes-morado-l": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-tulipanes-rojo-s": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-tulipanes-rojo-m": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-tulipanes-rojo-l": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-tulipanes-rosa-s": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-tulipanes-rosa-m": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-tulipanes-rosa-l": {
+   "producto": "Ramo de Tulipanes",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "romero-maceta-verde-s": {
+   "producto": "Romero Maceta",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "rosa-eterna-cupula-cristal-rojo-m": {
+   "producto": "Rosa Eterna Cúpula Cristal",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "rosa-trepadora-roja-rojo-l": {
+   "producto": "Rosa Trepadora Roja",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "sansevieria-lengua-suegra-verde-m": {
+   "producto": "Sansevieria (Lengua Suegra)",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "sedum-burrito-verde-s": {
+   "producto": "Sedum Burrito",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "spathiphyllum-cuna-moises-verde-m": {
+   "producto": "Spathiphyllum (Cuna Moisés)",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "terrario-cactus-redondo-verde-s": {
+   "producto": "Terrario Cactus Redondo",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "terrario-geometrico-premium-verde-l": {
+   "producto": "Terrario Geométrico Premium",
+   "color": "Verde",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "terrario-suculentas-geometrico-verde-s": {
+   "producto": "Terrario Suculentas Geométrico",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "tomillo-limon-maceta-verde-s": {
+   "producto": "Tomillo Limón Maceta",
+   "color": "Verde",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "zamioculca-verde-m": {
+   "producto": "Zamioculca",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "arbol-de-jade-verde-m": {
+   "producto": "Árbol de Jade",
+   "color": "Verde",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "e36d5f84"
+  },
+  "ramo-de-lisianthus-blanco-s": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lisianthus-blanco-m": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lisianthus-blanco-l": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lisianthus-rosa-s": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lisianthus-rosa-m": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lisianthus-rosa-l": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lisianthus-morado-s": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-lisianthus-morado-m": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-lisianthus-morado-l": {
+   "producto": "Ramo de Lisianthus",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-lilas-lila-s": {
+   "producto": "Ramo de Lilas",
+   "color": "Lila",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "009359b5"
+  },
+  "ramo-de-lilas-lila-m": {
+   "producto": "Ramo de Lilas",
+   "color": "Lila",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "009359b5"
+  },
+  "ramo-de-lilas-lila-l": {
+   "producto": "Ramo de Lilas",
+   "color": "Lila",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "009359b5"
+  },
+  "ramo-de-lilas-blanco-s": {
+   "producto": "Ramo de Lilas",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lilas-blanco-m": {
+   "producto": "Ramo de Lilas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lilas-blanco-l": {
+   "producto": "Ramo de Lilas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-lilas-rosa-s": {
+   "producto": "Ramo de Lilas",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lilas-rosa-m": {
+   "producto": "Ramo de Lilas",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-lilas-rosa-l": {
+   "producto": "Ramo de Lilas",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-alheli-blanco-s": {
+   "producto": "Ramo de Alhelí",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-alheli-blanco-m": {
+   "producto": "Ramo de Alhelí",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-alheli-blanco-l": {
+   "producto": "Ramo de Alhelí",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-alheli-rosa-s": {
+   "producto": "Ramo de Alhelí",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-alheli-rosa-m": {
+   "producto": "Ramo de Alhelí",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-alheli-rosa-l": {
+   "producto": "Ramo de Alhelí",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-alheli-morado-s": {
+   "producto": "Ramo de Alhelí",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-alheli-morado-m": {
+   "producto": "Ramo de Alhelí",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-alheli-morado-l": {
+   "producto": "Ramo de Alhelí",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-alheli-rojo-s": {
+   "producto": "Ramo de Alhelí",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-alheli-rojo-m": {
+   "producto": "Ramo de Alhelí",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-alheli-rojo-l": {
+   "producto": "Ramo de Alhelí",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-guisantes-de-olor-rosa-s": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-guisantes-de-olor-rosa-m": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-guisantes-de-olor-rosa-l": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-guisantes-de-olor-morado-s": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-guisantes-de-olor-morado-m": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-guisantes-de-olor-morado-l": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-guisantes-de-olor-blanco-s": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-guisantes-de-olor-blanco-m": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-guisantes-de-olor-blanco-l": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-guisantes-de-olor-coral-s": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Coral",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "ca429dcd"
+  },
+  "ramo-de-guisantes-de-olor-coral-m": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Coral",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "ca429dcd"
+  },
+  "ramo-de-guisantes-de-olor-coral-l": {
+   "producto": "Ramo de Guisantes de Olor",
+   "color": "Coral",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "ca429dcd"
+  },
+  "ramo-de-snapdragon-blanco-s": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-snapdragon-blanco-m": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-snapdragon-blanco-l": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-snapdragon-rosa-s": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-snapdragon-rosa-m": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-snapdragon-rosa-l": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-snapdragon-amarillo-s": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Amarillo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-snapdragon-amarillo-m": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-snapdragon-amarillo-l": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "ramo-de-snapdragon-rojo-s": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-snapdragon-rojo-m": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-snapdragon-rojo-l": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-snapdragon-multicolor-s": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-snapdragon-multicolor-m": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-snapdragon-multicolor-l": {
+   "producto": "Ramo de Snapdragon",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-narcisos-blanco-s": {
+   "producto": "Ramo de Narcisos",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-narcisos-blanco-m": {
+   "producto": "Ramo de Narcisos",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-narcisos-blanco-l": {
+   "producto": "Ramo de Narcisos",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-narcisos-naranja-s": {
+   "producto": "Ramo de Narcisos",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-narcisos-naranja-m": {
+   "producto": "Ramo de Narcisos",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-narcisos-naranja-l": {
+   "producto": "Ramo de Narcisos",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-narcisos-multicolor-s": {
+   "producto": "Ramo de Narcisos",
+   "color": "Multicolor",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-narcisos-multicolor-m": {
+   "producto": "Ramo de Narcisos",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-narcisos-multicolor-l": {
+   "producto": "Ramo de Narcisos",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "ramo-de-jacintos-rosa-s": {
+   "producto": "Ramo de Jacintos",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-jacintos-rosa-m": {
+   "producto": "Ramo de Jacintos",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-jacintos-rosa-l": {
+   "producto": "Ramo de Jacintos",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-jacintos-azul-s": {
+   "producto": "Ramo de Jacintos",
+   "color": "Azul",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-jacintos-azul-m": {
+   "producto": "Ramo de Jacintos",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-jacintos-azul-l": {
+   "producto": "Ramo de Jacintos",
+   "color": "Azul",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-jacintos-blanco-s": {
+   "producto": "Ramo de Jacintos",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-jacintos-blanco-m": {
+   "producto": "Ramo de Jacintos",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-jacintos-blanco-l": {
+   "producto": "Ramo de Jacintos",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-jacintos-morado-s": {
+   "producto": "Ramo de Jacintos",
+   "color": "Morado",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-jacintos-morado-m": {
+   "producto": "Ramo de Jacintos",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-jacintos-morado-l": {
+   "producto": "Ramo de Jacintos",
+   "color": "Morado",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "ramo-de-muscari-intenso-azul-s": {
+   "producto": "Ramo de Muscari Intenso",
+   "color": "Azul",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-muscari-intenso-azul-m": {
+   "producto": "Ramo de Muscari Intenso",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-muscari-intenso-azul-l": {
+   "producto": "Ramo de Muscari Intenso",
+   "color": "Azul",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-muscari-blanco-s": {
+   "producto": "Ramo de Muscari",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-muscari-blanco-m": {
+   "producto": "Ramo de Muscari",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-muscari-blanco-l": {
+   "producto": "Ramo de Muscari",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-muscari-azul-claro-s": {
+   "producto": "Ramo de Muscari",
+   "color": "Azul Claro",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-muscari-azul-claro-m": {
+   "producto": "Ramo de Muscari",
+   "color": "Azul Claro",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-muscari-azul-claro-l": {
+   "producto": "Ramo de Muscari",
+   "color": "Azul Claro",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-amarilis-rojo-s": {
+   "producto": "Ramo de Amarilis",
+   "color": "Rojo",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-amarilis-rojo-m": {
+   "producto": "Ramo de Amarilis",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-amarilis-rojo-l": {
+   "producto": "Ramo de Amarilis",
+   "color": "Rojo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ramo-de-amarilis-blanco-s": {
+   "producto": "Ramo de Amarilis",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-amarilis-blanco-m": {
+   "producto": "Ramo de Amarilis",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-amarilis-blanco-l": {
+   "producto": "Ramo de Amarilis",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-amarilis-rosa-s": {
+   "producto": "Ramo de Amarilis",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-amarilis-rosa-m": {
+   "producto": "Ramo de Amarilis",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-amarilis-rosa-l": {
+   "producto": "Ramo de Amarilis",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-amarilis-naranja-s": {
+   "producto": "Ramo de Amarilis",
+   "color": "Naranja",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-amarilis-naranja-m": {
+   "producto": "Ramo de Amarilis",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-amarilis-naranja-l": {
+   "producto": "Ramo de Amarilis",
+   "color": "Naranja",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ramo-de-nomeolvides-azul-s": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Azul",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-nomeolvides-azul-m": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-nomeolvides-azul-l": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Azul",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "ramo-de-nomeolvides-blanco-s": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Blanco",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-nomeolvides-blanco-m": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-nomeolvides-blanco-l": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "ramo-de-nomeolvides-rosa-s": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Rosa",
+   "talla": "S",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-nomeolvides-rosa-m": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ramo-de-nomeolvides-rosa-l": {
+   "producto": "Ramo de Nomeolvides",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "gardenia-maceta-blanco-m": {
+   "producto": "Gardenia Maceta",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "azalea-maceta-rosa-m": {
+   "producto": "Azalea Maceta",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "azalea-maceta-rojo-m": {
+   "producto": "Azalea Maceta",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "azalea-maceta-blanco-m": {
+   "producto": "Azalea Maceta",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "camelia-maceta-rosa-m": {
+   "producto": "Camelia Maceta",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "camelia-maceta-rojo-m": {
+   "producto": "Camelia Maceta",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "camelia-maceta-blanco-m": {
+   "producto": "Camelia Maceta",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "hibisco-maceta-rosa-m": {
+   "producto": "Hibisco Maceta",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "hibisco-maceta-rojo-m": {
+   "producto": "Hibisco Maceta",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "hibisco-maceta-amarillo-m": {
+   "producto": "Hibisco Maceta",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "hibisco-maceta-blanco-m": {
+   "producto": "Hibisco Maceta",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "hibisco-maceta-naranja-m": {
+   "producto": "Hibisco Maceta",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "ciclamen-maceta-rosa-m": {
+   "producto": "Ciclamen Maceta",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "ciclamen-maceta-rojo-m": {
+   "producto": "Ciclamen Maceta",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "ciclamen-maceta-blanco-m": {
+   "producto": "Ciclamen Maceta",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "violeta-africana-morado-m": {
+   "producto": "Violeta Africana",
+   "color": "Morado",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "5ce69de8"
+  },
+  "violeta-africana-rosa-m": {
+   "producto": "Violeta Africana",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "violeta-africana-blanco-m": {
+   "producto": "Violeta Africana",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "violeta-africana-azul-m": {
+   "producto": "Violeta Africana",
+   "color": "Azul",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "018ea3de"
+  },
+  "kalanchoe-maceta-rojo-m": {
+   "producto": "Kalanchoe Maceta",
+   "color": "Rojo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "9c77ab69"
+  },
+  "kalanchoe-maceta-rosa-m": {
+   "producto": "Kalanchoe Maceta",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "kalanchoe-maceta-amarillo-m": {
+   "producto": "Kalanchoe Maceta",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "kalanchoe-maceta-naranja-m": {
+   "producto": "Kalanchoe Maceta",
+   "color": "Naranja",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "29d87eb2"
+  },
+  "kalanchoe-maceta-blanco-m": {
+   "producto": "Kalanchoe Maceta",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-crisantemos-blanco-m": {
+   "producto": "Corona Fúnebre Crisantemos",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-crisantemos-blanco-l": {
+   "producto": "Corona Fúnebre Crisantemos",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-crisantemos-amarillo-m": {
+   "producto": "Corona Fúnebre Crisantemos",
+   "color": "Amarillo",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "corona-funebre-crisantemos-amarillo-l": {
+   "producto": "Corona Fúnebre Crisantemos",
+   "color": "Amarillo",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "b390e108"
+  },
+  "corona-funebre-crisantemos-multicolor-m": {
+   "producto": "Corona Fúnebre Crisantemos",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-crisantemos-multicolor-l": {
+   "producto": "Corona Fúnebre Crisantemos",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-gladiolos-blanco-m": {
+   "producto": "Corona Fúnebre Gladiolos",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-gladiolos-blanco-l": {
+   "producto": "Corona Fúnebre Gladiolos",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-gladiolos-rosa-m": {
+   "producto": "Corona Fúnebre Gladiolos",
+   "color": "Rosa",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "corona-funebre-gladiolos-rosa-l": {
+   "producto": "Corona Fúnebre Gladiolos",
+   "color": "Rosa",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "488ad21e"
+  },
+  "corona-funebre-gladiolos-multicolor-m": {
+   "producto": "Corona Fúnebre Gladiolos",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-gladiolos-multicolor-l": {
+   "producto": "Corona Fúnebre Gladiolos",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-gerberas-blanco-m": {
+   "producto": "Corona Fúnebre Gerberas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-gerberas-blanco-l": {
+   "producto": "Corona Fúnebre Gerberas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-gerberas-multicolor-m": {
+   "producto": "Corona Fúnebre Gerberas",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-gerberas-multicolor-l": {
+   "producto": "Corona Fúnebre Gerberas",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-margaritas-blanco-m": {
+   "producto": "Corona Fúnebre Margaritas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-margaritas-blanco-l": {
+   "producto": "Corona Fúnebre Margaritas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
   },
   "corona-funebre-rosas-y-crisantemos-multicolor-m": {
    "producto": "Corona Fúnebre Rosas y Crisantemos",
@@ -218,19 +3684,68 @@
    "estado": "final",
    "v": "2a44f048"
   },
-  "centro-de-mesa-rosas-y-eucalipto-rosa-y-verde-s": {
-   "producto": "Centro de Mesa Rosas y Eucalipto",
-   "color": "Rosa y Verde",
-   "talla": "S",
-   "estado": "provisional",
-   "v": "e17f4b2c"
-  },
-  "centro-de-mesa-rosas-y-eucalipto-rosa-y-verde-m": {
-   "producto": "Centro de Mesa Rosas y Eucalipto",
-   "color": "Rosa y Verde",
+  "corona-funebre-lirios-y-claveles-blanco-m": {
+   "producto": "Corona Fúnebre Lirios y Claveles",
+   "color": "Blanco",
    "talla": "M",
-   "estado": "final",
-   "v": "fa342ae2"
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-lirios-y-claveles-blanco-l": {
+   "producto": "Corona Fúnebre Lirios y Claveles",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-gladiolos-y-rosas-multicolor-m": {
+   "producto": "Corona Fúnebre Gladiolos y Rosas",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-gladiolos-y-rosas-multicolor-l": {
+   "producto": "Corona Fúnebre Gladiolos y Rosas",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-claveles-y-margaritas-blanco-m": {
+   "producto": "Corona Fúnebre Claveles y Margaritas",
+   "color": "Blanco",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-claveles-y-margaritas-blanco-l": {
+   "producto": "Corona Fúnebre Claveles y Margaritas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
+  },
+  "corona-funebre-tradicional-multicolor-m": {
+   "producto": "Corona Fúnebre Tradicional",
+   "color": "Multicolor",
+   "talla": "M",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-tradicional-multicolor-l": {
+   "producto": "Corona Fúnebre Tradicional",
+   "color": "Multicolor",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "01304eb3"
+  },
+  "corona-funebre-premium-flores-blancas-blanco-l": {
+   "producto": "Corona Fúnebre Premium Flores Blancas",
+   "color": "Blanco",
+   "talla": "L",
+   "estado": "sin foto",
+   "v": "6765b0ca"
   }
  }
 }

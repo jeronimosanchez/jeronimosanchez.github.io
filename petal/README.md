@@ -1,7 +1,7 @@
 # Fotos y fichas de Petal
 
-Las fotos del catálogo de Petal, con un enlace fijo por variante (producto × color × talla), y la
-descripción de cada producto.
+Las fotos del catálogo de Petal, con un enlace fijo para cada una de las variantes del Inventario
+(producto × color × talla), y la descripción de cada producto.
 
 ## El enlace
 
@@ -11,16 +11,19 @@ descripción de cada producto.
 `<nombre>` sale de la fila del Excel: producto, color y talla, en minúsculas, sin tildes y con
 guiones. «Ramo de Peonías · Rosa · M» → `ramo-de-peonias-rosa-m`.
 
+Todas las variantes tienen su enlace. Las que aún no tienen foto enseñan el hueco del sistema de
+diseño: una flor con el tono de su color.
+
 ## Cambiar una foto
 
 Se sube otra con el mismo nombre. El enlace no cambia y la nueva se ve en 10 minutos como mucho.
-Si una variante todavía no tiene foto, el chat enseña el hueco con la flor.
 
 ## Los archivos de datos
 
 - `fichas.json`: lo que lee el chat. La descripción de cada producto (una por producto: vale para
-  todas sus tallas y colores), lo que incluye cada tipo de producto y la lista de fotos con su
-  versión. La versión cambia cuando cambia la foto.
+  todas sus tallas y colores) y la lista de variantes con su estado (final, provisional o sin
+  foto) y su versión, que cambia cuando cambia la foto. En la descripción, `{n}` es el número de
+  flores de la fila del Excel: lo pone el chat.
 - `fotos.csv` y `fichas.csv`: lo mismo en tabla, para la pestaña «Catálogo visual» del Excel.
 
 No se editan a mano: los genera `tools/fotos/publicar_web.py`, en el repositorio de diseño de Petal V2.
