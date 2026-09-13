@@ -1,62 +1,51 @@
 {
  "base": "https://jeronimosanchez.github.io/petal/",
  "tipos": {
-  "ramo": {
+  "Ramo": {
    "incluye": ""
   },
-  "planta": {
+  "Planta en Maceta": {
    "incluye": ""
   },
-  "corona": {
+  "Corona Fúnebre": {
    "incluye": ""
   },
-  "centro": {
+  "Centro de Mesa": {
    "incluye": ""
   }
  },
  "productos": {
   "Ramo de Rosas": {
-   "tipo": "ramo",
    "descripcion": ""
   },
   "Ramo de Peonías": {
-   "tipo": "ramo",
    "descripcion": ""
   },
   "Ramo de Claveles": {
-   "tipo": "ramo",
    "descripcion": ""
   },
   "Ramo de Girasoles": {
-   "tipo": "ramo",
    "descripcion": ""
   },
   "Ramo de Gerberas": {
-   "tipo": "ramo",
    "descripcion": ""
   },
   "Ramo de Margaritas": {
-   "tipo": "ramo",
    "descripcion": ""
   },
   "Ramo Primavera Tulipanes Mix": {
-   "tipo": "ramo",
    "descripcion": ""
   },
-  "Geranio en Maceta": {
-   "tipo": "planta",
+  "Geranio Maceta": {
    "descripcion": ""
   },
   "Orquídea Phalaenopsis": {
-   "tipo": "planta",
    "descripcion": ""
   },
   "Corona Fúnebre Rosas y Crisantemos": {
-   "tipo": "corona",
    "descripcion": ""
   },
   "Centro de Mesa Rosas y Eucalipto": {
-   "tipo": "centro",
    "descripcion": ""
   }
  },
@@ -65,7 +54,7 @@
    "producto": "Ramo de Rosas",
    "color": "Rojo",
    "talla": "S",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "4930f9e4"
   },
   "ramo-de-rosas-rojo-m": {
@@ -114,14 +103,14 @@
    "producto": "Ramo de Claveles",
    "color": "Rojo",
    "talla": "S",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "75ed1efc"
   },
   "ramo-de-claveles-rojo-m": {
    "producto": "Ramo de Claveles",
    "color": "Rojo",
    "talla": "M",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "a663dd9f"
   },
   "ramo-de-claveles-rojo-l": {
@@ -135,21 +124,21 @@
    "producto": "Ramo de Girasoles",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "6e2324b6"
   },
   "ramo-de-girasoles-amarillo-m": {
    "producto": "Ramo de Girasoles",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "66b3cd3e"
   },
   "ramo-de-girasoles-amarillo-l": {
    "producto": "Ramo de Girasoles",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "82a81610"
   },
   "ramo-de-gerberas-naranja-s": {
@@ -163,21 +152,21 @@
    "producto": "Ramo de Gerberas",
    "color": "Naranja",
    "talla": "M",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "bb1fad87"
   },
   "ramo-de-gerberas-naranja-l": {
    "producto": "Ramo de Gerberas",
    "color": "Naranja",
    "talla": "L",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "f63b174a"
   },
   "ramo-de-margaritas-blanco-s": {
    "producto": "Ramo de Margaritas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "5325c5f4"
   },
   "ramo-de-margaritas-blanco-m": {
@@ -191,18 +180,18 @@
    "producto": "Ramo de Margaritas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "294018fb"
   },
   "ramo-primavera-tulipanes-mix-multicolor-m": {
    "producto": "Ramo Primavera Tulipanes Mix",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "6d46d6ed"
   },
-  "geranio-en-maceta-rojo-m": {
-   "producto": "Geranio en Maceta",
+  "geranio-maceta-rojo-m": {
+   "producto": "Geranio Maceta",
    "color": "Rojo",
    "talla": "M",
    "estado": "final",
@@ -233,7 +222,7 @@
    "producto": "Centro de Mesa Rosas y Eucalipto",
    "color": "Rosa y Verde",
    "talla": "S",
-   "estado": "prueba",
+   "estado": "provisional",
    "v": "e17f4b2c"
   },
   "centro-de-mesa-rosas-y-eucalipto-rosa-y-verde-m": {
