@@ -1,6 +1,758 @@
 {
  "base": "https://jeronimosanchez.github.io/petal/",
  "productos": {
+  "Albahaca Genovesa Maceta": {
+   "tallas": {
+    "S": "Mata compacta de albahaca genovesa, con hojas anchas, tiernas y ligeramente abombadas que desprenden su aroma al rozarlas. Trae a la cocina el olor de la huerta y ganas de cocinar despacio."
+   }
+  },
+  "Aloe Vera Mini": {
+   "tallas": {
+    "S": "Aloe compacto de hojas carnosas y puntiagudas, con bordes dentados y motas claras, que crecen en roseta. Una presencia tranquila y resistente que acompaña en cualquier rincón con luz."
+   }
+  },
+  "Anthurium": {
+   "tallas": {
+    "Único": "Flor de anthurium de espata brillante en forma de corazón, con el espádice erguido en el centro. Tiene un aire escultórico que atrae la mirada allí donde se coloca."
+   }
+  },
+  "Arco Floral Boda Girasoles y Margaritas": {
+   "tallas": {
+    "XL": "{n} flores entre girasoles y margaritas que trepan por el arco en guirnalda abierta, con los girasoles marcando el ritmo. Enmarca el momento con alegría de campo y luz de verano."
+   }
+  },
+  "Arco Floral Boda Rosas y Eucalipto": {
+   "tallas": {
+    "XL": "{n} rosas entrelazadas con ramas de eucalipto, que recorren el arco y caen suavemente por los laterales. Un marco romántico y fresco bajo el que todo parece más íntimo."
+   }
+  },
+  "Arreglo Condolencias Lujo": {
+   "tallas": {
+    "L": "{n} flores entre lirios, rosas y crisantemos, compuestas en un arreglo amplio y equilibrado con follaje de acompañamiento. Expresa cercanía y respeto con la calma de lo bien cuidado."
+   }
+  },
+  "Arreglo Floral": {
+   "tallas": {
+    "M": "{n} flores entre gerberas, margaritas y rosas, agrupadas en un arreglo bajo y redondeado entre hojas. Da vida a una mesa o un mostrador con aire fresco y ordenado."
+   }
+  },
+  "Arreglo Floral Eventos": {
+   "tallas": {
+    "S": "{n} flores entre girasoles, margaritas y espigas de lavanda, mezcladas con soltura en un arreglo recogido y sencillo. Un toque de buen humor que alegra una mesa o un mostrador.",
+    "M": "{n} flores entre girasoles, margaritas y espigas de lavanda, mezcladas con soltura en un arreglo lleno de textura. Contagia buen humor y hace que cualquier espacio se sienta acogedor.",
+    "L": "{n} flores entre girasoles, margaritas y espigas de lavanda forman un arreglo amplio y abundante, lleno de movimiento. Un despliegue de alegría que recibe con buen humor a todo el que entra."
+   }
+  },
+  "Arreglo Orquídeas": {
+   "tallas": {
+    "S": "{n} tallos de orquídea con sus flores alineadas en arco, reunidos en un arreglo sencillo entre hojas anchas y brillantes. Un detalle refinado que aporta calma a cualquier rincón.",
+    "M": "{n} tallos de orquídea con sus flores alineadas en arco, dispuestos en un arreglo sobrio con hojas anchas y brillantes. Aporta una calma refinada que eleva el ambiente sin hacer ruido.",
+    "L": "{n} tallos de orquídea con sus flores alineadas en arco forman un arreglo amplio y escalonado entre hojas anchas y brillantes. Una presencia elegante que preside cualquier espacio."
+   }
+  },
+  "Arreglo Peonías": {
+   "tallas": {
+    "S": "{n} peonías de pétalo rizado, entre botones y flores abiertas, reunidas en un arreglo recogido y mullido. Un detalle tierno que llena de suavidad una mesa o una estantería.",
+    "M": "{n} peonías de pétalo rizado, entre botones y flores abiertas, reunidas en un arreglo mullido y generoso. Transmite una ternura abundante que se nota a primera vista.",
+    "L": "{n} peonías de pétalo rizado, entre botones y flores abiertas, forman un arreglo amplio que parece desbordarse. Un gran gesto de ternura, de los que llenan una habitación entera."
+   }
+  },
+  "Arreglo Primavera Flores Silvestres": {
+   "tallas": {
+    "S": "{n} flores entre margaritas, ranúnculos y nomeolvides, dispuestas con aire suelto, como recién cogidas de un prado. Trae la frescura de una mañana al aire libre a cualquier rincón de casa."
+   }
+  },
+  "Arreglo Tropical Anthurium": {
+   "tallas": {
+    "M": "{n} tallos de anthurium de espata lacada, acompañados de hojas tropicales anchas en una composición limpia y geométrica. Tiene un punto exótico y apasionado que no pasa desapercibido."
+   }
+  },
+  "Arreglo Verano Lavanda Provenzal": {
+   "tallas": {
+    "S": "{n} espigas de lavanda secada al natural, finas y apretadas, reunidas en un arreglo compacto de estilo provenzal. Deja en casa un aroma suave y una sensación de campo tranquilo."
+   }
+  },
+  "Aspidistra": {
+   "tallas": {
+    "L": "Aspidistra de hojas largas, lanceoladas y brillantes que brotan del sustrato formando una mata densa y erguida. Una planta noble y sufrida que da un toque clásico a cualquier estancia."
+   }
+  },
+  "Begonia Maculata": {
+   "tallas": {
+    "M": "Begonia de hojas alargadas en forma de ala, salpicadas de lunares, sobre tallos articulados como pequeñas cañas. Tiene un encanto gráfico y un punto divertido que alegra cualquier estantería."
+   }
+  },
+  "Bonsái Acer Palmatum": {
+   "tallas": {
+    "L": "Arce japonés en formato bonsái, con tronco fino y ramificado y hojas palmeadas y lobuladas, delicadas como pequeñas manos. Invita a pararse y observar cómo cambia con cada estación."
+   }
+  },
+  "Bonsái Ficus Retusa": {
+   "tallas": {
+    "L": "Ficus retusa modelado como árbol en miniatura, de tronco grueso y sinuoso y copa densa de hojitas brillantes. Transmite paciencia y el gusto de cuidar algo que crece despacio."
+   }
+  },
+  "Bonsái Olmo Chino": {
+   "tallas": {
+    "L": "Olmo chino formado como bonsái, de corteza jaspeada, ramas finas bien estructuradas y una copa ligera de hojas menudas y dentadas. Evoca la calma de un jardín oriental en un solo vistazo."
+   }
+  },
+  "Bouquet de Novia Vintage": {
+   "tallas": {
+    "L": "{n} flores entre rosas, peonías y lisianthus, reunidas en un bouquet de aire antiguo, con pétalos suaves y un contorno algo desordenado. Tiene la delicadeza de un recuerdo guardado con cariño."
+   }
+  },
+  "Boutonniere Claveles": {
+   "tallas": {
+    "Único": "{n} claveles pequeños de pétalo festoneado, atados en un prendido discreto con una hojita de acompañamiento. Un detalle sencillo que completa el traje con naturalidad y buen gusto."
+   }
+  },
+  "Boutonniere Rosas": {
+   "tallas": {
+    "Único": "{n} rosas en botón, pequeñas y cerradas, recogidas con una hoja en un prendido fino y equilibrado. Aporta un punto romántico y cuidado que se nota en cada foto."
+   }
+  },
+  "Buganvilla Maceta": {
+   "tallas": {
+    "L": "Buganvilla de ramas flexibles cubiertas de brácteas finas y translúcidas que rodean sus diminutas flores. Trae un aire mediterráneo, de patio encalado y tardes largas al sol."
+   }
+  },
+  "Cactus Echinocactus": {
+   "tallas": {
+    "M": "Cactus de forma esférica y costillas marcadas, cubiertas de espinas que dibujan un patrón ordenado sobre su cuerpo. Una presencia rotunda y serena que da carácter a cualquier estante."
+   }
+  },
+  "Cactus Opuntia": {
+   "tallas": {
+    "M": "Opuntia de palas planas y ovaladas que brotan unas de otras, salpicadas de pequeñas areolas con espinas finas. Tiene un aire desenfadado y resistente, con el encanto del paisaje seco."
+   }
+  },
+  "Caja Rosas Preservadas Deluxe": {
+   "tallas": {
+    "L": "{n} rosas de pétalo aterciopelado, tratadas para mantenerse tersas, colocadas cabeza con cabeza dentro de la caja. Un gesto romántico y rotundo, de los que se quedan a la vista."
+   }
+  },
+  "Calathea Medallion": {
+   "tallas": {
+    "M": "Calathea de hojas redondeadas con dibujos en forma de pluma, que se pliegan hacia arriba al caer la tarde. Su movimiento diario tiene algo hipnótico que llena de vida el salón."
+   }
+  },
+  "Centro Funerario Vertical": {
+   "tallas": {
+    "L": "{n} flores entre lirios, gladiolos y crisantemos, compuestas en altura, con las espigas de gladiolo guiando la línea. Acompaña con discreción y dignidad en un momento de recogimiento."
+   }
+  },
+  "Centro Invierno Ramas Nevadas": {
+   "tallas": {
+    "S": "{n} piezas entre ramas de pino, eucalipto y bayas con un toque escarchado, en materiales artificiales de aspecto natural. Crea en casa la quietud de un paisaje de invierno recién nevado."
+   }
+  },
+  "Centro Navidad Pino Natural": {
+   "tallas": {
+    "M": "{n} ramas de pino natural, frescas y aromáticas, agrupadas en un centro bajo y tupido de aire invernal. Llena la casa de olor a bosque y de ganas de reunirse."
+   }
+  },
+  "Centro Otoño Calabaza": {
+   "tallas": {
+    "M": "{n} flores entre crisantemos y bayas, con ramas de eucalipto, reunidas en torno a una calabaza decorativa. Trae la calidez de las tardes de otoño y el gusto por recogerse en casa."
+   }
+  },
+  "Centro de Mesa Boda Eucalipto": {
+   "tallas": {
+    "S": "{n} tallos entre eucalipto de hoja redonda y flores sueltas, dispuestos bajos en un centro recogido y ligero. Aporta frescura natural y deja que la conversación fluya sin obstáculos.",
+    "M": "{n} tallos entre eucalipto de hoja redonda y flores sueltas, extendidos bajos y abundantes a lo largo de la mesa. Viste la celebración de frescura natural e invita a conversar sin prisa."
+   }
+  },
+  "Centro de Mesa Boda Hortensias": {
+   "tallas": {
+    "S": "{n} hortensias de cabeza redonda y pétalos menudos, agrupadas en un centro bajo, compacto y recogido. Aporta un toque acogedor y luminoso sin quitar sitio ni vista a los invitados.",
+    "M": "{n} hortensias de cabeza redonda y pétalos menudos, reunidas en un centro bajo, amplio y mullido. Crea un ambiente acogedor y luminoso que hace de la mesa un lugar para quedarse."
+   }
+  },
+  "Centro de Mesa Boda Peonías": {
+   "tallas": {
+    "S": "{n} peonías de pétalos llenos, entre botones redondos y flores abiertas, compuestas en un centro bajo y recogido. Pone una nota romántica y un perfume suave en cada mesa.",
+    "M": "{n} peonías de pétalos llenos, entre botones redondos y flores abiertas, forman un centro bajo, amplio y abundante. Llena la mesa de romanticismo y de un perfume suave durante toda la velada."
+   }
+  },
+  "Centro de Mesa Boda Rosas": {
+   "tallas": {
+    "S": "{n} rosas de cabeza abierta, recortadas a poca altura y apretadas en un centro redondo y recogido. Una armonía clásica y discreta que hace sentir a cada invitado bien recibido.",
+    "M": "{n} rosas de cabeza abierta, recortadas a poca altura, forman un centro amplio y lleno que deja ver cada pétalo. Aporta una armonía clásica y generosa que viste la mesa de fiesta."
+   }
+  },
+  "Centro de Mesa Navideño": {
+   "tallas": {
+    "M": "{n} piezas entre ramas de pino, poinsetias y bayas, recreadas en materiales artificiales con mucho detalle. Viste la mesa con un aire festivo, cálido y familiar."
+   }
+  },
+  "Centro de Mesa Orquídeas": {
+   "tallas": {
+    "S": "{n} tallos de orquídea con las flores escalonadas en arco, dispuestos en un centro bajo y recogido de líneas limpias. Transmite serenidad con una sobriedad que encaja en cualquier momento.",
+    "M": "{n} tallos de orquídea con las flores escalonadas en arco forman un centro amplio y equilibrado de líneas limpias. Una presencia elegante y serena que da carácter a la mesa sin recargarla."
+   }
+  },
+  "Centro de Mesa Rosas y Eucalipto": {
+   "tallas": {
+    "S": "{n} rosas abiertas entre ramas de eucalipto de hoja redonda, en un centro bajo y recogido de contorno natural. Un toque romántico y fresco que alegra la mesa del día a día.",
+    "M": "{n} rosas abiertas entre ramas de eucalipto de hoja redonda forman un centro bajo, amplio y de contorno suelto. Mezcla romanticismo y frescura con un aire cuidado que invita a quedarse."
+   }
+  },
+  "Centro de Mesa Tulipanes": {
+   "tallas": {
+    "S": "{n} tulipanes de copa lisa y tallo flexible, agrupados en un centro bajo donde cada flor se inclina a su aire. Tiene una alegría sencilla y fresca que despierta la casa."
+   }
+  },
+  "Cesta Primavera Jacintos Aromáticos": {
+   "tallas": {
+    "M": "{n} jacintos de espiga compacta, cuajados de florecillas estrelladas, reunidos en una cesta de mimbre. Su perfume intenso llena la habitación y anuncia que llega el buen tiempo."
+   }
+  },
+  "Cesta Verano Margaritas Campo": {
+   "tallas": {
+    "S": "{n} margaritas de campo, de pétalo fino y botón central marcado, sueltas en una cesta como recién recogidas. Huele a verano, a paseo por el campo y a tardes sin reloj."
+   }
+  },
+  "Cesta de Flores Silvestres": {
+   "tallas": {
+    "S": "{n} flores entre margaritas, ranúnculos de pétalo en capas y diminutas nomeolvides, mezcladas en una cesta con aire de huerto. Tiene la gracia de lo espontáneo y alegra sin necesidad de más."
+   }
+  },
+  "Cesta de Frutas y Flores": {
+   "tallas": {
+    "L": "{n} flores entre rosas, margaritas y gerberas, compartiendo cesta con fruta fresca de temporada colocada entre ellas. Un detalle generoso que se disfruta con la vista y con el paladar."
+   }
+  },
+  "Cesta de Margaritas Silvestres": {
+   "tallas": {
+    "S": "{n} margaritas silvestres de pétalos finos alrededor de un corazón abombado, agrupadas con naturalidad en una cesta. Transmite sencillez y buen ánimo, como un saludo sincero."
+   }
+  },
+  "Clemátide Trepadora Maceta": {
+   "tallas": {
+    "M": "Clemátide trepadora de tallos finos que se enroscan en su tutor, con flores grandes y abiertas en forma de estrella. Invita a verla subir y cubrir de flores una celosía o una barandilla."
+   }
+  },
+  "Cojín Funerario Claveles": {
+   "tallas": {
+    "L": "{n} claveles de pétalo rizado, colocados muy juntos hasta formar un cojín mullido de superficie uniforme. Una ofrenda serena y delicada que habla de cariño y de recuerdo."
+   }
+  },
+  "Cojín Funerario Rosas Blancas": {
+   "tallas": {
+    "L": "{n} rosas abiertas, apretadas unas junto a otras sobre un cojín de contorno suave, rematado con un filo de hojas. Transmite paz y gratitud con una sencillez llena de respeto."
+   }
+  },
+  "Corona Adviento con Velas": {
+   "tallas": {
+    "M": "{n} ramas entre pino, eucalipto y bayas, trenzadas en una corona redonda que acoge sus velas. Acompaña las tardes de espera con una luz tranquila y un olor a bosque."
+   }
+  },
+  "Corona Cabeza Flores Secas": {
+   "tallas": {
+    "S": "{n} flores secas entre lavanda, plumas de pampa y statice, entretejidas en una corona fina para el pelo. Tiene un aire bohemio y natural que acompaña con ligereza."
+   }
+  },
+  "Corona Cabeza Novia Flores Silvestres": {
+   "tallas": {
+    "S": "{n} flores entre margaritas, nomeolvides y ranúnculos, entrelazadas alrededor de una corona ligera que se asienta sobre el cabello. Aporta frescura y un punto de cuento, espontáneo y lleno de luz."
+   }
+  },
+  "Corona Cabeza Novia Rosas": {
+   "tallas": {
+    "S": "{n} rosas pequeñas de cabeza redonda, alternadas con hojitas finas en una corona delicada para el pelo. Enmarca el rostro con un romanticismo dulce y muy natural."
+   }
+  },
+  "Corona Funeral Gladiolos": {
+   "tallas": {
+    "L": "{n} tallos de gladiolo, largos y cuajados de flor, que se abren en abanico hasta cerrar un círculo amplio. Una despedida solemne y llena de respeto, que acompaña con calma."
+   }
+  },
+  "Corona Fúnebre Claveles": {
+   "tallas": {
+    "M": "{n} claveles de pétalo festoneado, colocados muy juntos en un aro compacto con un borde de follaje. Un homenaje sincero y humilde, con la sobriedad de lo tradicional.",
+    "L": "{n} claveles de pétalo festoneado, colocados muy juntos, forman un aro amplio y abundante rodeado de follaje. Un tributo generoso que acompaña la despedida con respeto y cariño sincero."
+   }
+  },
+  "Corona Fúnebre Clásica Rosas": {
+   "tallas": {
+    "M": "{n} rosas abiertas dispuestas en círculo, flor con flor, formando un anillo denso rodeado de hojas. Un tributo clásico que transmite amor y gratitud hacia quien se recuerda.",
+    "L": "{n} rosas abiertas, flor con flor, forman un anillo amplio y abundante rodeado de hojas. Una despedida de gran presencia, llena de amor y de gratitud hacia quien se recuerda."
+   }
+  },
+  "Corona Fúnebre Lirios": {
+   "tallas": {
+    "M": "{n} tallos de lirio con sus flores abiertas en estrella, repartidos alrededor de la corona entre follaje. Su calma y su perfume suave acompañan un adiós lleno de paz.",
+    "L": "{n} tallos de lirio con sus flores abiertas en estrella forman una corona amplia y luminosa entre follaje. Un tributo sereno, cuya calma y perfume envuelven la despedida en paz."
+   }
+  },
+  "Corona Fúnebre Lujo Especial": {
+   "tallas": {
+    "L": "{n} flores entre lirios, rosas y orquídeas, compuestas en una corona amplia con las orquídeas cayendo en cascada. Un tributo cuidado hasta el último detalle, que honra una vida con elegancia y calma."
+   }
+  },
+  "Corona Otoño Hojas y Bayas": {
+   "tallas": {
+    "M": "{n} piezas entre hojas de otoño, bayas y ramitas de eucalipto, reproducidas en materiales artificiales y trenzadas en un aro. Recibe con la calidez de la estación de las hojas caídas."
+   }
+  },
+  "Corsage Dama Orquídeas": {
+   "tallas": {
+    "Único": "{n} tallos de orquídea pequeños, con las flores agrupadas en un ramillete delicado que se lleva sobre el brazo. Aporta un toque refinado y discreto que acompaña cada gesto."
+   }
+  },
+  "Crassula Ovata (Árbol Jade)": {
+   "tallas": {
+    "S": "Crassula de tronco grueso y ramificado, como un árbol en miniatura, con hojas carnosas, ovaladas y brillantes. Se asocia a la prosperidad y aporta una calma estable a cualquier rincón."
+   }
+  },
+  "Cruz de Claveles y Lirios": {
+   "tallas": {
+    "XL": "{n} flores entre claveles y lirios, compuestas en forma de cruz, con los lirios abiertos en el centro y los claveles marcando los brazos. Expresa fe y recogimiento con una belleza sobria."
+   }
+  },
+  "Cruz de Gladiolos Blancos": {
+   "tallas": {
+    "XL": "{n} flores de gladiolo, con sus espigas largas y escalonadas, dispuestas en forma de cruz sobre un fondo de follaje. Transmite recogimiento y una paz que acompaña con respeto."
+   }
+  },
+  "Cruz de Rosas Blancas": {
+   "tallas": {
+    "XL": "{n} rosas abiertas colocadas muy juntas hasta dibujar una cruz de líneas limpias, con un contorno de hojas finas. Un símbolo de fe y de cariño, sobrio y lleno de dulzura."
+   }
+  },
+  "Dalia": {
+   "tallas": {
+    "Único": "Dalia de flor amplia y redonda, con pétalos dispuestos en capas perfectas que se abren desde un centro apretado. Tiene una presencia generosa y alegre que llena un jarrón por sí sola."
+   }
+  },
+  "Dieffenbachia": {
+   "tallas": {
+    "L": "Dieffenbachia de hojas grandes y ovaladas, jaspeadas con manchas claras, que brotan de un tallo robusto y erguido. Llena cualquier estancia de exuberancia, como un pedazo de selva."
+   }
+  },
+  "Dracaena Marginata": {
+   "tallas": {
+    "L": "Dracaena de tallos finos y esbeltos rematados en penachos de hojas estrechas y arqueadas, como pequeñas palmeras. Da un toque moderno y ligero a los espacios de estilo limpio."
+   }
+  },
+  "Echeveria Elegans": {
+   "tallas": {
+    "S": "Echeveria de hojas carnosas y redondeadas, apretadas en una roseta simétrica con un fino velo empolvado. Su geometría tranquila tiene algo de joya viva sobre la mesa."
+   }
+  },
+  "Eucalipto Baby Blue": {
+   "tallas": {
+    "M": "Rama de eucalipto de hojas redondas escalonadas a lo largo del tallo, estabilizadas para mantenerse suaves y flexibles. Aporta un toque natural y sereno a un jarrón o una estantería."
+   }
+  },
+  "Ficus Lyrata": {
+   "tallas": {
+    "XL": "Ficus lyrata de hojas grandes en forma de violín, con nervios marcados y superficie brillante, sobre un tronco erguido. Tiene una presencia escultórica que se convierte en protagonista del salón."
+   }
+  },
+  "Filodendro Scandens": {
+   "tallas": {
+    "M": "Filodendro de tallos largos y colgantes con hojas en forma de corazón, finas y brillantes, que caen con soltura. Suaviza cualquier estantería y aporta una sensación de verdor fresco."
+   }
+  },
+  "Fittonia": {
+   "tallas": {
+    "S": "Fittonia de porte bajo y compacto, con hojas pequeñas atravesadas por una red de nervios muy marcados. Su dibujo delicado invita a mirarla de cerca, como un mosaico vivo."
+   }
+  },
+  "Geranio Maceta": {
+   "tallas": {
+    "M": "Geranio de hojas redondeadas y aterciopeladas, con ramilletes de flores agrupados en bolas sobre tallos firmes. Evoca balcones soleados y patios llenos de vida, con un encanto muy de siempre."
+   }
+  },
+  "Guirnalda Flores Boda": {
+   "tallas": {
+    "XL": "Guirnalda de rosas, hortensias y ramas de eucalipto entrelazadas en una tira continua, frondosa y de caída suave. Viste el espacio con un aire romántico y natural que invita a celebrar."
+   }
+  },
+  "Guirnalda de Eucalipto": {
+   "tallas": {
+    "M": "Guirnalda de ramas de eucalipto preservado, de hojas redondas superpuestas que forman una tira flexible y tupida. Aporta frescura vegetal y una textura suave que calma cualquier espacio."
+   }
+  },
+  "Haworthia Fasciata": {
+   "tallas": {
+    "S": "Haworthia de hojas firmes y puntiagudas en roseta, marcadas por finas franjas en relieve que parecen dibujadas a mano. Una planta compacta y discreta que da carácter sin ocupar sitio."
+   }
+  },
+  "Helecho de Boston": {
+   "tallas": {
+    "L": "Helecho de frondes largas y arqueadas, divididas en multitud de foliolos menudos que caen en cascada. Llena el ambiente de frescor y trae un aire de bosque húmedo a casa."
+   }
+  },
+  "Iris": {
+   "tallas": {
+    "Único": "Iris de tallo erguido con una flor de pétalos caídos y otros alzados, finamente veteados cerca del centro. Tiene una elegancia sobria, algo artística, que luce sola en un jarrón fino."
+   }
+  },
+  "Jazmín Maceta": {
+   "tallas": {
+    "M": "Jazmín de tallos trepadores y hojas pequeñas y brillantes, cubierto de flores estrelladas muy perfumadas. Su aroma dulce convierte cualquier rincón en una noche templada de verano."
+   }
+  },
+  "Lavanda Angustifolia Maceta": {
+   "tallas": {
+    "M": "Lavanda de tallos finos rematados en espigas de flor menuda, sobre una mata de hojas estrechas y aromáticas. Trae el olor del campo provenzal y una calma que se respira."
+   }
+  },
+  "Maranta Tricolor": {
+   "tallas": {
+    "M": "Maranta de hojas ovaladas con dibujos que parecen pintados a pincel y que se pliegan por la noche. Tiene un punto curioso y lleno de vida que no deja de sorprender."
+   }
+  },
+  "Menta Piperita Maceta": {
+   "tallas": {
+    "S": "Mata de menta piperita de tallos cuadrados y hojas dentadas, rugosas al tacto e intensamente aromáticas. Refresca la cocina y está siempre a mano para una infusión o un plato."
+   }
+  },
+  "Monstera Deliciosa": {
+   "tallas": {
+    "L": "Monstera de hojas grandes y brillantes, recortadas con aberturas y perforaciones naturales que crecen a medida que madura. Transforma un salón con su porte relajado y su fuerza vegetal."
+   }
+  },
+  "Orquídea Phalaenopsis": {
+   "tallas": {
+    "M": "Orquídea phalaenopsis de hojas anchas y carnosas, con una vara arqueada de flores planas que parecen mariposas en vuelo. Transmite delicadeza y equilibrio con una belleza tranquila."
+   }
+  },
+  "Orquídea Phalaenopsis Gigante": {
+   "tallas": {
+    "L": "Orquídea phalaenopsis de gran porte, con varias varas altas cuajadas de flores amplias que se abren en cascada. Una presencia serena y majestuosa que llena de luz una recepción o un salón."
+   }
+  },
+  "Pack Oficina Verde 3 Plantas": {
+   "tallas": {
+    "M": "Conjunto de potho de hojas colgantes, sansevieria de hojas erguidas como espadas y zamioculca de hojas lustrosas. Aporta vida al espacio de trabajo y hace las jornadas más amables."
+   }
+  },
+  "Palma Funeraria Clásica": {
+   "tallas": {
+    "XL": "{n} flores dispuestas sobre un amplio abanico de hojas de palma, que se despliegan hacia arriba con porte recto y ordenado. Una muestra de respeto sencilla y digna, que acompaña en silencio."
+   }
+  },
+  "Palma Funeraria Premium": {
+   "tallas": {
+    "L": "{n} flores agrupadas en el centro de un abanico generoso de hojas de palma, con follaje que envuelve la composición. Expresa un homenaje profundo con la serenidad de lo natural."
+   }
+  },
+  "Palmera Areca": {
+   "tallas": {
+    "XL": "Palmera areca de tallos finos y agrupados, con frondes largas y arqueadas de foliolos estrechos. Da a la casa la ligereza de una brisa suave de costa."
+   }
+  },
+  "Peperomia Caperata": {
+   "tallas": {
+    "S": "Peperomia de porte compacto con hojas acorazonadas y muy rugosas, y finas espigas florales que asoman como antenas. Tiene un encanto juguetón y cabe en cualquier rincón."
+   }
+  },
+  "Petunias Colgantes Mixtas": {
+   "tallas": {
+    "M": "Petunias de porte colgante, con flores en forma de trompeta que cubren tallos largos y caen sobre el borde. Llenan de alegría un balcón o una ventana."
+   }
+  },
+  "Pilea Peperomioides": {
+   "tallas": {
+    "S": "Pilea de hojas redondas como monedas, sostenidas por peciolos largos que salen de un tallo central. Tiene un aire gráfico y simpático, con fama de traer buena suerte."
+   }
+  },
+  "Potho Dorado Colgante": {
+   "tallas": {
+    "M": "Potho de tallos largos y colgantes con hojas acorazonadas y brillantes, jaspeadas con vetas claras. Cae con gracia desde una estantería y llena de vida cualquier rincón alto."
+   }
+  },
+  "Protea King": {
+   "tallas": {
+    "Único": "Protea king de cabeza enorme en forma de cuenco, rodeada de brácteas puntiagudas y con un centro sedoso y mullido. Tiene un aire salvaje y escultórico, distinto a todo."
+   }
+  },
+  "Ramo 100 Rosas Rojas Premium": {
+   "tallas": {
+    "L": "{n} rosas de tallo largo y cabeza firme, reunidas en un ramo enorme y compacto donde las flores forman una cúpula. Una declaración de amor rotunda, de las que no admiten dudas."
+   }
+  },
+  "Ramo Bienvenida Nuevo Hogar": {
+   "tallas": {
+    "M": "{n} flores entre girasoles, gerberas y margaritas, combinadas en un ramo alegre de corolas abiertas y redondas. Trae luz y buen ánimo a una casa que empieza a llenarse de historias."
+   }
+  },
+  "Ramo Blanco Pureza": {
+   "tallas": {
+    "M": "{n} flores entre rosas, lirios y lisianthus, en un ramo de líneas suaves donde los lirios abiertos marcan el centro. Transmite calma y una belleza limpia que habla con suavidad."
+   }
+  },
+  "Ramo Corporativo Sobrio": {
+   "tallas": {
+    "L": "{n} flores entre lirios, rosas y orquídeas, compuestas en un ramo de líneas rectas y follaje contenido. Proyecta seriedad y cuidado, y habla bien de quien lo envía."
+   }
+  },
+  "Ramo Dama Honor Lirios": {
+   "tallas": {
+    "M": "{n} tallos de lirio con flores abiertas y botones por abrir, recogidos en un ramo ligero y fácil de llevar. Acompaña con frescura y deja todo el protagonismo a la sonrisa."
+   }
+  },
+  "Ramo Día de la Madre Lirios": {
+   "tallas": {
+    "L": "{n} tallos de lirio de flor amplia y perfumada, con botones alargados que se irán abriendo, reunidos en un ramo generoso. Un agradecimiento hondo, lleno de ternura y de reconocimiento."
+   }
+  },
+  "Ramo Día de la Madre Rosas": {
+   "tallas": {
+    "L": "{n} rosas de pétalo suave, entre flores abiertas y botones, recogidas en un ramo redondo y mullido con hojas finas. Dice gracias con dulzura, como un abrazo que se queda en casa."
+   }
+  },
+  "Ramo Día de la Madre Tulipanes": {
+   "tallas": {
+    "L": "{n} tulipanes de copa lisa y hojas largas, reunidos en un ramo alto donde cada tallo se curva a su manera. Transmite cariño sencillo y una alegría fresca que ilumina la casa."
+   }
+  },
+  "Ramo Enhorabuena Graduación": {
+   "tallas": {
+    "L": "{n} flores entre girasoles, gerberas y rosas, combinadas en un ramo vistoso con los girasoles asomando por encima. Celebra el esfuerzo con energía y orgullo, como un aplauso hecho de flores."
+   }
+  },
+  "Ramo Exótico Strelitzia": {
+   "tallas": {
+    "L": "{n} tallos de strelitzia con sus flores en forma de pico de pájaro, acompañados de hojas anchas y alargadas. Tiene un aire tropical y audaz que sorprende y da que hablar."
+   }
+  },
+  "Ramo Funerario Económico": {
+   "tallas": {
+    "M": "{n} flores entre claveles, crisantemos y espigas de gladiolo, recogidas en un ramo sencillo y bien compensado. Acompaña con respeto y cercanía, con la sencillez de un gesto sincero."
+   }
+  },
+  "Ramo Gracias Tulipanes Mix": {
+   "tallas": {
+    "M": "{n} tulipanes de variedades mezcladas, de copa cerrada y tallo firme, agrupados en un ramo alegre y desenfadado. Un gracias luminoso que se entiende a la primera."
+   }
+  },
+  "Ramo Mejórate Pronto": {
+   "tallas": {
+    "M": "{n} flores entre gerberas, margaritas y tulipanes, reunidas en un ramo redondo de flores abiertas y animadas. Levanta el ánimo y llena la habitación de energía y buenos deseos."
+   }
+  },
+  "Ramo Mimosa Amarilla": {
+   "tallas": {
+    "M": "{n} ramas de mimosa cuajadas de pompones diminutos y esponjosos, con su follaje fino y plumoso. Huele a final del invierno y trae una luz suave que alegra cualquier mesa."
+   }
+  },
+  "Ramo Nacimiento Bebé Azul": {
+   "tallas": {
+    "M": "{n} flores entre hortensias, lisianthus y rosas pequeñas, reunidas en un ramo suave y redondeado de textura mullida. Da la bienvenida con ternura y una alegría tranquila."
+   }
+  },
+  "Ramo Nacimiento Bebé Neutro": {
+   "tallas": {
+    "M": "{n} flores entre gerberas, rosas y lisianthus, en un ramo ligero con las gerberas abiertas como pequeños soles. Celebra una vida nueva con dulzura y mucha luz."
+   }
+  },
+  "Ramo de Rosas Nacimiento Bebé": {
+   "tallas": {
+    "M": "{n} rosas de botón menudo y pétalo delicado, recogidas en un ramo compacto y redondeado con hojas suaves. Transmite una ternura recién estrenada, dulce y llena de promesas."
+   }
+  },
+  "Ramo Otoño Tonos Cálidos": {
+   "tallas": {
+    "M": "{n} flores entre girasoles, crisantemos y rosas, mezcladas en un ramo frondoso con hojas y texturas de otoño. Tiene el abrigo de una tarde templada, de esas que reconfortan."
+   }
+  },
+  "Ramo Pascua Lirios": {
+   "tallas": {
+    "L": "{n} tallos de lirio de flor amplia, con pétalos abiertos en estrella y estambres bien visibles, en un ramo esbelto. Evoca renovación y esperanza con una belleza limpia y tranquila."
+   }
+  },
+  "Ramo Primavera Narcisos": {
+   "tallas": {
+    "M": "{n} narcisos de corona acampanada rodeada de pétalos en estrella, reunidos en un ramo fresco y ligero. Tiene el optimismo de la primera flor de la temporada."
+   }
+  },
+  "Ramo Primavera Tulipanes Mix": {
+   "tallas": {
+    "M": "{n} tulipanes mezclados, de copa abierta y cerrada, agrupados con sus hojas largas en un ramo suelto. Contagia una alegría sencilla que recuerda a un mercado de flores al aire libre."
+   }
+  },
+  "Ramo San Valentín Corazón": {
+   "tallas": {
+    "L": "{n} rosas apretadas en forma de corazón, con las cabezas a la misma altura y un borde de follaje alrededor. Habla de amor sin rodeos, con un gesto tan claro como tierno."
+   }
+  },
+  "Ramo San Valentín Rosas": {
+   "tallas": {
+    "XL": "{n} rosas de tallo largo, de botón firme y pétalo aterciopelado, reunidas en un ramo alto y generoso. Expresa un amor intenso con la elegancia de lo clásico."
+   }
+  },
+  "Ramo Verano Girasoles": {
+   "tallas": {
+    "L": "{n} girasoles de cabeza amplia y centro marcado, con sus hojas anchas, reunidos en un ramo abierto y lleno de luz. Contagia optimismo y trae el calor del sol a cualquier habitación."
+   }
+  },
+  "Ramo de Anémonas": {
+   "tallas": {
+    "S": "{n} anémonas de pétalo sedoso y corazón aterciopelado, recogidas en un ramillete sencillo de tallos finos. Un detalle poético y delicado para decir algo bonito sin hacer ruido.",
+    "M": "{n} anémonas de pétalo sedoso y corazón aterciopelado, reunidas en un ramo ligero y redondeado de tallos finos. Tiene algo poético y delicado que atrapa la mirada con suavidad.",
+    "L": "{n} anémonas de pétalo sedoso y corazón aterciopelado forman un ramo amplio y lleno, con sus tallos finos en movimiento. Un gran gesto de delicadeza, pura poesía para un momento especial."
+   }
+  },
+  "Ramo de Astromelias": {
+   "tallas": {
+    "S": "{n} astromelias de pétalos finamente moteados, con aire de lirio, recogidas en un ramillete sencillo y alegre. Un detalle amistoso y cercano, perfecto para acordarse de alguien sin motivo.",
+    "M": "{n} astromelias de pétalos finamente moteados, con aire de lirio, reunidas en un ramo redondo y frondoso. Transmite amistad y cercanía, con una alegría natural fácil de compartir.",
+    "L": "{n} astromelias de pétalos finamente moteados forman un ramo amplio y frondoso, con varias flores abiertas en cada tallo. Un gran gesto de cariño que celebra una amistad de las que duran."
+   }
+  },
+  "Ramo de Azucenas": {
+   "tallas": {
+    "S": "{n} azucenas en forma de trompeta, con pétalos carnosos y estambres largos, recogidas en un ramillete sencillo. Su perfume envolvente lleva serenidad a cualquier rincón con muy poco.",
+    "M": "{n} azucenas en forma de trompeta, con pétalos carnosos y estambres largos, reunidas en un ramo esbelto. Su perfume envolvente y su porte noble llenan la estancia de serenidad.",
+    "L": "{n} azucenas en forma de trompeta, con pétalos carnosos y estambres largos, forman un ramo amplio y abundante. Un gesto de gran presencia, cuyo perfume envuelve todo el espacio con calma."
+   }
+  },
+  "Ramo de Calas": {
+   "tallas": {
+    "S": "{n} calas de espata lisa y enrollada, sobre tallos largos y limpios, reunidas en un ramillete sencillo. Una elegancia moderna y serena que se luce sola en un jarrón.",
+    "M": "{n} calas de espata lisa y enrollada, sobre tallos largos y limpios, agrupadas en un ramo de líneas puras. Aporta una elegancia moderna y serena que no necesita adornos.",
+    "L": "{n} calas de espata lisa y enrollada forman un ramo amplio y escultural, con sus tallos largos y limpios. Un gesto de gran elegancia que se impone con calma donde se coloque."
+   }
+  },
+  "Ramo de Claveles": {
+   "tallas": {
+    "S": "{n} claveles de pétalo rizado y borde festoneado, con sus tallos firmes, recogidos en un ramillete sencillo. Un detalle honesto y cariñoso, de los que alegran un día cualquiera.",
+    "M": "{n} claveles de pétalo rizado y borde festoneado, con sus tallos firmes y hojas estrechas, en un ramo redondo. Transmite un cariño honesto y alegre, de los que no pasan de moda.",
+    "L": "{n} claveles de pétalo rizado y borde festoneado forman un ramo amplio y lleno entre tallos firmes y hojas estrechas. Un gran gesto de cariño, alegre y sincero, que no pasa desapercibido."
+   }
+  },
+  "Ramo de Crisantemos": {
+   "tallas": {
+    "S": "{n} crisantemos de flor redonda y pétalos apretados en capas, recogidos en un ramillete sencillo con su follaje dentado. Una belleza tranquila y constante que se agradece en el día a día.",
+    "M": "{n} crisantemos de flor redonda y pétalos apretados en capas, reunidos en un ramo compacto con su follaje dentado. Aporta calma y constancia, una belleza sencilla que se agradece.",
+    "L": "{n} crisantemos de flor redonda y pétalos apretados en capas forman un ramo amplio y abundante entre follaje dentado. Un gesto sereno y generoso, de presencia tranquila y firme."
+   }
+  },
+  "Ramo de Delphinium": {
+   "tallas": {
+    "S": "{n} tallos de delphinium con espigas altas cuajadas de florecillas, recogidos en un ramillete sencillo y esbelto. Un detalle ligero, con aire de jardín inglés, que eleva cualquier rincón.",
+    "M": "{n} tallos de delphinium con espigas altas cuajadas de florecillas, dispuestos en un ramo esbelto y aireado. Tiene una ligereza casi de jardín inglés que llena de frescura la estancia.",
+    "L": "{n} tallos de delphinium con espigas altas cuajadas de florecillas forman un ramo amplio y vertical, lleno de movimiento. Un gran gesto con todo el aire de un jardín inglés en flor."
+   }
+  },
+  "Ramo de Flores Secas Vintage": {
+   "tallas": {
+    "M": "{n} flores secas entre plumas de pampa, espigas de lavanda y statice, reunidas en un ramo de texturas suaves. Tiene un encanto nostálgico y cálido que viste la casa con naturalidad."
+   }
+  },
+  "Ramo de Fresias": {
+   "tallas": {
+    "S": "{n} fresias de flores acampanadas alineadas a un lado del tallo, recogidas en un ramillete sencillo y perfumado. Un detalle dulce y fresco, perfecto para alegrar una mañana cualquiera.",
+    "M": "{n} fresias de flores acampanadas alineadas a un lado del tallo, reunidas en un ramo ligero y muy perfumado. Su aroma dulce transmite frescura y buen humor.",
+    "L": "{n} fresias de flores acampanadas alineadas a un lado del tallo forman un ramo amplio y abundante. Su aroma dulce llena la casa entera y convierte el regalo en un gran gesto."
+   }
+  },
+  "Ramo de Gerberas": {
+   "tallas": {
+    "S": "{n} gerberas de flor plana, con pétalos radiales alrededor de un centro marcado, recogidas en un ramillete sencillo. Un detalle lleno de buen humor que arranca una sonrisa al momento.",
+    "M": "{n} gerberas de flor plana, con pétalos radiales alrededor de un centro marcado, reunidas en un ramo redondo de tallos firmes. Una explosión de buen humor que alegra cualquier estancia.",
+    "L": "{n} gerberas de flor plana, con pétalos radiales alrededor de un centro marcado, forman un ramo amplio y lleno. Un gran gesto de alegría, imposible de recibir sin sonreír."
+   }
+  },
+  "Ramo de Girasoles": {
+   "tallas": {
+    "S": "{n} girasoles de pétalos radiantes alrededor de un disco central, con sus hojas anchas, en un ramillete sencillo. Un detalle luminoso que trae un rayo de sol a cualquier día.",
+    "M": "{n} girasoles de pétalos radiantes alrededor de un disco central, con hojas anchas, en un ramo alto y redondeado. Transmite energía positiva y la sensación de un día largo de verano.",
+    "L": "{n} girasoles de pétalos radiantes alrededor de un disco central forman un ramo amplio y lleno entre hojas anchas. Un gran gesto de optimismo que ilumina como una tarde de verano."
+   }
+  },
+  "Ramo de Gladiolos": {
+   "tallas": {
+    "S": "{n} tallos de gladiolo de espiga alta, con flores acampanadas que se abren de abajo arriba, en un ramillete sencillo. Un detalle esbelto que aporta elegancia sin necesitar nada más.",
+    "M": "{n} tallos de gladiolo de espiga alta, con flores acampanadas que se abren de abajo arriba, en un ramo esbelto. Aporta porte y presencia, con una elegancia que se ve desde lejos.",
+    "L": "{n} tallos de gladiolo de espiga alta forman un ramo amplio y vertical, con flores acampanadas que se abren de abajo arriba. Un gesto de gran presencia, noble y sereno."
+   }
+  },
+  "Ramo de Hortensias": {
+   "tallas": {
+    "S": "{n} hortensias de cabeza redonda, formadas por multitud de florecillas, recogidas en un ramillete sencillo y mullido. Un detalle tierno, con aire de jardín antiguo, que se agradece de cerca.",
+    "M": "{n} hortensias de cabeza redonda, formadas por multitud de florecillas, reunidas en un ramo voluminoso y redondeado. Tiene un aire de jardín antiguo que envuelve con suavidad.",
+    "L": "{n} hortensias de cabeza redonda, hechas de multitud de florecillas, componen un ramo amplio y abundante. Un gran gesto que llena la estancia con la calma de un jardín en flor."
+   }
+  },
+  "Ramo de Lavanda Seca": {
+   "tallas": {
+    "S": "{n} espigas de lavanda seca, finas y aromáticas, atadas en un ramillete apretado de tallos rectos. Perfuma armarios y rincones con un aroma limpio que invita al descanso."
+   }
+  },
+  "Ramo de Lirios": {
+   "tallas": {
+    "S": "{n} tallos de lirio con varias flores y botones alargados en cada uno, recogidos en un ramillete sencillo. Su aroma y su porte dan luz a un rincón con muy poco.",
+    "M": "{n} tallos de lirio con varias flores abiertas y botones alargados en cada uno, reunidos en un ramo elegante. Su porte y su aroma dan a la estancia una presencia luminosa.",
+    "L": "{n} tallos de lirio con varias flores abiertas y botones alargados en cada uno forman un ramo amplio y lleno. Un gran gesto, luminoso y perfumado, que se nota nada más entrar."
+   }
+  },
+  "Ramo de Margaritas": {
+   "tallas": {
+    "S": "{n} margaritas de pétalo alargado alrededor de un botón central, recogidas con sus tallos finos en un ramillete sencillo. Un detalle fresco y espontáneo, como traído del campo.",
+    "M": "{n} margaritas de pétalo alargado alrededor de un botón central, reunidas con sus tallos finos en un ramo desenfadado. Transmite frescura y sencillez, con un optimismo que se contagia enseguida.",
+    "L": "{n} margaritas de pétalo alargado alrededor de un botón central forman un ramo amplio y lleno, como un prado entero. Un gran gesto de optimismo que alegra a quien lo recibe."
+   }
+  },
+  "Ramo de Novia Calas": {
+   "tallas": {
+    "L": "{n} calas de espata lisa y tallo largo, agrupadas en un ramo alargado de líneas muy limpias. Aporta una elegancia pura y moderna que acompaña cada paso con serenidad."
+   }
+  },
+  "Ramo de Novia Lirios": {
+   "tallas": {
+    "L": "{n} tallos de lirio con las flores bien abiertas y algunos botones, reunidos en un ramo de caída natural. Tiene una belleza luminosa y serena, con un perfume que envuelve cada momento."
+   }
+  },
+  "Ramo de Novia Romántico": {
+   "tallas": {
+    "L": "{n} flores entre peonías, rosas y lisianthus, reunidas en un ramo redondo y mullido con pétalos en capas. Transmite un romanticismo dulce que se recuerda toda la vida."
+   }
+  },
+  "Ramo de Novia Orquídeas": {
+   "tallas": {
+    "L": "{n} tallos de orquídea con sus flores cayendo en cascada, compuestos en un ramo ligero y delicado. Aporta una sofisticación natural y un aire exótico lleno de gracia."
+   }
+  },
+  "Ramo de Novia Peonías": {
+   "tallas": {
+    "L": "{n} peonías de pétalos llenos y rizados, entre flores abiertas y botones redondos, reunidas en un ramo abundante. Tiene una dulzura generosa que llena de emoción cada instante."
+   }
+  },
+  "Ramo de Novia Rosas": {
+   "tallas": {
+    "L": "{n} rosas de pétalo terso, recogidas en un ramo redondo y compacto, con las cabezas muy juntas. Transmite armonía y un romanticismo sereno, de los de siempre."
+   }
+  },
+  "Ramo de Novia Tulipanes": {
+   "tallas": {
+    "L": "{n} tulipanes de copa cerrada y tallo limpio, agrupados en un ramo estilizado de líneas sencillas. Tiene una frescura moderna y natural que despeja el ambiente."
+   }
+  },
+  "Ramo de Pampa Seca": {
+   "tallas": {
+    "L": "{n} plumas de pampa seca, esponjosas y ligeras, reunidas en un ramo amplio que se mueve con el aire. Da a cualquier rincón un aire cálido y relajado, de casa vivida."
+   }
+  },
+  "Ramo de Peonías": {
+   "tallas": {
+    "S": "{n} peonías de flor redonda y pétalos sedosos, algunas aún en botón, recogidas en un ramillete sencillo. Un detalle romántico y delicado que perfuma el ambiente con suavidad.",
+    "M": "{n} peonías de flor redonda y pétalos sedosos, algunas aún en botón, reunidas en un ramo redondo y generoso. Rebosa romanticismo y perfuma la estancia con delicadeza.",
+    "L": "{n} peonías de flor redonda y pétalos sedosos, algunas aún en botón, forman un ramo amplio y desbordante. Un gran gesto romántico que llena la casa de perfume y de ternura."
+   }
+  },
+  "Ramo de Ranúnculos": {
+   "tallas": {
+    "S": "{n} ranúnculos de pétalos finos superpuestos en muchas capas, sobre tallos delicados, en un ramillete sencillo. Un detalle minucioso y tierno que enamora poco a poco.",
+    "M": "{n} ranúnculos de pétalos finos superpuestos en muchas capas, sobre tallos delicados, en un ramo ligero y redondeado. Tiene una delicadeza minuciosa que se descubre mirándolo de cerca.",
+    "L": "{n} ranúnculos de pétalos finos superpuestos en muchas capas forman un ramo amplio y lleno sobre tallos delicados. Un gran gesto de delicadeza que enamora a primera vista."
+   }
+  },
   "Ramo de Rosas": {
    "tallas": {
     "S": "{n} rosas de tallo largo, con el botón a medio abrir, recogidas en un ramillete sencillo y cercano. Un detalle que dice mucho con poco, perfecto para sorprender sin necesitar motivo.",
@@ -8,10 +760,242 @@
     "L": "{n} rosas de tallo largo que forman un ramo amplio y lleno, con el botón a medio abrir entre hojas verdes. Un gran gesto para los momentos que merecen quedarse en la memoria."
    }
   },
+  "Ramo de Tulipanes": {
+   "tallas": {
+    "S": "{n} tulipanes de pétalo satinado y copa alargada, recogidos con sus hojas en un ramillete sencillo. Un detalle alegre y natural, perfecto para llevar la primavera a casa.",
+    "M": "{n} tulipanes de pétalo satinado y copa alargada, reunidos con sus hojas en un ramo redondo de aire natural. Transmite alegría tranquila y una elegancia sin artificios.",
+    "L": "{n} tulipanes de pétalo satinado y copa alargada forman un ramo amplio y lleno, con sus hojas asomando entre los tallos. Un gran gesto de alegría y elegancia, fresco y sin artificios."
+   }
+  },
+  "Romero Maceta": {
+   "tallas": {
+    "S": "Mata de romero de ramas leñosas y hojas finas como agujas, con pequeñas flores que asoman entre ellas. Perfuma la cocina con su aroma de monte y está siempre listo para guisar."
+   }
+  },
+  "Rosa Eterna Cúpula Cristal": {
+   "tallas": {
+    "M": "Una rosa de cabeza abierta y pétalo aterciopelado, estabilizada para mantener su tersura, erguida sobre un tallo con hojas. Un detalle romántico y simbólico, como un tesoro guardado."
+   }
+  },
+  "Rosa Trepadora Roja": {
+   "tallas": {
+    "L": "Rosal trepador de tallos largos y flexibles, con hojas dentadas y ramilletes de flores a lo largo de las ramas. Trae el encanto de los jardines antiguos y su perfume de siempre."
+   }
+  },
+  "Sansevieria (Lengua Suegra)": {
+   "tallas": {
+    "M": "Sansevieria de hojas rígidas, largas y verticales, con bandas onduladas y un filo bien definido. Su porte recto transmite orden y una calma firme a cualquier espacio."
+   }
+  },
+  "Sedum Burrito": {
+   "tallas": {
+    "S": "Sedum de tallos colgantes cubiertos de hojitas carnosas y redondeadas, apretadas como cuentas de un collar. Tiene un aire tierno y curioso que siempre despierta preguntas."
+   }
+  },
+  "Spathiphyllum (Cuna Moisés)": {
+   "tallas": {
+    "M": "Spathiphyllum de hojas lanceoladas y brillantes, con flores formadas por una espata que envuelve un espádice fino. Transmite paz y una elegancia sencilla, y aporta frescor a cualquier habitación."
+   }
+  },
+  "Terrario Cactus Redondo": {
+   "tallas": {
+    "S": "Paisaje de cactus, echeverias y haworthias sobre arena y piedras, dentro de un recipiente de cristal redondo. Tiene algo de mundo aparte, un rincón de desierto que invita a la calma."
+   }
+  },
+  "Terrario Geométrico Premium": {
+   "tallas": {
+    "L": "Composición de echeverias, haworthias y sedum sobre capas de sustrato y piedra, en un cristal de caras geométricas. Aporta un toque de diseño y serenidad a un escritorio o una estantería."
+   }
+  },
+  "Terrario Suculentas Geométrico": {
+   "tallas": {
+    "S": "Echeverias, haworthias y sedum de formas variadas, plantados entre gravilla en un recipiente de cristal facetado. Un jardín diminuto y ordenado que aporta calma a la mesa de trabajo."
+   }
+  },
+  "Tomillo Limón Maceta": {
+   "tallas": {
+    "S": "Mata de tomillo limón de tallos finos y leñosos, cubiertos de hojitas menudas de aroma cítrico. Añade frescura a la cocina y un toque de monte a cada receta."
+   }
+  },
+  "Zamioculca": {
+   "tallas": {
+    "M": "Zamioculca de tallos gruesos y erguidos con hojas lustrosas y carnosas dispuestas en pares, como plumas rígidas. Transmite una serenidad firme y aguanta con elegancia los rincones con poca luz."
+   }
+  },
+  "Árbol de Jade": {
+   "tallas": {
+    "M": "Crassula de porte arbustivo, con ramas carnosas y hojas redondeadas y gruesas que brillan como pequeñas piedras pulidas. Tiene un aire generoso, de esas plantas que pasan de mano en mano."
+   }
+  },
+  "Ramo de Lisianthus": {
+   "tallas": {
+    "S": "{n} tallos de lisianthus con flores de pétalos sedosos y ondulados, entre botones cerrados en espiral, en un ramillete sencillo. Un detalle romántico y ligero, fácil de lucir en cualquier jarrón.",
+    "M": "{n} tallos de lisianthus con varias flores de pétalos sedosos y ondulados, entre botones cerrados en espiral, en un ramo redondeado. Tiene una delicadeza romántica que llena la estancia de ternura.",
+    "L": "{n} tallos de lisianthus con flores de pétalos sedosos y ondulados forman un ramo amplio y vaporoso, entre botones cerrados en espiral. Un gran gesto romántico, delicado y generoso a la vez."
+   }
+  },
+  "Ramo de Lilas": {
+   "tallas": {
+    "S": "{n} lilas de racimos cónicos cuajados de florecillas perfumadas, recogidas entre hojas acorazonadas en un ramillete sencillo. Un detalle dulce y nostálgico que huele a primavera.",
+    "M": "{n} lilas de racimos cónicos cuajados de florecillas perfumadas, entre hojas acorazonadas, en un ramo frondoso y redondeado. Su perfume evoca jardines en primavera y un aire nostálgico muy dulce.",
+    "L": "{n} lilas de racimos cónicos cuajados de florecillas perfumadas forman un ramo amplio y abundante entre hojas acorazonadas. Un gran gesto que llena la casa del perfume de un jardín en primavera."
+   }
+  },
+  "Ramo de Alhelí": {
+   "tallas": {
+    "S": "{n} alhelíes de espigas densas, con flores de pétalo aterciopelado apretadas a lo largo del tallo, en un ramillete sencillo. Su aroma especiado trae recuerdos de jardín de abuela.",
+    "M": "{n} alhelíes de espigas densas, con flores de pétalo aterciopelado apretadas a lo largo del tallo, en un ramo redondo y abundante. Su perfume especiado llena la estancia de calidez y recuerdos.",
+    "L": "{n} alhelíes de espigas densas, con flores de pétalo aterciopelado apretadas en el tallo, forman un ramo amplio y lleno. Un gran gesto perfumado, cálido y generoso, que envuelve toda la casa."
+   }
+  },
+  "Ramo de Guisantes de Olor": {
+   "tallas": {
+    "S": "{n} guisantes de olor de pétalos ondulados como alas, sobre tallos finos, recogidos en un ramillete sencillo. Un detalle tierno y perfumado que se disfruta de cerca.",
+    "M": "{n} guisantes de olor de pétalos ondulados como alas, sobre tallos finos y trepadores, en un ramo aireado. Su perfume dulce y su aire ligero transmiten una ternura de otro tiempo.",
+    "L": "{n} guisantes de olor de pétalos ondulados como alas forman un ramo amplio y vaporoso sobre tallos finos. Un gran gesto de ternura que perfuma la casa con dulzura."
+   }
+  },
+  "Ramo de Snapdragon": {
+   "tallas": {
+    "S": "{n} tallos de boca de dragón con flores apretadas en la espiga, que se abren como labios, en un ramillete sencillo. Un punto juguetón que alegra la mesa sin ocupar mucho sitio.",
+    "M": "{n} tallos de boca de dragón con flores apretadas en la espiga, que se abren como labios, en un ramo esbelto. Aporta altura y un punto juguetón que da movimiento al jarrón.",
+    "L": "{n} tallos de boca de dragón con flores apretadas en la espiga forman un ramo amplio y vertical, lleno de movimiento. Un gran gesto alegre y vistoso que llena la estancia."
+   }
+  },
+  "Ramo de Narcisos": {
+   "tallas": {
+    "S": "{n} narcisos de pétalos lisos alrededor de una trompeta central, sobre tallos rectos, en un ramillete sencillo. Un detalle fresco y luminoso que alegra cualquier rincón de casa.",
+    "M": "{n} narcisos de pétalos lisos alrededor de una trompeta central, sobre tallos huecos y rectos, en un ramo redondo. Transmite renovación, como una ventana abierta a la mañana.",
+    "L": "{n} narcisos de pétalos lisos alrededor de una trompeta central forman un ramo amplio y lleno de luz. Un gran gesto de renovación, como abrir la casa entera a la primavera."
+   }
+  },
+  "Ramo de Jacintos": {
+   "tallas": {
+    "S": "{n} jacintos de espiga gruesa formada por florecillas acampanadas y carnosas, recogidos en un ramillete sencillo. Un detalle perfumado que se nota nada más acercarse.",
+    "M": "{n} jacintos de espiga gruesa formada por florecillas acampanadas y carnosas, reunidos en un ramo compacto y redondo. Su fragancia intensa llena la estancia y despierta los sentidos al instante.",
+    "L": "{n} jacintos de espiga gruesa formada por florecillas acampanadas y carnosas componen un ramo amplio y abundante. Un gran gesto de fragancia intensa que perfuma toda la casa."
+   }
+  },
+  "Ramo de Muscari Intenso": {
+   "tallas": {
+    "S": "{n} muscaris de racimos cortos y apretados, formados por diminutas campanitas cerradas, en un ramillete sencillo y denso. Un detalle intenso y delicado que recuerda a los primeros brotes del jardín.",
+    "M": "{n} muscaris de racimos cortos y apretados, formados por diminutas campanitas cerradas, en un ramo redondo y compacto. Tiene un encanto intenso que llena de vida una mesa o una ventana.",
+    "L": "{n} muscaris de racimos cortos y apretados, formados por diminutas campanitas cerradas, componen un ramo amplio y tupido. Un gran gesto lleno de intensidad, como un rincón del jardín en plena primavera."
+   }
+  },
+  "Ramo de Muscari": {
+   "tallas": {
+    "S": "{n} muscaris de espigas diminutas cuajadas de flores en forma de campana, agrupados en un ramillete delicado. Transmite una ternura sencilla, casi silvestre, que conquista por su discreción.",
+    "M": "{n} muscaris de espigas diminutas cuajadas de flores en forma de campana, reunidos en un ramo redondo y tupido. Tiene un encanto silvestre que alegra una mesa con naturalidad.",
+    "L": "{n} muscaris de espigas diminutas cuajadas de flores en forma de campana forman un ramo amplio y abundante. Un gran gesto de ternura, como traer a casa un prado en primavera."
+   }
+  },
+  "Ramo de Amarilis": {
+   "tallas": {
+    "S": "{n} tallos de amarilis con flores en forma de trompeta, abiertas en estrella en lo alto del tallo, en un ramillete sencillo. Un detalle con presencia que se luce sin nada más.",
+    "M": "{n} tallos de amarilis con flores en forma de trompeta, abiertas en estrella en lo alto del tallo, en un ramo esbelto. Aporta presencia y dramatismo con una belleza que se impone.",
+    "L": "{n} tallos de amarilis con flores en forma de trompeta, abiertas en estrella, forman un ramo amplio y lleno de fuerza. Un gran gesto elegante que se adueña de cualquier estancia."
+   }
+  },
+  "Ramo de Nomeolvides": {
+   "tallas": {
+    "S": "{n} nomeolvides de flores diminutas con un ojo marcado en el centro, recogidas en un ramillete sencillo. Su nombre ya lo dice: un recuerdo tierno que se guarda cerca.",
+    "M": "{n} nomeolvides de flores diminutas con un ojo marcado en el centro, reunidas en un ramo redondo y delicado. Un gesto tierno que invita a no olvidar lo que importa.",
+    "L": "{n} nomeolvides de flores diminutas con un ojo marcado en el centro forman un ramo amplio y vaporoso. Un gran gesto de cariño para alguien que nunca se olvida."
+   }
+  },
+  "Gardenia Maceta": {
+   "tallas": {
+    "M": "Gardenia de hojas lustrosas y perennes, con flores dobles de pétalos cerosos que se abren en espiral. Su perfume intenso y dulce convierte la casa en un refugio sereno."
+   }
+  },
+  "Azalea Maceta": {
+   "tallas": {
+    "M": "Azalea de porte compacto cubierta de flores en forma de embudo que casi ocultan sus hojas pequeñas. Alegra un rincón con una floración abundante que llega en los meses fríos."
+   }
+  },
+  "Camelia Maceta": {
+   "tallas": {
+    "M": "Camelia de hojas brillantes y coriáceas, con flores de pétalos perfectos colocados en capas simétricas. Tiene una elegancia serena y clásica, muy de jardín señorial del norte."
+   }
+  },
+  "Hibisco Maceta": {
+   "tallas": {
+    "M": "Hibisco de hojas brillantes y dentadas, con flores grandes en forma de copa y un largo estambre central. Trae la luz de las islas y alegra patios y ventanas."
+   }
+  },
+  "Ciclamen Maceta": {
+   "tallas": {
+    "M": "Ciclamen de hojas acorazonadas con dibujos marmoleados y flores de pétalos vueltos hacia arriba, como alas plegadas. Aporta un encanto delicado y alegre al alféizar de la cocina."
+   }
+  },
+  "Violeta Africana": {
+   "tallas": {
+    "M": "Violeta africana de hojas redondas y aterciopeladas en roseta, con ramilletes de flores pequeñas en el centro. Es tierna y hogareña, una compañía tranquila junto a la ventana."
+   }
+  },
+  "Kalanchoe Maceta": {
+   "tallas": {
+    "M": "Kalanchoe de hojas carnosas y festoneadas, coronada por ramilletes densos de flores menudas. Aporta alegría y un toque vivo a una mesa, una repisa o una ventana soleada."
+   }
+  },
+  "Corona Fúnebre Crisantemos": {
+   "tallas": {
+    "M": "{n} crisantemos de flor redonda y pétalos en capas, colocados muy juntos en un aro compacto con follaje. Un homenaje discreto que transmite respeto y un recuerdo constante.",
+    "L": "{n} crisantemos de flor redonda y pétalos en capas, colocados muy juntos, forman un aro amplio y abundante. Un tributo de gran presencia que honra la memoria con serenidad."
+   }
+  },
+  "Corona Fúnebre Gladiolos": {
+   "tallas": {
+    "M": "{n} tallos de gladiolo dispuestos en círculo, con las espigas en flor alternadas con hojas largas y estrechas. Un homenaje sobrio y noble, con un silencio lleno de afecto.",
+    "L": "{n} tallos de gladiolo, con las espigas en flor alternadas con hojas largas y estrechas, forman un círculo amplio y abundante. Un tributo de gran presencia que despide con nobleza y afecto."
+   }
+  },
+  "Corona Fúnebre Gerberas": {
+   "tallas": {
+    "M": "{n} gerberas de flor plana, colocadas en círculo con sus pétalos radiales entre un follaje fino. Un recuerdo luminoso y sereno, lleno de gratitud por lo compartido.",
+    "L": "{n} gerberas de flor plana, con sus pétalos radiales, forman un círculo amplio y abundante entre follaje fino. Un tributo luminoso que honra con gratitud todo lo compartido."
+   }
+  },
+  "Corona Fúnebre Margaritas": {
+   "tallas": {
+    "M": "{n} margaritas de pétalo fino y corazón marcado, colocadas en un aro con hojas que enmarcan el círculo. Expresa un cariño sencillo y sincero, con una dulzura que consuela.",
+    "L": "{n} margaritas de pétalo fino y corazón marcado forman un aro amplio y abundante, enmarcado por hojas. Un homenaje de gran presencia y sereno, con la dulzura de lo sencillo."
+   }
+  },
   "Corona Fúnebre Rosas y Crisantemos": {
    "tallas": {
     "M": "{n} flores entre rosas y crisantemos, dispuestas en círculo sobre una base de verde. Un homenaje sereno y lleno de respeto para despedir a un ser querido.",
     "L": "{n} flores entre rosas y crisantemos forman un círculo amplio y abundante sobre una base de verde. Un tributo de gran presencia, para acompañar la despedida con todo el cariño."
+   }
+  },
+  "Corona Fúnebre Lirios y Claveles": {
+   "tallas": {
+    "M": "{n} tallos entre lirios y claveles, con los lirios abiertos repartidos sobre un aro compacto de claveles. Acompaña el recuerdo con serenidad y una belleza que reconforta.",
+    "L": "{n} tallos entre lirios y claveles forman un aro amplio y abundante, con los lirios abiertos repartidos sobre los claveles. Un tributo de gran presencia que acompaña la despedida con serenidad."
+   }
+  },
+  "Corona Fúnebre Gladiolos y Rosas": {
+   "tallas": {
+    "M": "{n} tallos entre gladiolos y rosas, con las espigas dibujando el círculo y las rosas agrupadas al frente. Una despedida digna y afectuosa, sobria en la forma y cálida en el fondo.",
+    "L": "{n} tallos entre gladiolos y rosas forman un círculo amplio, con las espigas marcando el contorno y las rosas al frente. Un homenaje de gran presencia, digno y lleno de afecto."
+   }
+  },
+  "Corona Fúnebre Claveles y Margaritas": {
+   "tallas": {
+    "M": "{n} flores entre claveles y margaritas, alternadas en un aro redondo con un fondo de follaje fino. Transmite un afecto humilde y cercano, como las flores de campo.",
+    "L": "{n} flores entre claveles y margaritas, alternadas en un aro amplio y abundante sobre follaje fino. Un tributo generoso y sereno, con la sencillez cercana de las flores de campo."
+   }
+  },
+  "Corona Fúnebre Tradicional": {
+   "tallas": {
+    "M": "{n} flores entre claveles, crisantemos y gladiolos, compuestas en círculo al estilo de siempre, con follaje de acompañamiento. Un adiós respetuoso, fiel a la tradición y lleno de consideración.",
+    "L": "{n} flores entre claveles, crisantemos y gladiolos forman un círculo amplio y abundante, al estilo de siempre. Un tributo de gran presencia, fiel a la tradición y lleno de respeto."
+   }
+  },
+  "Corona Fúnebre Premium Flores Blancas": {
+   "tallas": {
+    "L": "{n} flores entre lirios, rosas y crisantemos, compuestas en una corona amplia, con los lirios abiertos en lo alto. Honra la memoria con una quietud serena que envuelve."
    }
   }
  },
