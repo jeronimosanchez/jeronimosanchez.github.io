@@ -1,3 +1,267 @@
-producto,descripcion
-Ramo de Rosas,"{n} rosas de tallo largo, con el botón a medio abrir y sus hojas verdes, recogidas en un ramo redondo. Un clásico que nunca falla: lo dice todo sin necesidad de palabras."
-Corona Fúnebre Rosas y Crisantemos,"{n} flores entre rosas y crisantemos, dispuestas en círculo sobre una base de verde. Un homenaje sereno y lleno de respeto para despedir a un ser querido."
+clave,descripcion
+Albahaca Genovesa Maceta|S,pendiente
+Aloe Vera Mini|S,pendiente
+Anthurium|Único,pendiente
+Arco Floral Boda Girasoles y Margaritas|XL,pendiente
+Arco Floral Boda Rosas y Eucalipto|XL,pendiente
+Arreglo Condolencias Lujo|L,pendiente
+Arreglo Floral|M,pendiente
+Arreglo Floral Eventos|S,pendiente
+Arreglo Floral Eventos|M,pendiente
+Arreglo Floral Eventos|L,pendiente
+Arreglo Orquídeas|S,pendiente
+Arreglo Orquídeas|M,pendiente
+Arreglo Orquídeas|L,pendiente
+Arreglo Peonías|S,pendiente
+Arreglo Peonías|M,pendiente
+Arreglo Peonías|L,pendiente
+Arreglo Primavera Flores Silvestres|S,pendiente
+Arreglo Tropical Anthurium|M,pendiente
+Arreglo Verano Lavanda Provenzal|S,pendiente
+Aspidistra|L,pendiente
+Begonia Maculata|M,pendiente
+Bonsái Acer Palmatum|L,pendiente
+Bonsái Ficus Retusa|L,pendiente
+Bonsái Olmo Chino|L,pendiente
+Bouquet de Novia Vintage|L,pendiente
+Boutonniere Claveles|Único,pendiente
+Boutonniere Rosas|Único,pendiente
+Buganvilla Maceta|L,pendiente
+Cactus Echinocactus|M,pendiente
+Cactus Opuntia|M,pendiente
+Caja Rosas Preservadas Deluxe|L,pendiente
+Calathea Medallion|M,pendiente
+Centro Funerario Vertical|L,pendiente
+Centro Invierno Ramas Nevadas|S,pendiente
+Centro Navidad Pino Natural|M,pendiente
+Centro Otoño Calabaza|M,pendiente
+Centro de Mesa Boda Eucalipto|S,pendiente
+Centro de Mesa Boda Eucalipto|M,pendiente
+Centro de Mesa Boda Hortensias|S,pendiente
+Centro de Mesa Boda Hortensias|M,pendiente
+Centro de Mesa Boda Peonías|S,pendiente
+Centro de Mesa Boda Peonías|M,pendiente
+Centro de Mesa Boda Rosas|S,pendiente
+Centro de Mesa Boda Rosas|M,pendiente
+Centro de Mesa Navideño|M,pendiente
+Centro de Mesa Orquídeas|S,pendiente
+Centro de Mesa Orquídeas|M,pendiente
+Centro de Mesa Rosas y Eucalipto|S,pendiente
+Centro de Mesa Rosas y Eucalipto|M,pendiente
+Centro de Mesa Tulipanes|S,pendiente
+Cesta Primavera Jacintos Aromáticos|M,pendiente
+Cesta Verano Margaritas Campo|S,pendiente
+Cesta de Flores Silvestres|S,pendiente
+Cesta de Frutas y Flores|L,pendiente
+Cesta de Margaritas Silvestres|S,pendiente
+Clemátide Trepadora Maceta|M,pendiente
+Cojín Funerario Claveles|L,pendiente
+Cojín Funerario Rosas Blancas|L,pendiente
+Corona Adviento con Velas|M,pendiente
+Corona Cabeza Flores Secas|S,pendiente
+Corona Cabeza Novia Flores Silvestres|S,pendiente
+Corona Cabeza Novia Rosas|S,pendiente
+Corona Funeral Gladiolos|M,pendiente
+Corona Funeral Gladiolos|L,pendiente
+Corona Fúnebre Claveles|M,pendiente
+Corona Fúnebre Claveles|L,pendiente
+Corona Fúnebre Clásica Rosas|M,pendiente
+Corona Fúnebre Clásica Rosas|L,pendiente
+Corona Fúnebre Lirios|M,pendiente
+Corona Fúnebre Lirios|L,pendiente
+Corona Fúnebre Lujo Especial|L,pendiente
+Corona Otoño Hojas y Bayas|M,pendiente
+Corsage Dama Orquídeas|Único,pendiente
+Crassula Ovata (Árbol Jade)|S,pendiente
+Cruz de Claveles y Lirios|XL,pendiente
+Cruz de Gladiolos Blancos|XL,pendiente
+Cruz de Rosas Blancas|XL,pendiente
+Dalia|Único,pendiente
+Dieffenbachia|L,pendiente
+Dracaena Marginata|L,pendiente
+Echeveria Elegans|S,pendiente
+Eucalipto Baby Blue|M,pendiente
+Ficus Lyrata|XL,pendiente
+Filodendro Scandens|M,pendiente
+Fittonia|S,pendiente
+Geranio Maceta|M,pendiente
+Guirnalda Flores Boda|XL,pendiente
+Guirnalda de Eucalipto|M,pendiente
+Haworthia Fasciata|S,pendiente
+Helecho de Boston|L,pendiente
+Iris|Único,pendiente
+Jazmín Maceta|M,pendiente
+Lavanda Angustifolia Maceta|M,pendiente
+Maranta Tricolor|M,pendiente
+Menta Piperita Maceta|S,pendiente
+Monstera Deliciosa|L,pendiente
+Orquídea Phalaenopsis|M,pendiente
+Orquídea Phalaenopsis Gigante|L,pendiente
+Pack Oficina Verde 3 Plantas|M,pendiente
+Palma Funeraria Clásica|XL,pendiente
+Palma Funeraria Premium|L,pendiente
+Palmera Areca|XL,pendiente
+Peperomia Caperata|S,pendiente
+Petunias Colgantes Mixtas|M,pendiente
+Pilea Peperomioides|S,pendiente
+Potho Dorado Colgante|M,pendiente
+Protea King|Único,pendiente
+Ramo 100 Rosas Rojas Premium|L,pendiente
+Ramo Bienvenida Nuevo Hogar|M,pendiente
+Ramo Blanco Pureza|M,pendiente
+Ramo Corporativo Sobrio|L,pendiente
+Ramo Dama Honor Lirios|M,pendiente
+Ramo Día de la Madre Lirios|L,pendiente
+Ramo Día de la Madre Rosas|L,pendiente
+Ramo Día de la Madre Tulipanes|L,pendiente
+Ramo Enhorabuena Graduación|L,pendiente
+Ramo Exótico Strelitzia|L,pendiente
+Ramo Funerario Económico|M,pendiente
+Ramo Gracias Tulipanes Mix|M,pendiente
+Ramo Mejórate Pronto|M,pendiente
+Ramo Mimosa Amarilla|M,pendiente
+Ramo Nacimiento Bebé Azul|M,pendiente
+Ramo Nacimiento Bebé Neutro|M,pendiente
+Ramo de Rosas Nacimiento Bebé|M,pendiente
+Ramo Otoño Tonos Cálidos|M,pendiente
+Ramo Pascua Lirios|L,pendiente
+Ramo Primavera Narcisos|M,pendiente
+Ramo Primavera Tulipanes Mix|M,pendiente
+Ramo San Valentín Corazón|L,pendiente
+Ramo San Valentín Rosas|XL,pendiente
+Ramo Verano Girasoles|L,pendiente
+Ramo de Anémonas|S,pendiente
+Ramo de Anémonas|M,pendiente
+Ramo de Anémonas|L,pendiente
+Ramo de Astromelias|S,pendiente
+Ramo de Astromelias|M,pendiente
+Ramo de Astromelias|L,pendiente
+Ramo de Azucenas|S,pendiente
+Ramo de Azucenas|M,pendiente
+Ramo de Azucenas|L,pendiente
+Ramo de Calas|S,pendiente
+Ramo de Calas|M,pendiente
+Ramo de Calas|L,pendiente
+Ramo de Claveles|S,pendiente
+Ramo de Claveles|M,pendiente
+Ramo de Claveles|L,pendiente
+Ramo de Crisantemos|S,pendiente
+Ramo de Crisantemos|M,pendiente
+Ramo de Crisantemos|L,pendiente
+Ramo de Delphinium|S,pendiente
+Ramo de Delphinium|M,pendiente
+Ramo de Delphinium|L,pendiente
+Ramo de Flores Secas Vintage|M,pendiente
+Ramo de Fresias|S,pendiente
+Ramo de Fresias|M,pendiente
+Ramo de Fresias|L,pendiente
+Ramo de Gerberas|S,pendiente
+Ramo de Gerberas|M,pendiente
+Ramo de Gerberas|L,pendiente
+Ramo de Girasoles|S,pendiente
+Ramo de Girasoles|M,pendiente
+Ramo de Girasoles|L,pendiente
+Ramo de Gladiolos|S,pendiente
+Ramo de Gladiolos|M,pendiente
+Ramo de Gladiolos|L,pendiente
+Ramo de Hortensias|S,pendiente
+Ramo de Hortensias|M,pendiente
+Ramo de Hortensias|L,pendiente
+Ramo de Lavanda Seca|S,pendiente
+Ramo de Lirios|S,pendiente
+Ramo de Lirios|M,pendiente
+Ramo de Lirios|L,pendiente
+Ramo de Margaritas|S,pendiente
+Ramo de Margaritas|M,pendiente
+Ramo de Margaritas|L,pendiente
+Ramo de Novia Calas|L,pendiente
+Ramo de Novia Lirios|L,pendiente
+Ramo de Novia Romántico|L,pendiente
+Ramo de Novia Orquídeas|L,pendiente
+Ramo de Novia Peonías|L,pendiente
+Ramo de Novia Rosas|L,pendiente
+Ramo de Novia Tulipanes|L,pendiente
+Ramo de Pampa Seca|L,pendiente
+Ramo de Peonías|S,pendiente
+Ramo de Peonías|M,pendiente
+Ramo de Peonías|L,pendiente
+Ramo de Ranúnculos|S,pendiente
+Ramo de Ranúnculos|M,pendiente
+Ramo de Ranúnculos|L,pendiente
+Ramo de Rosas|S,"{n} rosas de tallo largo, con el botón a medio abrir, recogidas en un ramillete sencillo y cercano. Un detalle que dice mucho con poco, perfecto para sorprender sin necesitar motivo."
+Ramo de Rosas|M,"{n} rosas de tallo largo, con el botón a medio abrir y sus hojas verdes, recogidas en un ramo redondo. Un clásico que nunca falla: lo dice todo sin necesidad de palabras."
+Ramo de Rosas|L,"{n} rosas de tallo largo que forman un ramo amplio y lleno, con el botón a medio abrir entre hojas verdes. Un gran gesto para los momentos que merecen quedarse en la memoria."
+Ramo de Tulipanes|S,pendiente
+Ramo de Tulipanes|M,pendiente
+Ramo de Tulipanes|L,pendiente
+Romero Maceta|S,pendiente
+Rosa Eterna Cúpula Cristal|M,pendiente
+Rosa Trepadora Roja|L,pendiente
+Sansevieria (Lengua Suegra)|M,pendiente
+Sedum Burrito|S,pendiente
+Spathiphyllum (Cuna Moisés)|M,pendiente
+Terrario Cactus Redondo|S,pendiente
+Terrario Geométrico Premium|L,pendiente
+Terrario Suculentas Geométrico|S,pendiente
+Tomillo Limón Maceta|S,pendiente
+Zamioculca|M,pendiente
+Árbol de Jade|M,pendiente
+Ramo de Lisianthus|S,pendiente
+Ramo de Lisianthus|M,pendiente
+Ramo de Lisianthus|L,pendiente
+Ramo de Lilas|S,pendiente
+Ramo de Lilas|M,pendiente
+Ramo de Lilas|L,pendiente
+Ramo de Alhelí|S,pendiente
+Ramo de Alhelí|M,pendiente
+Ramo de Alhelí|L,pendiente
+Ramo de Guisantes de Olor|S,pendiente
+Ramo de Guisantes de Olor|M,pendiente
+Ramo de Guisantes de Olor|L,pendiente
+Ramo de Snapdragon|S,pendiente
+Ramo de Snapdragon|M,pendiente
+Ramo de Snapdragon|L,pendiente
+Ramo de Narcisos|S,pendiente
+Ramo de Narcisos|M,pendiente
+Ramo de Narcisos|L,pendiente
+Ramo de Jacintos|S,pendiente
+Ramo de Jacintos|M,pendiente
+Ramo de Jacintos|L,pendiente
+Ramo de Muscari Intenso|S,pendiente
+Ramo de Muscari Intenso|M,pendiente
+Ramo de Muscari Intenso|L,pendiente
+Ramo de Muscari|S,pendiente
+Ramo de Muscari|M,pendiente
+Ramo de Muscari|L,pendiente
+Ramo de Amarilis|S,pendiente
+Ramo de Amarilis|M,pendiente
+Ramo de Amarilis|L,pendiente
+Ramo de Nomeolvides|S,pendiente
+Ramo de Nomeolvides|M,pendiente
+Ramo de Nomeolvides|L,pendiente
+Gardenia Maceta|M,pendiente
+Azalea Maceta|M,pendiente
+Camelia Maceta|M,pendiente
+Hibisco Maceta|M,pendiente
+Ciclamen Maceta|M,pendiente
+Violeta Africana|M,pendiente
+Kalanchoe Maceta|M,pendiente
+Corona Fúnebre Crisantemos|M,pendiente
+Corona Fúnebre Crisantemos|L,pendiente
+Corona Fúnebre Gladiolos|M,pendiente
+Corona Fúnebre Gladiolos|L,pendiente
+Corona Fúnebre Gerberas|M,pendiente
+Corona Fúnebre Gerberas|L,pendiente
+Corona Fúnebre Margaritas|M,pendiente
+Corona Fúnebre Margaritas|L,pendiente
+Corona Fúnebre Rosas y Crisantemos|M,"{n} flores entre rosas y crisantemos, dispuestas en círculo sobre una base de verde. Un homenaje sereno y lleno de respeto para despedir a un ser querido."
+Corona Fúnebre Rosas y Crisantemos|L,"{n} flores entre rosas y crisantemos forman un círculo amplio y abundante sobre una base de verde. Un tributo de gran presencia, para acompañar la despedida con todo el cariño."
+Corona Fúnebre Lirios y Claveles|M,pendiente
+Corona Fúnebre Lirios y Claveles|L,pendiente
+Corona Fúnebre Gladiolos y Rosas|M,pendiente
+Corona Fúnebre Gladiolos y Rosas|L,pendiente
+Corona Fúnebre Claveles y Margaritas|M,pendiente
+Corona Fúnebre Claveles y Margaritas|L,pendiente
+Corona Fúnebre Tradicional|M,pendiente
+Corona Fúnebre Tradicional|L,pendiente
+Corona Fúnebre Premium Flores Blancas|L,pendiente

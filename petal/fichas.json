@@ -2,10 +2,17 @@
  "base": "https://jeronimosanchez.github.io/petal/",
  "productos": {
   "Ramo de Rosas": {
-   "descripcion": "{n} rosas de tallo largo, con el botón a medio abrir y sus hojas verdes, recogidas en un ramo redondo. Un clásico que nunca falla: lo dice todo sin necesidad de palabras."
+   "tallas": {
+    "S": "{n} rosas de tallo largo, con el botón a medio abrir, recogidas en un ramillete sencillo y cercano. Un detalle que dice mucho con poco, perfecto para sorprender sin necesitar motivo.",
+    "M": "{n} rosas de tallo largo, con el botón a medio abrir y sus hojas verdes, recogidas en un ramo redondo. Un clásico que nunca falla: lo dice todo sin necesidad de palabras.",
+    "L": "{n} rosas de tallo largo que forman un ramo amplio y lleno, con el botón a medio abrir entre hojas verdes. Un gran gesto para los momentos que merecen quedarse en la memoria."
+   }
   },
   "Corona Fúnebre Rosas y Crisantemos": {
-   "descripcion": "{n} flores entre rosas y crisantemos, dispuestas en círculo sobre una base de verde. Un homenaje sereno y lleno de respeto para despedir a un ser querido."
+   "tallas": {
+    "M": "{n} flores entre rosas y crisantemos, dispuestas en círculo sobre una base de verde. Un homenaje sereno y lleno de respeto para despedir a un ser querido.",
+    "L": "{n} flores entre rosas y crisantemos forman un círculo amplio y abundante sobre una base de verde. Un tributo de gran presencia, para acompañar la despedida con todo el cariño."
+   }
   }
  },
  "fotos": {
