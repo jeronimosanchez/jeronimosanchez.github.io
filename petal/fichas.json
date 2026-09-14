@@ -3035,22 +3035,22 @@
    "producto": "Ramo de Margaritas",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "d7f6eb85"
   },
   "ramo-de-margaritas-naranja-m": {
    "producto": "Ramo de Margaritas",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "4b952290"
   },
   "ramo-de-margaritas-naranja-l": {
    "producto": "Ramo de Margaritas",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "6dd5a68f"
   },
   "ramo-de-margaritas-rosa-s": {
    "producto": "Ramo de Margaritas",
