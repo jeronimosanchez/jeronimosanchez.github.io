@@ -2930,22 +2930,22 @@
    "producto": "Ramo de Lirios",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "1b6c2262"
   },
   "ramo-de-lirios-naranja-m": {
    "producto": "Ramo de Lirios",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "0fc64572"
   },
   "ramo-de-lirios-naranja-l": {
    "producto": "Ramo de Lirios",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "c4fc5f3a"
   },
   "ramo-de-lirios-rosa-s": {
    "producto": "Ramo de Lirios",
