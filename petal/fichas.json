@@ -3154,22 +3154,22 @@
    "producto": "Ramo de Peonías",
    "color": "Coral",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "ca429dcd"
+   "estado": "final",
+   "v": "89292bb2"
   },
   "ramo-de-peonias-coral-m": {
    "producto": "Ramo de Peonías",
    "color": "Coral",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "ca429dcd"
+   "estado": "final",
+   "v": "3cda36ae"
   },
   "ramo-de-peonias-coral-l": {
    "producto": "Ramo de Peonías",
    "color": "Coral",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "ca429dcd"
+   "estado": "provisional",
+   "v": "dda289a9"
   },
   "ramo-de-peonias-rosa-s": {
    "producto": "Ramo de Peonías",
