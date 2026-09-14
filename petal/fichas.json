@@ -2286,22 +2286,22 @@
    "producto": "Ramo de Claveles",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "30483199"
   },
   "ramo-de-claveles-blanco-m": {
    "producto": "Ramo de Claveles",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "61fdb779"
   },
   "ramo-de-claveles-blanco-l": {
    "producto": "Ramo de Claveles",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "b3a8824e"
   },
   "ramo-de-claveles-multicolor-s": {
    "producto": "Ramo de Claveles",
