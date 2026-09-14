@@ -2286,22 +2286,22 @@
    "producto": "Ramo de Claveles",
    "color": "Blanco",
    "talla": "S",
-   "estado": "final",
-   "v": "30483199"
+   "estado": "sin foto",
+   "v": "6765b0ca"
   },
   "ramo-de-claveles-blanco-m": {
    "producto": "Ramo de Claveles",
    "color": "Blanco",
    "talla": "M",
-   "estado": "provisional",
-   "v": "61fdb779"
+   "estado": "final",
+   "v": "fb73a1a3"
   },
   "ramo-de-claveles-blanco-l": {
    "producto": "Ramo de Claveles",
    "color": "Blanco",
    "talla": "L",
-   "estado": "provisional",
-   "v": "b3a8824e"
+   "estado": "final",
+   "v": "ca48bcdc"
   },
   "ramo-de-claveles-multicolor-s": {
    "producto": "Ramo de Claveles",
@@ -2609,21 +2609,21 @@
    "color": "Amarillo",
    "talla": "S",
    "estado": "final",
-   "v": "74328d5c"
+   "v": "ef8cf7fa"
   },
   "ramo-de-gerberas-amarillo-m": {
    "producto": "Ramo de Gerberas",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "provisional",
-   "v": "5bb86487"
+   "estado": "final",
+   "v": "dbfc5b32"
   },
   "ramo-de-gerberas-amarillo-l": {
    "producto": "Ramo de Gerberas",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "provisional",
-   "v": "ad0f9e83"
+   "estado": "final",
+   "v": "9ea98ebc"
   },
   "ramo-de-gerberas-blanco-s": {
    "producto": "Ramo de Gerberas",
