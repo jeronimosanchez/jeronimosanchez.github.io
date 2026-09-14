@@ -1040,8 +1040,8 @@
    "producto": "Arco Floral Boda Rosas y Eucalipto",
    "color": "Rosa y Verde",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "9f4ed20d"
+   "estado": "final",
+   "v": "e777efc5"
   },
   "arreglo-condolencias-lujo-blanco-l": {
    "producto": "Arreglo Condolencias Lujo",
@@ -1187,8 +1187,8 @@
    "producto": "Boutonniere Claveles",
    "color": "Blanco",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "38a1a0f8"
   },
   "boutonniere-rosas-rojo-unico": {
    "producto": "Boutonniere Rosas",
@@ -1222,8 +1222,8 @@
    "producto": "Caja Rosas Preservadas Deluxe",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "232363d0"
   },
   "calathea-medallion-verde-m": {
    "producto": "Calathea Medallion",
@@ -1327,15 +1327,15 @@
    "producto": "Centro de Mesa Orquídeas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "685df437"
   },
   "centro-de-mesa-orquideas-blanco-m": {
    "producto": "Centro de Mesa Orquídeas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "05f2aa5d"
   },
   "centro-de-mesa-rosas-y-eucalipto-rosa-y-verde-s": {
    "producto": "Centro de Mesa Rosas y Eucalipto",
@@ -1376,8 +1376,8 @@
    "producto": "Cesta de Flores Silvestres",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "f1f162c8"
   },
   "cesta-de-frutas-y-flores-multicolor-l": {
    "producto": "Cesta de Frutas y Flores",
@@ -1404,8 +1404,8 @@
    "producto": "Cojín Funerario Claveles",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "e3a87a2e"
   },
   "cojin-funerario-rosas-blancas-blanco-l": {
    "producto": "Cojín Funerario Rosas Blancas",
@@ -1418,15 +1418,15 @@
    "producto": "Corona Adviento con Velas",
    "color": "Verde y Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "f10809b4"
+   "estado": "final",
+   "v": "95003ab6"
   },
   "corona-cabeza-flores-secas-beige-s": {
    "producto": "Corona Cabeza Flores Secas",
    "color": "Beige",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "8c0a88f2"
+   "estado": "final",
+   "v": "51cb4f83"
   },
   "corona-cabeza-novia-flores-silvestres-multicolor-s": {
    "producto": "Corona Cabeza Novia Flores Silvestres",
@@ -1460,15 +1460,15 @@
    "producto": "Corona Fúnebre Claveles",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "8275df00"
   },
   "corona-funebre-claveles-blanco-l": {
    "producto": "Corona Fúnebre Claveles",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "69bd923b"
   },
   "corona-funebre-clasica-rosas-rosa-m": {
    "producto": "Corona Fúnebre Clásica Rosas",
@@ -1537,8 +1537,8 @@
    "producto": "Cruz de Gladiolos Blancos",
    "color": "Blanco",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "5f0e6af1"
   },
   "cruz-de-rosas-blancas-blanco-xl": {
    "producto": "Cruz de Rosas Blancas",
@@ -1593,8 +1593,8 @@
    "producto": "Eucalipto Baby Blue",
    "color": "Verde Azulado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "final",
+   "v": "bdafd0b8"
   },
   "ficus-lyrata-verde-xl": {
    "producto": "Ficus Lyrata",
@@ -1649,8 +1649,8 @@
    "producto": "Guirnalda de Eucalipto",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "final",
+   "v": "fadac910"
   },
   "haworthia-fasciata-verde-s": {
    "producto": "Haworthia Fasciata",
@@ -1677,8 +1677,8 @@
    "producto": "Iris",
    "color": "Azul",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "final",
+   "v": "cfe24e38"
   },
   "iris-morado-unico": {
    "producto": "Iris",
@@ -1726,8 +1726,8 @@
    "producto": "Orquídea Phalaenopsis",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "cdc29d0d"
   },
   "orquidea-phalaenopsis-blanco-m": {
    "producto": "Orquídea Phalaenopsis",
@@ -1761,15 +1761,15 @@
    "producto": "Pack Oficina Verde 3 Plantas",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "final",
+   "v": "b9dcf619"
   },
   "palma-funeraria-clasica-verde-y-blanco-xl": {
    "producto": "Palma Funeraria Clásica",
    "color": "Verde y Blanco",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "f3cfb29d"
+   "estado": "final",
+   "v": "79bc6bee"
   },
   "palma-funeraria-premium-verde-y-blanco-l": {
    "producto": "Palma Funeraria Premium",
@@ -2608,22 +2608,22 @@
    "producto": "Ramo de Gerberas",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "74328d5c"
   },
   "ramo-de-gerberas-amarillo-m": {
    "producto": "Ramo de Gerberas",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "5bb86487"
   },
   "ramo-de-gerberas-amarillo-l": {
    "producto": "Ramo de Gerberas",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "ad0f9e83"
   },
   "ramo-de-gerberas-blanco-s": {
    "producto": "Ramo de Gerberas",
@@ -2797,22 +2797,22 @@
    "producto": "Ramo de Gladiolos",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "f88ea8f9"
   },
   "ramo-de-gladiolos-rosa-m": {
    "producto": "Ramo de Gladiolos",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "09ac8aca"
   },
   "ramo-de-gladiolos-rosa-l": {
    "producto": "Ramo de Gladiolos",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "3144be7b"
   },
   "ramo-de-hortensias-azul-s": {
    "producto": "Ramo de Hortensias",
@@ -2951,22 +2951,22 @@
    "producto": "Ramo de Lirios",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "07c5bf46"
   },
   "ramo-de-lirios-rosa-m": {
    "producto": "Ramo de Lirios",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "368f389e"
   },
   "ramo-de-lirios-rosa-l": {
    "producto": "Ramo de Lirios",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "66e3675b"
   },
   "ramo-de-margaritas-amarillo-s": {
    "producto": "Ramo de Margaritas",
@@ -3105,8 +3105,8 @@
    "producto": "Ramo de Novia Peonías",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "4b15380f"
   },
   "ramo-de-novia-rosas-blanco-l": {
    "producto": "Ramo de Novia Rosas",
@@ -3539,8 +3539,8 @@
    "producto": "Rosa Eterna Cúpula Cristal",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "1ff8dd6c"
   },
   "rosa-trepadora-roja-rojo-l": {
    "producto": "Rosa Trepadora Roja",
@@ -3581,8 +3581,8 @@
    "producto": "Terrario Geométrico Premium",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "final",
+   "v": "64b10866"
   },
   "terrario-suculentas-geometrico-verde-s": {
    "producto": "Terrario Suculentas Geométrico",
