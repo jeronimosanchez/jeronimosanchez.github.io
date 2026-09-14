@@ -2412,22 +2412,22 @@
    "producto": "Ramo de Crisantemos",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "e6c0f9b5"
   },
   "ramo-de-crisantemos-multicolor-m": {
    "producto": "Ramo de Crisantemos",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "f3cca8fa"
   },
   "ramo-de-crisantemos-multicolor-l": {
    "producto": "Ramo de Crisantemos",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "c654ef4f"
   },
   "ramo-de-crisantemos-naranja-s": {
    "producto": "Ramo de Crisantemos",
