@@ -2307,22 +2307,22 @@
    "producto": "Ramo de Claveles",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "7bbf54c4"
   },
   "ramo-de-claveles-multicolor-m": {
    "producto": "Ramo de Claveles",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "7b9d6924"
   },
   "ramo-de-claveles-multicolor-l": {
    "producto": "Ramo de Claveles",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "1ee52663"
   },
   "ramo-de-claveles-rojo-s": {
    "producto": "Ramo de Claveles",
