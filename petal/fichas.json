@@ -2433,22 +2433,22 @@
    "producto": "Ramo de Crisantemos",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "0bff74a1"
   },
   "ramo-de-crisantemos-naranja-m": {
    "producto": "Ramo de Crisantemos",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "16e32a6a"
   },
   "ramo-de-crisantemos-naranja-l": {
    "producto": "Ramo de Crisantemos",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "9d976a29"
   },
   "ramo-de-crisantemos-rojo-s": {
    "producto": "Ramo de Crisantemos",
@@ -2692,22 +2692,22 @@
    "producto": "Ramo de Gerberas",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "8ac46749"
   },
   "ramo-de-gerberas-rojo-m": {
    "producto": "Ramo de Gerberas",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "1bae06e9"
   },
   "ramo-de-gerberas-rojo-l": {
    "producto": "Ramo de Gerberas",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "431221aa"
   },
   "ramo-de-gerberas-rosa-s": {
    "producto": "Ramo de Gerberas",
@@ -3469,64 +3469,64 @@
    "producto": "Ramo de Tulipanes",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "03b8588c"
   },
   "ramo-de-tulipanes-morado-m": {
    "producto": "Ramo de Tulipanes",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "cfce449c"
   },
   "ramo-de-tulipanes-morado-l": {
    "producto": "Ramo de Tulipanes",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "4affae50"
   },
   "ramo-de-tulipanes-rojo-s": {
    "producto": "Ramo de Tulipanes",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "9b76d08c"
   },
   "ramo-de-tulipanes-rojo-m": {
    "producto": "Ramo de Tulipanes",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "f63b969d"
   },
   "ramo-de-tulipanes-rojo-l": {
    "producto": "Ramo de Tulipanes",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "6d272ee8"
   },
   "ramo-de-tulipanes-rosa-s": {
    "producto": "Ramo de Tulipanes",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "d043306f"
   },
   "ramo-de-tulipanes-rosa-m": {
    "producto": "Ramo de Tulipanes",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "272e13bc"
   },
   "ramo-de-tulipanes-rosa-l": {
    "producto": "Ramo de Tulipanes",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "d990b860"
   },
   "romero-maceta-verde-s": {
    "producto": "Romero Maceta",
