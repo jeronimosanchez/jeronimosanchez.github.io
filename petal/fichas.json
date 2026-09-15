@@ -2454,22 +2454,22 @@
    "producto": "Ramo de Crisantemos",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "67e5f8be"
   },
   "ramo-de-crisantemos-rojo-m": {
    "producto": "Ramo de Crisantemos",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "a86b6470"
   },
   "ramo-de-crisantemos-rojo-l": {
    "producto": "Ramo de Crisantemos",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "8b9c7096"
   },
   "ramo-de-delphinium-azul-s": {
    "producto": "Ramo de Delphinium",
@@ -2839,22 +2839,22 @@
    "producto": "Ramo de Hortensias",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "4dea777c"
   },
   "ramo-de-hortensias-blanco-m": {
    "producto": "Ramo de Hortensias",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "3c95495a"
   },
   "ramo-de-hortensias-blanco-l": {
    "producto": "Ramo de Hortensias",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "9aef3cc0"
   },
   "ramo-de-hortensias-rosa-s": {
    "producto": "Ramo de Hortensias",
@@ -3056,22 +3056,22 @@
    "producto": "Ramo de Margaritas",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "a484c2a0"
   },
   "ramo-de-margaritas-rosa-m": {
    "producto": "Ramo de Margaritas",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "d77cb15f"
   },
   "ramo-de-margaritas-rosa-l": {
    "producto": "Ramo de Margaritas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "574c9008"
   },
   "ramo-de-novia-calas-blanco-l": {
    "producto": "Ramo de Novia Calas",
@@ -3133,22 +3133,22 @@
    "producto": "Ramo de Peonías",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "a699c529"
   },
   "ramo-de-peonias-blanco-m": {
    "producto": "Ramo de Peonías",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "7ba0f6bc"
   },
   "ramo-de-peonias-blanco-l": {
    "producto": "Ramo de Peonías",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "c3b41aac"
   },
   "ramo-de-peonias-coral-s": {
    "producto": "Ramo de Peonías",
@@ -3280,22 +3280,22 @@
    "producto": "Ramo de Rosas",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "8109ff91"
   },
   "ramo-de-rosas-amarillo-m": {
    "producto": "Ramo de Rosas",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "80836886"
   },
   "ramo-de-rosas-amarillo-l": {
    "producto": "Ramo de Rosas",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "1174c4b1"
   },
   "ramo-de-rosas-blanco-s": {
    "producto": "Ramo de Rosas",
