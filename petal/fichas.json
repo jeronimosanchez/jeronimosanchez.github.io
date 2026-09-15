@@ -2818,22 +2818,22 @@
    "producto": "Ramo de Hortensias",
    "color": "Azul",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "final",
+   "v": "e8327d77"
   },
   "ramo-de-hortensias-azul-m": {
    "producto": "Ramo de Hortensias",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "4922aa10"
   },
   "ramo-de-hortensias-azul-l": {
    "producto": "Ramo de Hortensias",
    "color": "Azul",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "11958ac3"
   },
   "ramo-de-hortensias-blanco-s": {
    "producto": "Ramo de Hortensias",
@@ -3322,43 +3322,43 @@
    "producto": "Ramo de Rosas",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "3e1e6b85"
   },
   "ramo-de-rosas-morado-m": {
    "producto": "Ramo de Rosas",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "d42535e0"
   },
   "ramo-de-rosas-morado-l": {
    "producto": "Ramo de Rosas",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "a46ca8d6"
   },
   "ramo-de-rosas-naranja-s": {
    "producto": "Ramo de Rosas",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "22e9a141"
   },
   "ramo-de-rosas-naranja-m": {
    "producto": "Ramo de Rosas",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "c9d6f228"
   },
   "ramo-de-rosas-naranja-l": {
    "producto": "Ramo de Rosas",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "8d81796b"
   },
   "ramo-de-rosas-rojo-s": {
    "producto": "Ramo de Rosas",
@@ -3427,22 +3427,22 @@
    "producto": "Ramo de Tulipanes",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "9e7f3b48"
   },
   "ramo-de-tulipanes-blanco-m": {
    "producto": "Ramo de Tulipanes",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "c0042505"
   },
   "ramo-de-tulipanes-blanco-l": {
    "producto": "Ramo de Tulipanes",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "91220720"
   },
   "ramo-de-tulipanes-multicolor-s": {
    "producto": "Ramo de Tulipanes",
@@ -4057,22 +4057,22 @@
    "producto": "Ramo de Narcisos",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "68d5ed6d"
   },
   "ramo-de-narcisos-multicolor-m": {
    "producto": "Ramo de Narcisos",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "4f80e14a"
   },
   "ramo-de-narcisos-multicolor-l": {
    "producto": "Ramo de Narcisos",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "cb52ecc5"
   },
   "ramo-de-jacintos-rosa-s": {
    "producto": "Ramo de Jacintos",
