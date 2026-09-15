@@ -2391,22 +2391,22 @@
    "producto": "Ramo de Crisantemos",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "ada801b6"
   },
   "ramo-de-crisantemos-blanco-m": {
    "producto": "Ramo de Crisantemos",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "a1217cfd"
   },
   "ramo-de-crisantemos-blanco-l": {
    "producto": "Ramo de Crisantemos",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "f2b493e3"
   },
   "ramo-de-crisantemos-multicolor-s": {
    "producto": "Ramo de Crisantemos",
@@ -2713,22 +2713,22 @@
    "producto": "Ramo de Gerberas",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "d80f874b"
   },
   "ramo-de-gerberas-rosa-m": {
    "producto": "Ramo de Gerberas",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "14e625e3"
   },
   "ramo-de-gerberas-rosa-l": {
    "producto": "Ramo de Gerberas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "af083383"
   },
   "ramo-de-girasoles-amarillo-s": {
    "producto": "Ramo de Girasoles",
@@ -2888,43 +2888,43 @@
    "producto": "Ramo de Lirios",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "cb67f7ed"
   },
   "ramo-de-lirios-amarillo-m": {
    "producto": "Ramo de Lirios",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "d28950a9"
   },
   "ramo-de-lirios-amarillo-l": {
    "producto": "Ramo de Lirios",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "67bec032"
   },
   "ramo-de-lirios-blanco-s": {
    "producto": "Ramo de Lirios",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "e48e2852"
   },
   "ramo-de-lirios-blanco-m": {
    "producto": "Ramo de Lirios",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "8d0be795"
   },
   "ramo-de-lirios-blanco-l": {
    "producto": "Ramo de Lirios",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "42f55b66"
   },
   "ramo-de-lirios-naranja-s": {
    "producto": "Ramo de Lirios",
@@ -3385,22 +3385,22 @@
    "producto": "Ramo de Rosas",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "5eb763f9"
   },
   "ramo-de-rosas-rosa-m": {
    "producto": "Ramo de Rosas",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "9e5cf217"
   },
   "ramo-de-rosas-rosa-l": {
    "producto": "Ramo de Rosas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "75076aad"
   },
   "ramo-de-tulipanes-amarillo-s": {
    "producto": "Ramo de Tulipanes",
