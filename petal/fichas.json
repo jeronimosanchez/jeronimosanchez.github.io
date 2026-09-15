@@ -2265,22 +2265,22 @@
    "producto": "Ramo de Claveles",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "e040f100"
   },
   "ramo-de-claveles-amarillo-m": {
    "producto": "Ramo de Claveles",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "4dd77892"
   },
   "ramo-de-claveles-amarillo-l": {
    "producto": "Ramo de Claveles",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "a85d330d"
   },
   "ramo-de-claveles-blanco-s": {
    "producto": "Ramo de Claveles",
@@ -2755,22 +2755,22 @@
    "producto": "Ramo de Gladiolos",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "7f042451"
   },
   "ramo-de-gladiolos-blanco-m": {
    "producto": "Ramo de Gladiolos",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "2783064f"
   },
   "ramo-de-gladiolos-blanco-l": {
    "producto": "Ramo de Gladiolos",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "f6101574"
   },
   "ramo-de-gladiolos-rojo-s": {
    "producto": "Ramo de Gladiolos",
@@ -3014,22 +3014,22 @@
    "producto": "Ramo de Margaritas",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "e3fe066a"
   },
   "ramo-de-margaritas-multicolor-m": {
    "producto": "Ramo de Margaritas",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "8ebb1a48"
   },
   "ramo-de-margaritas-multicolor-l": {
    "producto": "Ramo de Margaritas",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "c0bbd758"
   },
   "ramo-de-margaritas-naranja-s": {
    "producto": "Ramo de Margaritas",
@@ -3448,22 +3448,22 @@
    "producto": "Ramo de Tulipanes",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "50768aa4"
   },
   "ramo-de-tulipanes-multicolor-m": {
    "producto": "Ramo de Tulipanes",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "20c48f78"
   },
   "ramo-de-tulipanes-multicolor-l": {
    "producto": "Ramo de Tulipanes",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "713fa1e9"
   },
   "ramo-de-tulipanes-morado-s": {
    "producto": "Ramo de Tulipanes",
@@ -4036,22 +4036,22 @@
    "producto": "Ramo de Narcisos",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "18226fdc"
   },
   "ramo-de-narcisos-naranja-m": {
    "producto": "Ramo de Narcisos",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "fc25b32f"
   },
   "ramo-de-narcisos-naranja-l": {
    "producto": "Ramo de Narcisos",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "450975aa"
   },
   "ramo-de-narcisos-multicolor-s": {
    "producto": "Ramo de Narcisos",
