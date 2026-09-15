@@ -2349,22 +2349,22 @@
    "producto": "Ramo de Claveles",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "89a400ea"
   },
   "ramo-de-claveles-rosa-m": {
    "producto": "Ramo de Claveles",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "b5f855e5"
   },
   "ramo-de-claveles-rosa-l": {
    "producto": "Ramo de Claveles",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "bebbbaca"
   },
   "ramo-de-crisantemos-amarillo-s": {
    "producto": "Ramo de Crisantemos",
@@ -2776,22 +2776,22 @@
    "producto": "Ramo de Gladiolos",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "6cd2d485"
   },
   "ramo-de-gladiolos-rojo-m": {
    "producto": "Ramo de Gladiolos",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "8d8793aa"
   },
   "ramo-de-gladiolos-rojo-l": {
    "producto": "Ramo de Gladiolos",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "eae67f9e"
   },
   "ramo-de-gladiolos-rosa-s": {
    "producto": "Ramo de Gladiolos",
@@ -2972,22 +2972,22 @@
    "producto": "Ramo de Margaritas",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "3ad0e96c"
   },
   "ramo-de-margaritas-amarillo-m": {
    "producto": "Ramo de Margaritas",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "8374146a"
   },
   "ramo-de-margaritas-amarillo-l": {
    "producto": "Ramo de Margaritas",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "4a61bce6"
   },
   "ramo-de-margaritas-blanco-s": {
    "producto": "Ramo de Margaritas",
@@ -3301,8 +3301,8 @@
    "producto": "Ramo de Rosas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "94520e4f"
   },
   "ramo-de-rosas-blanco-m": {
    "producto": "Ramo de Rosas",
@@ -3315,8 +3315,8 @@
    "producto": "Ramo de Rosas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "68eda492"
   },
   "ramo-de-rosas-morado-s": {
    "producto": "Ramo de Rosas",
@@ -3406,22 +3406,22 @@
    "producto": "Ramo de Tulipanes",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "754a899f"
   },
   "ramo-de-tulipanes-amarillo-m": {
    "producto": "Ramo de Tulipanes",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "d0ef16ff"
   },
   "ramo-de-tulipanes-amarillo-l": {
    "producto": "Ramo de Tulipanes",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "15debcba"
   },
   "ramo-de-tulipanes-blanco-s": {
    "producto": "Ramo de Tulipanes",
