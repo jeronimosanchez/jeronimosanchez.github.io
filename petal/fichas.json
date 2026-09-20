@@ -2244,22 +2244,22 @@
    "producto": "Ramo de Calas",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "ac21736d"
   },
   "ramo-de-calas-morado-m": {
    "producto": "Ramo de Calas",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "83df33a4"
   },
   "ramo-de-calas-morado-l": {
    "producto": "Ramo de Calas",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "0bb98a5b"
   },
   "ramo-de-claveles-amarillo-s": {
    "producto": "Ramo de Claveles",
@@ -2475,22 +2475,22 @@
    "producto": "Ramo de Delphinium",
    "color": "Azul",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "05a47793"
   },
   "ramo-de-delphinium-azul-m": {
    "producto": "Ramo de Delphinium",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "fcbfe064"
   },
   "ramo-de-delphinium-azul-l": {
    "producto": "Ramo de Delphinium",
    "color": "Azul",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "eb773570"
   },
   "ramo-de-delphinium-blanco-s": {
    "producto": "Ramo de Delphinium",
@@ -2566,22 +2566,22 @@
    "producto": "Ramo de Fresias",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "fcf858d3"
   },
   "ramo-de-fresias-multicolor-m": {
    "producto": "Ramo de Fresias",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "9efb8565"
   },
   "ramo-de-fresias-multicolor-l": {
    "producto": "Ramo de Fresias",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "cfd9007e"
   },
   "ramo-de-fresias-rosa-s": {
    "producto": "Ramo de Fresias",
@@ -2860,22 +2860,22 @@
    "producto": "Ramo de Hortensias",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "6080c680"
   },
   "ramo-de-hortensias-rosa-m": {
    "producto": "Ramo de Hortensias",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "8b93ca6b"
   },
   "ramo-de-hortensias-rosa-l": {
    "producto": "Ramo de Hortensias",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "f071b6f7"
   },
   "ramo-de-lavanda-seca-morado-s": {
    "producto": "Ramo de Lavanda Seca",
@@ -3196,22 +3196,22 @@
    "producto": "Ramo de Ranúnculos",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "a4d5e552"
   },
   "ramo-de-ranunculos-amarillo-m": {
    "producto": "Ramo de Ranúnculos",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "feb5a556"
   },
   "ramo-de-ranunculos-amarillo-l": {
    "producto": "Ramo de Ranúnculos",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "b167b81d"
   },
   "ramo-de-ranunculos-blanco-s": {
    "producto": "Ramo de Ranúnculos",
@@ -3616,22 +3616,22 @@
    "producto": "Ramo de Lisianthus",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "9402f12f"
   },
   "ramo-de-lisianthus-blanco-m": {
    "producto": "Ramo de Lisianthus",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "cffb1cf3"
   },
   "ramo-de-lisianthus-blanco-l": {
    "producto": "Ramo de Lisianthus",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "9b4ca812"
   },
   "ramo-de-lisianthus-rosa-s": {
    "producto": "Ramo de Lisianthus",
@@ -3742,22 +3742,22 @@
    "producto": "Ramo de Alhelí",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "cee97c14"
   },
   "ramo-de-alheli-blanco-m": {
    "producto": "Ramo de Alhelí",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "3ebdceed"
   },
   "ramo-de-alheli-blanco-l": {
    "producto": "Ramo de Alhelí",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "4e502dfc"
   },
   "ramo-de-alheli-rosa-s": {
    "producto": "Ramo de Alhelí",
@@ -4183,22 +4183,22 @@
    "producto": "Ramo de Muscari",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "f84936dc"
   },
   "ramo-de-muscari-blanco-m": {
    "producto": "Ramo de Muscari",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "2117df63"
   },
   "ramo-de-muscari-blanco-l": {
    "producto": "Ramo de Muscari",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "430fcac0"
   },
   "ramo-de-muscari-azul-claro-s": {
    "producto": "Ramo de Muscari",
@@ -4288,22 +4288,22 @@
    "producto": "Ramo de Amarilis",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "14bed6d9"
   },
   "ramo-de-amarilis-naranja-m": {
    "producto": "Ramo de Amarilis",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "9cd91244"
   },
   "ramo-de-amarilis-naranja-l": {
    "producto": "Ramo de Amarilis",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "a5fcdc33"
   },
   "ramo-de-nomeolvides-azul-s": {
    "producto": "Ramo de Nomeolvides",
