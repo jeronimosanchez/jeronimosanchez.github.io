@@ -3238,22 +3238,22 @@
    "producto": "Ramo de Ranúnculos",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "315970df"
   },
   "ramo-de-ranunculos-rojo-m": {
    "producto": "Ramo de Ranúnculos",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "cbc37b2d"
   },
   "ramo-de-ranunculos-rojo-l": {
    "producto": "Ramo de Ranúnculos",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "479898ff"
   },
   "ramo-de-ranunculos-rosa-s": {
    "producto": "Ramo de Ranúnculos",
@@ -3994,22 +3994,22 @@
    "producto": "Ramo de Snapdragon",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "5a318489"
   },
   "ramo-de-snapdragon-multicolor-m": {
    "producto": "Ramo de Snapdragon",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "dc05ba0e"
   },
   "ramo-de-snapdragon-multicolor-l": {
    "producto": "Ramo de Snapdragon",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "a0fb8db1"
   },
   "ramo-de-narcisos-blanco-s": {
    "producto": "Ramo de Narcisos",
@@ -4078,22 +4078,22 @@
    "producto": "Ramo de Jacintos",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "03e514f7"
   },
   "ramo-de-jacintos-rosa-m": {
    "producto": "Ramo de Jacintos",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "38249d90"
   },
   "ramo-de-jacintos-rosa-l": {
    "producto": "Ramo de Jacintos",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "62aea1de"
   },
   "ramo-de-jacintos-azul-s": {
    "producto": "Ramo de Jacintos",
@@ -4120,22 +4120,22 @@
    "producto": "Ramo de Jacintos",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "3b5b9779"
   },
   "ramo-de-jacintos-blanco-m": {
    "producto": "Ramo de Jacintos",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "05a27210"
   },
   "ramo-de-jacintos-blanco-l": {
    "producto": "Ramo de Jacintos",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "aa5fa7b1"
   },
   "ramo-de-jacintos-morado-s": {
    "producto": "Ramo de Jacintos",
@@ -4162,22 +4162,22 @@
    "producto": "Ramo de Muscari Intenso",
    "color": "Azul",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "final",
+   "v": "b7492be0"
   },
   "ramo-de-muscari-intenso-azul-m": {
    "producto": "Ramo de Muscari Intenso",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "final",
+   "v": "2833be64"
   },
   "ramo-de-muscari-intenso-azul-l": {
    "producto": "Ramo de Muscari Intenso",
    "color": "Azul",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "65e4e64d"
   },
   "ramo-de-muscari-blanco-s": {
    "producto": "Ramo de Muscari",
