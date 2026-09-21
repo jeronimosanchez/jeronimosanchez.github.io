@@ -1901,8 +1901,8 @@
    "producto": "Ramo Gracias Tulipanes Mix",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "5286aa68"
   },
   "ramo-mejorate-pronto-multicolor-m": {
    "producto": "Ramo Mejórate Pronto",
@@ -2076,22 +2076,22 @@
    "producto": "Ramo de Astromelias",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "a3944a6e"
   },
   "ramo-de-astromelias-multicolor-m": {
    "producto": "Ramo de Astromelias",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "b315565f"
   },
   "ramo-de-astromelias-multicolor-l": {
    "producto": "Ramo de Astromelias",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "1853c48e"
   },
   "ramo-de-astromelias-naranja-s": {
    "producto": "Ramo de Astromelias",
@@ -2496,22 +2496,22 @@
    "producto": "Ramo de Delphinium",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "38a7df47"
   },
   "ramo-de-delphinium-blanco-m": {
    "producto": "Ramo de Delphinium",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "6bee1e3f"
   },
   "ramo-de-delphinium-blanco-l": {
    "producto": "Ramo de Delphinium",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "e113d2f7"
   },
   "ramo-de-flores-secas-vintage-beige-m": {
    "producto": "Ramo de Flores Secas Vintage",
@@ -3805,22 +3805,22 @@
    "producto": "Ramo de Alhelí",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "4057edb9"
   },
   "ramo-de-alheli-rojo-m": {
    "producto": "Ramo de Alhelí",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "c62952ba"
   },
   "ramo-de-alheli-rojo-l": {
    "producto": "Ramo de Alhelí",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "8fed9a9b"
   },
   "ramo-de-guisantes-de-olor-rosa-s": {
    "producto": "Ramo de Guisantes de Olor",
@@ -4638,15 +4638,15 @@
    "producto": "Corona Fúnebre Gerberas",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "5d070a85"
   },
   "corona-funebre-gerberas-multicolor-l": {
    "producto": "Corona Fúnebre Gerberas",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "5d876e06"
   },
   "corona-funebre-margaritas-blanco-m": {
    "producto": "Corona Fúnebre Margaritas",
