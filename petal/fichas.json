@@ -3217,22 +3217,22 @@
    "producto": "Ramo de Ranúnculos",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "a2304955"
   },
   "ramo-de-ranunculos-blanco-m": {
    "producto": "Ramo de Ranúnculos",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "2c83a9d2"
   },
   "ramo-de-ranunculos-blanco-l": {
    "producto": "Ramo de Ranúnculos",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "66368f3b"
   },
   "ramo-de-ranunculos-rojo-s": {
    "producto": "Ramo de Ranúnculos",
@@ -3679,22 +3679,22 @@
    "producto": "Ramo de Lilas",
    "color": "Lila",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "009359b5"
+   "estado": "final",
+   "v": "e6a77a61"
   },
   "ramo-de-lilas-lila-m": {
    "producto": "Ramo de Lilas",
    "color": "Lila",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "009359b5"
+   "estado": "final",
+   "v": "a0192a83"
   },
   "ramo-de-lilas-lila-l": {
    "producto": "Ramo de Lilas",
    "color": "Lila",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "009359b5"
+   "estado": "final",
+   "v": "1c92cc30"
   },
   "ramo-de-lilas-blanco-s": {
    "producto": "Ramo de Lilas",
@@ -3910,64 +3910,64 @@
    "producto": "Ramo de Snapdragon",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "64d41073"
   },
   "ramo-de-snapdragon-blanco-m": {
    "producto": "Ramo de Snapdragon",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "15436b7d"
   },
   "ramo-de-snapdragon-blanco-l": {
    "producto": "Ramo de Snapdragon",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "917bf78e"
   },
   "ramo-de-snapdragon-rosa-s": {
    "producto": "Ramo de Snapdragon",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "2d8cd566"
   },
   "ramo-de-snapdragon-rosa-m": {
    "producto": "Ramo de Snapdragon",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "3f8babaf"
   },
   "ramo-de-snapdragon-rosa-l": {
    "producto": "Ramo de Snapdragon",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "1fc4c123"
   },
   "ramo-de-snapdragon-amarillo-s": {
    "producto": "Ramo de Snapdragon",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "f98a7513"
   },
   "ramo-de-snapdragon-amarillo-m": {
    "producto": "Ramo de Snapdragon",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "c815aa60"
   },
   "ramo-de-snapdragon-amarillo-l": {
    "producto": "Ramo de Snapdragon",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "3fd21f9c"
   },
   "ramo-de-snapdragon-rojo-s": {
    "producto": "Ramo de Snapdragon",
