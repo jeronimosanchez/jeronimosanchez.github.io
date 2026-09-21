@@ -3658,22 +3658,22 @@
    "producto": "Ramo de Lisianthus",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "91493bdc"
   },
   "ramo-de-lisianthus-morado-m": {
    "producto": "Ramo de Lisianthus",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "012faafe"
   },
   "ramo-de-lisianthus-morado-l": {
    "producto": "Ramo de Lisianthus",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "726a74b1"
   },
   "ramo-de-lilas-lila-s": {
    "producto": "Ramo de Lilas",
@@ -3700,43 +3700,43 @@
    "producto": "Ramo de Lilas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "d4e29da1"
   },
   "ramo-de-lilas-blanco-m": {
    "producto": "Ramo de Lilas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "de4f96aa"
   },
   "ramo-de-lilas-blanco-l": {
    "producto": "Ramo de Lilas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "2248db58"
   },
   "ramo-de-lilas-rosa-s": {
    "producto": "Ramo de Lilas",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "a52f2854"
   },
   "ramo-de-lilas-rosa-m": {
    "producto": "Ramo de Lilas",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "4ad66b11"
   },
   "ramo-de-lilas-rosa-l": {
    "producto": "Ramo de Lilas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "e4e8d81c"
   },
   "ramo-de-alheli-blanco-s": {
    "producto": "Ramo de Alhelí",
@@ -3763,22 +3763,22 @@
    "producto": "Ramo de Alhelí",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "0236c9d8"
   },
   "ramo-de-alheli-rosa-m": {
    "producto": "Ramo de Alhelí",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "485479cb"
   },
   "ramo-de-alheli-rosa-l": {
    "producto": "Ramo de Alhelí",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "f8c68b14"
   },
   "ramo-de-alheli-morado-s": {
    "producto": "Ramo de Alhelí",
@@ -4246,22 +4246,22 @@
    "producto": "Ramo de Amarilis",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "7952601b"
   },
   "ramo-de-amarilis-blanco-m": {
    "producto": "Ramo de Amarilis",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "d7652b49"
   },
   "ramo-de-amarilis-blanco-l": {
    "producto": "Ramo de Amarilis",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "b04f9642"
   },
   "ramo-de-amarilis-rosa-s": {
    "producto": "Ramo de Amarilis",
