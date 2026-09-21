@@ -2223,22 +2223,22 @@
    "producto": "Ramo de Calas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "a63a28f2"
   },
   "ramo-de-calas-blanco-m": {
    "producto": "Ramo de Calas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "3e21b87e"
   },
   "ramo-de-calas-blanco-l": {
    "producto": "Ramo de Calas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "c15c8d76"
   },
   "ramo-de-calas-morado-s": {
    "producto": "Ramo de Calas",
@@ -3637,22 +3637,22 @@
    "producto": "Ramo de Lisianthus",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "3b1e02d8"
   },
   "ramo-de-lisianthus-rosa-m": {
    "producto": "Ramo de Lisianthus",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "d25c8cb3"
   },
   "ramo-de-lisianthus-rosa-l": {
    "producto": "Ramo de Lisianthus",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "0bfd0929"
   },
   "ramo-de-lisianthus-morado-s": {
    "producto": "Ramo de Lisianthus",
@@ -4204,43 +4204,43 @@
    "producto": "Ramo de Muscari",
    "color": "Azul Claro",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "final",
+   "v": "1b2bfbcb"
   },
   "ramo-de-muscari-azul-claro-m": {
    "producto": "Ramo de Muscari",
    "color": "Azul Claro",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "final",
+   "v": "20c45252"
   },
   "ramo-de-muscari-azul-claro-l": {
    "producto": "Ramo de Muscari",
    "color": "Azul Claro",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "1ea3efcc"
   },
   "ramo-de-amarilis-rojo-s": {
    "producto": "Ramo de Amarilis",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "13da70bd"
   },
   "ramo-de-amarilis-rojo-m": {
    "producto": "Ramo de Amarilis",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "45aa04df"
   },
   "ramo-de-amarilis-rojo-l": {
    "producto": "Ramo de Amarilis",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "e64ac65a"
   },
   "ramo-de-amarilis-blanco-s": {
    "producto": "Ramo de Amarilis",
@@ -4267,22 +4267,22 @@
    "producto": "Ramo de Amarilis",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "7ecbdd71"
   },
   "ramo-de-amarilis-rosa-m": {
    "producto": "Ramo de Amarilis",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "2a78c58a"
   },
   "ramo-de-amarilis-rosa-l": {
    "producto": "Ramo de Amarilis",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "abb5a1cc"
   },
   "ramo-de-amarilis-naranja-s": {
    "producto": "Ramo de Amarilis",
