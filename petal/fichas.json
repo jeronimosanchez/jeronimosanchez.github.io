@@ -1957,8 +1957,8 @@
    "producto": "Ramo Primavera Narcisos",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "752d22e7"
   },
   "ramo-primavera-tulipanes-mix-multicolor-m": {
    "producto": "Ramo Primavera Tulipanes Mix",
@@ -2034,22 +2034,22 @@
    "producto": "Ramo de Anémonas",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "739cee3b"
   },
   "ramo-de-anemonas-rosa-m": {
    "producto": "Ramo de Anémonas",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "b6f1ff28"
   },
   "ramo-de-anemonas-rosa-l": {
    "producto": "Ramo de Anémonas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "651d5082"
   },
   "ramo-de-astromelias-blanco-s": {
    "producto": "Ramo de Astromelias",
@@ -3259,22 +3259,22 @@
    "producto": "Ramo de Ranúnculos",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "a3ddb29f"
   },
   "ramo-de-ranunculos-rosa-m": {
    "producto": "Ramo de Ranúnculos",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "300c9b9e"
   },
   "ramo-de-ranunculos-rosa-l": {
    "producto": "Ramo de Ranúnculos",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "8dfbe610"
   },
   "ramo-de-rosas-amarillo-s": {
    "producto": "Ramo de Rosas",
@@ -3826,64 +3826,64 @@
    "producto": "Ramo de Guisantes de Olor",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "d324a1cd"
   },
   "ramo-de-guisantes-de-olor-rosa-m": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "05ea59d5"
   },
   "ramo-de-guisantes-de-olor-rosa-l": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "5de6c576"
   },
   "ramo-de-guisantes-de-olor-morado-s": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "2b193387"
   },
   "ramo-de-guisantes-de-olor-morado-m": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "8a921602"
   },
   "ramo-de-guisantes-de-olor-morado-l": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "68c87ffa"
   },
   "ramo-de-guisantes-de-olor-blanco-s": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "3d515be5"
   },
   "ramo-de-guisantes-de-olor-blanco-m": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "5ad92cfb"
   },
   "ramo-de-guisantes-de-olor-blanco-l": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "08f20e33"
   },
   "ramo-de-guisantes-de-olor-coral-s": {
    "producto": "Ramo de Guisantes de Olor",
