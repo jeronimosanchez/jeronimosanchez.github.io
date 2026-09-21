@@ -2013,22 +2013,22 @@
    "producto": "Ramo de Anémonas",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "713275d9"
   },
   "ramo-de-anemonas-morado-m": {
    "producto": "Ramo de Anémonas",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "f79df844"
   },
   "ramo-de-anemonas-morado-l": {
    "producto": "Ramo de Anémonas",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "303035cf"
   },
   "ramo-de-anemonas-rosa-s": {
    "producto": "Ramo de Anémonas",
@@ -2055,22 +2055,22 @@
    "producto": "Ramo de Astromelias",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "4280d040"
   },
   "ramo-de-astromelias-blanco-m": {
    "producto": "Ramo de Astromelias",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "701871cc"
   },
   "ramo-de-astromelias-blanco-l": {
    "producto": "Ramo de Astromelias",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "6b31d7f7"
   },
   "ramo-de-astromelias-multicolor-s": {
    "producto": "Ramo de Astromelias",
@@ -2181,43 +2181,43 @@
    "producto": "Ramo de Azucenas",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "a6758d21"
   },
   "ramo-de-azucenas-rosa-m": {
    "producto": "Ramo de Azucenas",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "bf9c0552"
   },
   "ramo-de-azucenas-rosa-l": {
    "producto": "Ramo de Azucenas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "bbb621ad"
   },
   "ramo-de-calas-amarillo-s": {
    "producto": "Ramo de Calas",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "8f89b37d"
   },
   "ramo-de-calas-amarillo-m": {
    "producto": "Ramo de Calas",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "0fb4194b"
   },
   "ramo-de-calas-amarillo-l": {
    "producto": "Ramo de Calas",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "cf7e0767"
   },
   "ramo-de-calas-blanco-s": {
    "producto": "Ramo de Calas",
@@ -3889,22 +3889,22 @@
    "producto": "Ramo de Guisantes de Olor",
    "color": "Coral",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "ca429dcd"
+   "estado": "final",
+   "v": "e53d6076"
   },
   "ramo-de-guisantes-de-olor-coral-m": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Coral",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "ca429dcd"
+   "estado": "provisional",
+   "v": "3a3aff56"
   },
   "ramo-de-guisantes-de-olor-coral-l": {
    "producto": "Ramo de Guisantes de Olor",
    "color": "Coral",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "ca429dcd"
+   "estado": "final",
+   "v": "af524aa4"
   },
   "ramo-de-snapdragon-blanco-s": {
    "producto": "Ramo de Snapdragon",
