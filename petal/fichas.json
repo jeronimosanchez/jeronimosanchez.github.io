@@ -2160,22 +2160,22 @@
    "producto": "Ramo de Azucenas",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "647615a0"
   },
   "ramo-de-azucenas-naranja-m": {
    "producto": "Ramo de Azucenas",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "341659ed"
   },
   "ramo-de-azucenas-naranja-l": {
    "producto": "Ramo de Azucenas",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "8d26a4c8"
   },
   "ramo-de-azucenas-rosa-s": {
    "producto": "Ramo de Azucenas",
@@ -2545,22 +2545,22 @@
    "producto": "Ramo de Fresias",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "35d7b321"
   },
   "ramo-de-fresias-blanco-m": {
    "producto": "Ramo de Fresias",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "4a317e53"
   },
   "ramo-de-fresias-blanco-l": {
    "producto": "Ramo de Fresias",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "91c2b239"
   },
   "ramo-de-fresias-multicolor-s": {
    "producto": "Ramo de Fresias",
@@ -3973,22 +3973,22 @@
    "producto": "Ramo de Snapdragon",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "0973bc6d"
   },
   "ramo-de-snapdragon-rojo-m": {
    "producto": "Ramo de Snapdragon",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "e52732c7"
   },
   "ramo-de-snapdragon-rojo-l": {
    "producto": "Ramo de Snapdragon",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "4cac2554"
   },
   "ramo-de-snapdragon-multicolor-s": {
    "producto": "Ramo de Snapdragon",
@@ -4099,22 +4099,22 @@
    "producto": "Ramo de Jacintos",
    "color": "Azul",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "final",
+   "v": "2577faf6"
   },
   "ramo-de-jacintos-azul-m": {
    "producto": "Ramo de Jacintos",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "aa1fa452"
   },
   "ramo-de-jacintos-azul-l": {
    "producto": "Ramo de Jacintos",
    "color": "Azul",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "8f1efecd"
   },
   "ramo-de-jacintos-blanco-s": {
    "producto": "Ramo de Jacintos",
@@ -4330,22 +4330,22 @@
    "producto": "Ramo de Nomeolvides",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "d191e5be"
   },
   "ramo-de-nomeolvides-blanco-m": {
    "producto": "Ramo de Nomeolvides",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "f33a532a"
   },
   "ramo-de-nomeolvides-blanco-l": {
    "producto": "Ramo de Nomeolvides",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "9e98682e"
   },
   "ramo-de-nomeolvides-rosa-s": {
    "producto": "Ramo de Nomeolvides",
