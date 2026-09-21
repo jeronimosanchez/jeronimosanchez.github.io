@@ -2118,22 +2118,22 @@
    "producto": "Ramo de Astromelias",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "f9f5fa00"
   },
   "ramo-de-astromelias-rosa-m": {
    "producto": "Ramo de Astromelias",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "9f749988"
   },
   "ramo-de-astromelias-rosa-l": {
    "producto": "Ramo de Astromelias",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "75708381"
   },
   "ramo-de-azucenas-blanco-s": {
    "producto": "Ramo de Azucenas",
@@ -2587,22 +2587,22 @@
    "producto": "Ramo de Fresias",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "d7c7f92b"
   },
   "ramo-de-fresias-rosa-m": {
    "producto": "Ramo de Fresias",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "65eb48e5"
   },
   "ramo-de-fresias-rosa-l": {
    "producto": "Ramo de Fresias",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "b2dcd4d8"
   },
   "ramo-de-gerberas-amarillo-s": {
    "producto": "Ramo de Gerberas",
@@ -3784,22 +3784,22 @@
    "producto": "Ramo de Alhelí",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "a7097ea2"
   },
   "ramo-de-alheli-morado-m": {
    "producto": "Ramo de Alhelí",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "79ee5042"
   },
   "ramo-de-alheli-morado-l": {
    "producto": "Ramo de Alhelí",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "41d485f2"
   },
   "ramo-de-alheli-rojo-s": {
    "producto": "Ramo de Alhelí",
@@ -4141,22 +4141,22 @@
    "producto": "Ramo de Jacintos",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "final",
+   "v": "10cc8bc3"
   },
   "ramo-de-jacintos-morado-m": {
    "producto": "Ramo de Jacintos",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "b82c6ab9"
   },
   "ramo-de-jacintos-morado-l": {
    "producto": "Ramo de Jacintos",
    "color": "Morado",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "d79fa5d1"
   },
   "ramo-de-muscari-intenso-azul-s": {
    "producto": "Ramo de Muscari Intenso",
@@ -4309,22 +4309,22 @@
    "producto": "Ramo de Nomeolvides",
    "color": "Azul",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "37d4df91"
   },
   "ramo-de-nomeolvides-azul-m": {
    "producto": "Ramo de Nomeolvides",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "dd542d48"
   },
   "ramo-de-nomeolvides-azul-l": {
    "producto": "Ramo de Nomeolvides",
    "color": "Azul",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "b2f242fe"
   },
   "ramo-de-nomeolvides-blanco-s": {
    "producto": "Ramo de Nomeolvides",
