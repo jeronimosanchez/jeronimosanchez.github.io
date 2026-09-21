@@ -1992,22 +1992,22 @@
    "producto": "Ramo de Anémonas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "3a8b9959"
   },
   "ramo-de-anemonas-blanco-m": {
    "producto": "Ramo de Anémonas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "82955baa"
   },
   "ramo-de-anemonas-blanco-l": {
    "producto": "Ramo de Anémonas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "9a160e8d"
   },
   "ramo-de-anemonas-morado-s": {
    "producto": "Ramo de Anémonas",
@@ -2097,22 +2097,22 @@
    "producto": "Ramo de Astromelias",
    "color": "Naranja",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "3f3ccad8"
   },
   "ramo-de-astromelias-naranja-m": {
    "producto": "Ramo de Astromelias",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "a12a35a9"
   },
   "ramo-de-astromelias-naranja-l": {
    "producto": "Ramo de Astromelias",
    "color": "Naranja",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "766f7c57"
   },
   "ramo-de-astromelias-rosa-s": {
    "producto": "Ramo de Astromelias",
@@ -2139,22 +2139,22 @@
    "producto": "Ramo de Azucenas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "ea974ea3"
   },
   "ramo-de-azucenas-blanco-m": {
    "producto": "Ramo de Azucenas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "76e86d1d"
   },
   "ramo-de-azucenas-blanco-l": {
    "producto": "Ramo de Azucenas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "95cb1bcd"
   },
   "ramo-de-azucenas-naranja-s": {
    "producto": "Ramo de Azucenas",
@@ -2524,22 +2524,22 @@
    "producto": "Ramo de Fresias",
    "color": "Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "fe7fe67e"
   },
   "ramo-de-fresias-amarillo-m": {
    "producto": "Ramo de Fresias",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "144a16b2"
   },
   "ramo-de-fresias-amarillo-l": {
    "producto": "Ramo de Fresias",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "2b8a76ac"
   },
   "ramo-de-fresias-blanco-s": {
    "producto": "Ramo de Fresias",
@@ -4351,22 +4351,22 @@
    "producto": "Ramo de Nomeolvides",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "e6c3f789"
   },
   "ramo-de-nomeolvides-rosa-m": {
    "producto": "Ramo de Nomeolvides",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "f1eb0aa5"
   },
   "ramo-de-nomeolvides-rosa-l": {
    "producto": "Ramo de Nomeolvides",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "d7fe6845"
   },
   "gardenia-maceta-blanco-m": {
    "producto": "Gardenia Maceta",
