@@ -1698,8 +1698,8 @@
    "producto": "Lavanda Angustifolia Maceta",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "569de510"
   },
   "maranta-tricolor-verde-m": {
    "producto": "Maranta Tricolor",
@@ -1740,8 +1740,8 @@
    "producto": "Orquídea Phalaenopsis Gigante",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "6d482407"
   },
   "orquidea-phalaenopsis-morado-m": {
    "producto": "Orquídea Phalaenopsis",
@@ -3532,8 +3532,8 @@
    "producto": "Romero Maceta",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "2a1a95a9"
   },
   "rosa-eterna-cupula-cristal-rojo-m": {
    "producto": "Rosa Eterna Cúpula Cristal",
@@ -4386,8 +4386,8 @@
    "producto": "Azalea Maceta",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "4e15ecad"
   },
   "azalea-maceta-blanco-m": {
    "producto": "Azalea Maceta",
@@ -4421,8 +4421,8 @@
    "producto": "Hibisco Maceta",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "a4c58067"
   },
   "hibisco-maceta-rojo-m": {
    "producto": "Hibisco Maceta",
