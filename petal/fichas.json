@@ -1194,8 +1194,8 @@
    "producto": "Boutonniere Rosas",
    "color": "Rojo",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "final",
+   "v": "d2bbd3ce"
   },
   "buganvilla-maceta-verde-l": {
    "producto": "Buganvilla Maceta",
@@ -1579,8 +1579,8 @@
    "producto": "Dracaena Marginata",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "5653feec"
   },
   "echeveria-elegans-verde-s": {
    "producto": "Echeveria Elegans",
@@ -1656,8 +1656,8 @@
    "producto": "Haworthia Fasciata",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "bb885147"
   },
   "helecho-de-boston-verde-l": {
    "producto": "Helecho de Boston",
@@ -1712,8 +1712,8 @@
    "producto": "Menta Piperita Maceta",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "6ea10282"
   },
   "monstera-deliciosa-verde-l": {
    "producto": "Monstera Deliciosa",
@@ -4526,8 +4526,8 @@
    "producto": "Kalanchoe Maceta",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "ac7b7386"
   },
   "kalanchoe-maceta-blanco-m": {
    "producto": "Kalanchoe Maceta",
