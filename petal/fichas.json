@@ -1614,8 +1614,8 @@
    "producto": "Fittonia",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "a0c3c858"
   },
   "fittonia-rojo-s": {
    "producto": "Fittonia",
@@ -1705,8 +1705,8 @@
    "producto": "Maranta Tricolor",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "85dc88cc"
   },
   "menta-piperita-maceta-verde-s": {
    "producto": "Menta Piperita Maceta",
@@ -3567,8 +3567,8 @@
    "producto": "Spathiphyllum (Cuna Moisés)",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "f081cf91"
   },
   "terrario-cactus-redondo-verde-s": {
    "producto": "Terrario Cactus Redondo",
@@ -4379,8 +4379,8 @@
    "producto": "Azalea Maceta",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "8b7a9ccd"
   },
   "azalea-maceta-rojo-m": {
    "producto": "Azalea Maceta",
@@ -4400,8 +4400,8 @@
    "producto": "Camelia Maceta",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "de181fdb"
   },
   "camelia-maceta-rojo-m": {
    "producto": "Camelia Maceta",
