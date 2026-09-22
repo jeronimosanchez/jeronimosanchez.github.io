@@ -1355,8 +1355,8 @@
    "producto": "Centro de Mesa Tulipanes",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "396ca2d3"
   },
   "cesta-primavera-jacintos-aromaticos-multicolor-m": {
    "producto": "Cesta Primavera Jacintos Aromáticos",
@@ -1474,29 +1474,29 @@
    "producto": "Corona Fúnebre Clásica Rosas",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "caf0856e"
   },
   "corona-funebre-clasica-rosas-rosa-l": {
    "producto": "Corona Fúnebre Clásica Rosas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "8eda40ef"
   },
   "corona-funebre-lirios-blanco-m": {
    "producto": "Corona Fúnebre Lirios",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "64094bd7"
   },
   "corona-funebre-lirios-blanco-l": {
    "producto": "Corona Fúnebre Lirios",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "57c6aa65"
   },
   "corona-funebre-lujo-especial-blanco-l": {
    "producto": "Corona Fúnebre Lujo Especial",
@@ -1908,15 +1908,15 @@
    "producto": "Ramo Mejórate Pronto",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "c0b180e3"
   },
   "ramo-mimosa-amarilla-amarillo-m": {
    "producto": "Ramo Mimosa Amarilla",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "d243dae2"
   },
   "ramo-nacimiento-bebe-azul-azul-m": {
    "producto": "Ramo Nacimiento Bebé Azul",
