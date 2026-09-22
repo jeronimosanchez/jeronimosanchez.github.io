@@ -1131,8 +1131,8 @@
    "producto": "Arreglo Tropical Anthurium",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "52476f95"
   },
   "arreglo-verano-lavanda-provenzal-morado-s": {
    "producto": "Arreglo Verano Lavanda Provenzal",
@@ -1159,8 +1159,8 @@
    "producto": "Bonsái Acer Palmatum",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "fb61e9f9"
   },
   "bonsai-ficus-retusa-verde-l": {
    "producto": "Bonsái Ficus Retusa",
@@ -1509,8 +1509,8 @@
    "producto": "Corona Otoño Hojas y Bayas",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "8c051069"
   },
   "corsage-dama-orquideas-blanco-unico": {
    "producto": "Corsage Dama Orquídeas",
@@ -1530,8 +1530,8 @@
    "producto": "Cruz de Claveles y Lirios",
    "color": "Blanco",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "d766b8b8"
   },
   "cruz-de-gladiolos-blancos-blanco-xl": {
    "producto": "Cruz de Gladiolos Blancos",
@@ -1782,8 +1782,8 @@
    "producto": "Palmera Areca",
    "color": "Verde",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "a266af79"
   },
   "peperomia-caperata-verde-s": {
    "producto": "Peperomia Caperata",
