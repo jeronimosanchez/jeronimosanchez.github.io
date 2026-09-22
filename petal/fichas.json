@@ -1439,8 +1439,8 @@
    "producto": "Corona Cabeza Novia Rosas",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "7d8dce70"
   },
   "corona-funeral-gladiolos-multicolor-m": {
    "producto": "Corona Funeral Gladiolos",
@@ -1796,8 +1796,8 @@
    "producto": "Petunias Colgantes Mixtas",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "d9c7c29f"
   },
   "pilea-peperomioides-verde-s": {
    "producto": "Pilea Peperomioides",
@@ -3602,8 +3602,8 @@
    "producto": "Zamioculca",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "61a0625a"
   },
   "arbol-de-jade-verde-m": {
    "producto": "Árbol de Jade",
@@ -4477,8 +4477,8 @@
    "producto": "Violeta Africana",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "3423aa72"
   },
   "violeta-africana-rosa-m": {
    "producto": "Violeta Africana",
@@ -4533,8 +4533,8 @@
    "producto": "Kalanchoe Maceta",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "57269966"
   },
   "corona-funebre-crisantemos-blanco-m": {
    "producto": "Corona Fúnebre Crisantemos",
