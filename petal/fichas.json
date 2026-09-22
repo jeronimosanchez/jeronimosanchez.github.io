@@ -1054,8 +1054,8 @@
    "producto": "Arreglo Floral",
    "color": "Blanco y Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "445b56b2"
+   "estado": "final",
+   "v": "8a0ab4d8"
   },
   "arreglo-floral-eventos-multicolor-s": {
    "producto": "Arreglo Floral Eventos",
@@ -1264,29 +1264,29 @@
    "producto": "Centro de Mesa Boda Eucalipto",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "69df9422"
   },
   "centro-de-mesa-boda-eucalipto-verde-m": {
    "producto": "Centro de Mesa Boda Eucalipto",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "bfc00a61"
   },
   "centro-de-mesa-boda-hortensias-azul-s": {
    "producto": "Centro de Mesa Boda Hortensias",
    "color": "Azul",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "3ac0923b"
   },
   "centro-de-mesa-boda-hortensias-azul-m": {
    "producto": "Centro de Mesa Boda Hortensias",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "2119fc6b"
   },
   "centro-de-mesa-boda-peonias-rosa-s": {
    "producto": "Centro de Mesa Boda Peonías",
@@ -1544,8 +1544,8 @@
    "producto": "Cruz de Rosas Blancas",
    "color": "Blanco",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "4b06832f"
   },
   "dalia-amarillo-unico": {
    "producto": "Dalia",
@@ -3574,8 +3574,8 @@
    "producto": "Terrario Cactus Redondo",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "e77a64c1"
   },
   "terrario-geometrico-premium-verde-l": {
    "producto": "Terrario Geométrico Premium",
