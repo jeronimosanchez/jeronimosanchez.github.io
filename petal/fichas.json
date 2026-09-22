@@ -1152,8 +1152,8 @@
    "producto": "Begonia Maculata",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "953b7783"
   },
   "bonsai-acer-palmatum-verde-l": {
    "producto": "Bonsái Acer Palmatum",
@@ -1229,8 +1229,8 @@
    "producto": "Calathea Medallion",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "87a6f735"
   },
   "centro-funerario-vertical-blanco-l": {
    "producto": "Centro Funerario Vertical",
@@ -4456,8 +4456,8 @@
    "producto": "Ciclamen Maceta",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "42c88fa4"
   },
   "ciclamen-maceta-rojo-m": {
    "producto": "Ciclamen Maceta",
@@ -4470,8 +4470,8 @@
    "producto": "Ciclamen Maceta",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "94390675"
   },
   "violeta-africana-morado-m": {
    "producto": "Violeta Africana",
@@ -4519,8 +4519,8 @@
    "producto": "Kalanchoe Maceta",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "4d57d1da"
   },
   "kalanchoe-maceta-naranja-m": {
    "producto": "Kalanchoe Maceta",
