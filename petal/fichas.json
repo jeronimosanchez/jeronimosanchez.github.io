@@ -4540,15 +4540,15 @@
    "producto": "Corona Fúnebre Crisantemos",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "49e548cc"
   },
   "corona-funebre-crisantemos-blanco-l": {
    "producto": "Corona Fúnebre Crisantemos",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "966123fe"
   },
   "corona-funebre-crisantemos-amarillo-m": {
    "producto": "Corona Fúnebre Crisantemos",
@@ -4568,29 +4568,29 @@
    "producto": "Corona Fúnebre Crisantemos",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "ebde0bf9"
   },
   "corona-funebre-crisantemos-multicolor-l": {
    "producto": "Corona Fúnebre Crisantemos",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "605d5e1f"
   },
   "corona-funebre-gladiolos-blanco-m": {
    "producto": "Corona Fúnebre Gladiolos",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "cf1f44aa"
   },
   "corona-funebre-gladiolos-blanco-l": {
    "producto": "Corona Fúnebre Gladiolos",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "5ad05190"
   },
   "corona-funebre-gladiolos-rosa-m": {
    "producto": "Corona Fúnebre Gladiolos",
@@ -4610,15 +4610,15 @@
    "producto": "Corona Fúnebre Gladiolos",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "d8ede350"
   },
   "corona-funebre-gladiolos-multicolor-l": {
    "producto": "Corona Fúnebre Gladiolos",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "703816f6"
   },
   "corona-funebre-gerberas-blanco-m": {
    "producto": "Corona Fúnebre Gerberas",
@@ -4680,15 +4680,15 @@
    "producto": "Corona Fúnebre Lirios y Claveles",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "16ddcced"
   },
   "corona-funebre-lirios-y-claveles-blanco-l": {
    "producto": "Corona Fúnebre Lirios y Claveles",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "cc09218e"
   },
   "corona-funebre-gladiolos-y-rosas-multicolor-m": {
    "producto": "Corona Fúnebre Gladiolos y Rosas",
