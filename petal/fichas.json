@@ -1369,8 +1369,8 @@
    "producto": "Cesta Verano Margaritas Campo",
    "color": "Blanco y Amarillo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "647ff4ee"
+   "estado": "provisional",
+   "v": "e9c0d9ef"
   },
   "cesta-de-flores-silvestres-multicolor-s": {
    "producto": "Cesta de Flores Silvestres",
@@ -1838,8 +1838,8 @@
    "producto": "Ramo Blanco Pureza",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "7ef9066e"
   },
   "ramo-corporativo-sobrio-blanco-y-verde-l": {
    "producto": "Ramo Corporativo Sobrio",
@@ -1936,8 +1936,8 @@
    "producto": "Ramo de Rosas Nacimiento Bebé",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "469da58c"
   },
   "ramo-otono-tonos-calidos-naranja-m": {
    "producto": "Ramo Otoño Tonos Cálidos",
@@ -2881,8 +2881,8 @@
    "producto": "Ramo de Lavanda Seca",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "61111666"
   },
   "ramo-de-lirios-amarillo-s": {
    "producto": "Ramo de Lirios",
@@ -3126,8 +3126,8 @@
    "producto": "Ramo de Pampa Seca",
    "color": "Beige",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "8c0a88f2"
+   "estado": "provisional",
+   "v": "465b66cf"
   },
   "ramo-de-peonias-blanco-s": {
    "producto": "Ramo de Peonías",
