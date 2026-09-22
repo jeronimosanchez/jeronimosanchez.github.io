@@ -1775,8 +1775,8 @@
    "producto": "Palma Funeraria Premium",
    "color": "Verde y Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "f3cfb29d"
+   "estado": "provisional",
+   "v": "f1532a11"
   },
   "palmera-areca-verde-xl": {
    "producto": "Palmera Areca",
@@ -1852,8 +1852,8 @@
    "producto": "Ramo Dama Honor Lirios",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "2ae9bbfe"
   },
   "ramo-dia-de-la-madre-lirios-blanco-l": {
    "producto": "Ramo Día de la Madre Lirios",
@@ -3084,22 +3084,22 @@
    "producto": "Ramo de Novia Lirios",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "87db295d"
   },
   "ramo-de-novia-romantico-multicolor-l": {
    "producto": "Ramo de Novia Romántico",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "0f8bab87"
   },
   "ramo-de-novia-orquideas-blanco-l": {
    "producto": "Ramo de Novia Orquídeas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "88b2e69b"
   },
   "ramo-de-novia-peonias-rosa-l": {
    "producto": "Ramo de Novia Peonías",
