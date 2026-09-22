@@ -1215,8 +1215,8 @@
    "producto": "Cactus Opuntia",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "b9be4521"
   },
   "caja-rosas-preservadas-deluxe-rojo-l": {
    "producto": "Caja Rosas Preservadas Deluxe",
@@ -1810,8 +1810,8 @@
    "producto": "Potho Dorado Colgante",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "060a1877"
   },
   "protea-king-rosa-unico": {
    "producto": "Protea King",
@@ -1859,22 +1859,22 @@
    "producto": "Ramo Día de la Madre Lirios",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "8f7a9466"
   },
   "ramo-dia-de-la-madre-rosas-rosa-l": {
    "producto": "Ramo Día de la Madre Rosas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "3779bc52"
   },
   "ramo-dia-de-la-madre-tulipanes-multicolor-l": {
    "producto": "Ramo Día de la Madre Tulipanes",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "33244a1b"
   },
   "ramo-enhorabuena-graduacion-multicolor-l": {
    "producto": "Ramo Enhorabuena Graduación",
