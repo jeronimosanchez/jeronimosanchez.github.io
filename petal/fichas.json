@@ -1320,8 +1320,8 @@
    "producto": "Centro de Mesa Navideño",
    "color": "Verde y Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "f10809b4"
+   "estado": "provisional",
+   "v": "14b69fc0"
   },
   "centro-de-mesa-orquideas-blanco-s": {
    "producto": "Centro de Mesa Orquídeas",
@@ -1390,8 +1390,8 @@
    "producto": "Cesta de Margaritas Silvestres",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "b493686b"
   },
   "clematide-trepadora-maceta-verde-m": {
    "producto": "Clemátide Trepadora Maceta",
@@ -1663,8 +1663,8 @@
    "producto": "Helecho de Boston",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "e3bc60ba"
   },
   "iris-amarillo-unico": {
    "producto": "Iris",
@@ -1754,8 +1754,8 @@
    "producto": "Orquídea Phalaenopsis",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "3b5f2ae5"
   },
   "pack-oficina-verde-3-plantas-verde-m": {
    "producto": "Pack Oficina Verde 3 Plantas",
@@ -1922,8 +1922,8 @@
    "producto": "Ramo Nacimiento Bebé Azul",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "c036a7cc"
   },
   "ramo-nacimiento-bebe-neutro-blanco-m": {
    "producto": "Ramo Nacimiento Bebé Neutro",
