@@ -1173,8 +1173,8 @@
    "producto": "Bonsái Olmo Chino",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "7522f106"
   },
   "bouquet-de-novia-vintage-blanco-y-rosa-l": {
    "producto": "Bouquet de Novia Vintage",
@@ -1558,8 +1558,8 @@
    "producto": "Dalia",
    "color": "Rojo",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "0660af24"
   },
   "dalia-rosa-unico": {
    "producto": "Dalia",
@@ -1845,8 +1845,8 @@
    "producto": "Ramo Corporativo Sobrio",
    "color": "Blanco y Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "445b56b2"
+   "estado": "provisional",
+   "v": "208190fe"
   },
   "ramo-dama-honor-lirios-rosa-m": {
    "producto": "Ramo Dama Honor Lirios",
@@ -1929,8 +1929,8 @@
    "producto": "Ramo Nacimiento Bebé Neutro",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "3d9cece1"
   },
   "ramo-de-rosas-nacimiento-bebe-rosa-m": {
    "producto": "Ramo de Rosas Nacimiento Bebé",
@@ -1971,8 +1971,8 @@
    "producto": "Ramo San Valentín Corazón",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "278540b2"
   },
   "ramo-san-valentin-rosas-rojo-xl": {
    "producto": "Ramo San Valentín Rosas",
