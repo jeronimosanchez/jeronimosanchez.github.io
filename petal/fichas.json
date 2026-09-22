@@ -1082,22 +1082,22 @@
    "producto": "Arreglo Orquídeas",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "610d1dab"
   },
   "arreglo-orquideas-multicolor-m": {
    "producto": "Arreglo Orquídeas",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "941df996"
   },
   "arreglo-orquideas-multicolor-l": {
    "producto": "Arreglo Orquídeas",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "d04fc83a"
   },
   "arreglo-peonias-rosa-s": {
    "producto": "Arreglo Peonías",
@@ -1124,8 +1124,8 @@
    "producto": "Arreglo Primavera Flores Silvestres",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "cd9fddff"
   },
   "arreglo-tropical-anthurium-rojo-m": {
    "producto": "Arreglo Tropical Anthurium",
@@ -1243,8 +1243,8 @@
    "producto": "Centro Invierno Ramas Nevadas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "ec17acc9"
   },
   "centro-navidad-pino-natural-verde-y-rojo-m": {
    "producto": "Centro Navidad Pino Natural",
@@ -1362,8 +1362,8 @@
    "producto": "Cesta Primavera Jacintos Aromáticos",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "34ccc7ba"
   },
   "cesta-verano-margaritas-campo-blanco-y-amarillo-s": {
    "producto": "Cesta Verano Margaritas Campo",
@@ -1978,8 +1978,8 @@
    "producto": "Ramo San Valentín Rosas",
    "color": "Rojo",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "46d01d3f"
   },
   "ramo-verano-girasoles-amarillo-l": {
    "producto": "Ramo Verano Girasoles",
