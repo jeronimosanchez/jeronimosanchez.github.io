@@ -1033,8 +1033,8 @@
    "producto": "Arco Floral Boda Girasoles y Margaritas",
    "color": "Amarillo y Blanco",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "3bc1a320"
+   "estado": "provisional",
+   "v": "5a37e08d"
   },
   "arco-floral-boda-rosas-y-eucalipto-rosa-y-verde-xl": {
    "producto": "Arco Floral Boda Rosas y Eucalipto",
@@ -1180,8 +1180,8 @@
    "producto": "Bouquet de Novia Vintage",
    "color": "Blanco y Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "685ccdca"
+   "estado": "provisional",
+   "v": "e7e41750"
   },
   "boutonniere-claveles-blanco-unico": {
    "producto": "Boutonniere Claveles",
@@ -1432,8 +1432,8 @@
    "producto": "Corona Cabeza Novia Flores Silvestres",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "d31f7416"
   },
   "corona-cabeza-novia-rosas-rosa-s": {
    "producto": "Corona Cabeza Novia Rosas",
@@ -1642,8 +1642,8 @@
    "producto": "Guirnalda Flores Boda",
    "color": "Blanco y Verde",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "445b56b2"
+   "estado": "provisional",
+   "v": "212d0ac5"
   },
   "guirnalda-de-eucalipto-verde-m": {
    "producto": "Guirnalda de Eucalipto",
@@ -3112,8 +3112,8 @@
    "producto": "Ramo de Novia Rosas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "67b60e9c"
   },
   "ramo-de-novia-tulipanes-blanco-l": {
    "producto": "Ramo de Novia Tulipanes",
