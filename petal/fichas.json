@@ -1551,8 +1551,8 @@
    "producto": "Dalia",
    "color": "Amarillo",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "ecfcb52a"
   },
   "dalia-rojo-unico": {
    "producto": "Dalia",
@@ -1565,8 +1565,8 @@
    "producto": "Dalia",
    "color": "Rosa",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "5e398c0d"
   },
   "dieffenbachia-verde-l": {
    "producto": "Dieffenbachia",
@@ -1803,8 +1803,8 @@
    "producto": "Pilea Peperomioides",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "c4ac87c3"
   },
   "potho-dorado-colgante-verde-m": {
    "producto": "Potho Dorado Colgante",
@@ -1985,8 +1985,8 @@
    "producto": "Ramo Verano Girasoles",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "7387915e"
   },
   "ramo-de-anemonas-blanco-s": {
    "producto": "Ramo de Anémonas",
@@ -4694,15 +4694,15 @@
    "producto": "Corona Fúnebre Gladiolos y Rosas",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "ccedeec0"
   },
   "corona-funebre-gladiolos-y-rosas-multicolor-l": {
    "producto": "Corona Fúnebre Gladiolos y Rosas",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "bc67697f"
   },
   "corona-funebre-claveles-y-margaritas-blanco-m": {
    "producto": "Corona Fúnebre Claveles y Margaritas",
