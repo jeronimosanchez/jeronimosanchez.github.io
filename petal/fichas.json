@@ -1236,8 +1236,8 @@
    "producto": "Centro Funerario Vertical",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "aedea259"
   },
   "centro-invierno-ramas-nevadas-blanco-s": {
    "producto": "Centro Invierno Ramas Nevadas",
@@ -1691,8 +1691,8 @@
    "producto": "Jazmín Maceta",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "45092903"
   },
   "lavanda-angustifolia-maceta-verde-m": {
    "producto": "Lavanda Angustifolia Maceta",
@@ -1789,8 +1789,8 @@
    "producto": "Peperomia Caperata",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "4a0d9b59"
   },
   "petunias-colgantes-mixtas-multicolor-m": {
    "producto": "Petunias Colgantes Mixtas",
@@ -3546,8 +3546,8 @@
    "producto": "Rosa Trepadora Roja",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "e3a6da96"
   },
   "sansevieria-lengua-suegra-verde-m": {
    "producto": "Sansevieria (Lengua Suegra)",
@@ -4428,8 +4428,8 @@
    "producto": "Hibisco Maceta",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "0f651f50"
   },
   "hibisco-maceta-amarillo-m": {
    "producto": "Hibisco Maceta",
