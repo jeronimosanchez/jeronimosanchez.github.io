@@ -3560,8 +3560,8 @@
    "producto": "Sedum Burrito",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "a26f06a2"
   },
   "spathiphyllum-cuna-moises-verde-m": {
    "producto": "Spathiphyllum (Cuna Moisés)",
@@ -4393,8 +4393,8 @@
    "producto": "Azalea Maceta",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "1c96b138"
   },
   "camelia-maceta-rosa-m": {
    "producto": "Camelia Maceta",
@@ -4407,8 +4407,8 @@
    "producto": "Camelia Maceta",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "35660825"
   },
   "camelia-maceta-blanco-m": {
    "producto": "Camelia Maceta",
@@ -4491,15 +4491,15 @@
    "producto": "Violeta Africana",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "5bb88dbb"
   },
   "violeta-africana-azul-m": {
    "producto": "Violeta Africana",
    "color": "Azul",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "018ea3de"
+   "estado": "provisional",
+   "v": "80bc69db"
   },
   "kalanchoe-maceta-rojo-m": {
    "producto": "Kalanchoe Maceta",
