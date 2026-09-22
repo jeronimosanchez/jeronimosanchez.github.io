@@ -1516,15 +1516,15 @@
    "producto": "Corsage Dama Orquídeas",
    "color": "Blanco",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "78093dcd"
   },
   "crassula-ovata-arbol-jade-verde-s": {
    "producto": "Crassula Ovata (Árbol Jade)",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "d3d3a1aa"
   },
   "cruz-de-claveles-y-lirios-blanco-xl": {
    "producto": "Cruz de Claveles y Lirios",
@@ -1572,8 +1572,8 @@
    "producto": "Dieffenbachia",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "801642f9"
   },
   "dracaena-marginata-verde-l": {
    "producto": "Dracaena Marginata",
@@ -1600,8 +1600,8 @@
    "producto": "Ficus Lyrata",
    "color": "Verde",
    "talla": "XL",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "cdc75185"
   },
   "filodendro-scandens-verde-m": {
    "producto": "Filodendro Scandens",
@@ -4512,8 +4512,8 @@
    "producto": "Kalanchoe Maceta",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "80d58c0a"
   },
   "kalanchoe-maceta-amarillo-m": {
    "producto": "Kalanchoe Maceta",
