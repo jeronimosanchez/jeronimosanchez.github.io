@@ -3595,8 +3595,8 @@
    "producto": "Tomillo Limón Maceta",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "1deae2f2"
   },
   "zamioculca-verde-m": {
    "producto": "Zamioculca",
@@ -3609,8 +3609,8 @@
    "producto": "Árbol de Jade",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "fef69a2b"
   },
   "ramo-de-lisianthus-blanco-s": {
    "producto": "Ramo de Lisianthus",
@@ -4372,8 +4372,8 @@
    "producto": "Gardenia Maceta",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "c713b9f2"
   },
   "azalea-maceta-rosa-m": {
    "producto": "Azalea Maceta",
@@ -4414,8 +4414,8 @@
    "producto": "Camelia Maceta",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "bbfae233"
   },
   "hibisco-maceta-rosa-m": {
    "producto": "Hibisco Maceta",
@@ -4449,8 +4449,8 @@
    "producto": "Hibisco Maceta",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "provisional",
+   "v": "3284e853"
   },
   "ciclamen-maceta-rosa-m": {
    "producto": "Ciclamen Maceta",
