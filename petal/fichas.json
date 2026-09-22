@@ -1621,8 +1621,8 @@
    "producto": "Fittonia",
    "color": "Rojo",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "cd7d7859"
   },
   "geranio-maceta-rojo-m": {
    "producto": "Geranio Maceta",
@@ -1635,8 +1635,8 @@
    "producto": "Geranio Maceta",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "b705acce"
   },
   "guirnalda-flores-boda-blanco-y-verde-xl": {
    "producto": "Guirnalda Flores Boda",
@@ -4435,15 +4435,15 @@
    "producto": "Hibisco Maceta",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "provisional",
+   "v": "687e702e"
   },
   "hibisco-maceta-blanco-m": {
    "producto": "Hibisco Maceta",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "1e8fed41"
   },
   "hibisco-maceta-naranja-m": {
    "producto": "Hibisco Maceta",
@@ -4484,8 +4484,8 @@
    "producto": "Violeta Africana",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "7910dfb7"
   },
   "violeta-africana-blanco-m": {
    "producto": "Violeta Africana",
