@@ -1061,22 +1061,22 @@
    "producto": "Arreglo Floral Eventos",
    "color": "Multicolor",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "2ea820f4"
   },
   "arreglo-floral-eventos-multicolor-m": {
    "producto": "Arreglo Floral Eventos",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "ea7b0717"
   },
   "arreglo-floral-eventos-multicolor-l": {
    "producto": "Arreglo Floral Eventos",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "463c5034"
   },
   "arreglo-orquideas-multicolor-s": {
    "producto": "Arreglo Orquídeas",
@@ -4554,15 +4554,15 @@
    "producto": "Corona Fúnebre Crisantemos",
    "color": "Amarillo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "c0d1d54f"
   },
   "corona-funebre-crisantemos-amarillo-l": {
    "producto": "Corona Fúnebre Crisantemos",
    "color": "Amarillo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "b390e108"
+   "estado": "final",
+   "v": "fa70be99"
   },
   "corona-funebre-crisantemos-multicolor-m": {
    "producto": "Corona Fúnebre Crisantemos",
@@ -4624,15 +4624,15 @@
    "producto": "Corona Fúnebre Gerberas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "c9fe9bd5"
   },
   "corona-funebre-gerberas-blanco-l": {
    "producto": "Corona Fúnebre Gerberas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "e32bdb9a"
   },
   "corona-funebre-gerberas-multicolor-m": {
    "producto": "Corona Fúnebre Gerberas",
@@ -4652,15 +4652,15 @@
    "producto": "Corona Fúnebre Margaritas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "600646e2"
   },
   "corona-funebre-margaritas-blanco-l": {
    "producto": "Corona Fúnebre Margaritas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "45185e67"
   },
   "corona-funebre-rosas-y-crisantemos-multicolor-m": {
    "producto": "Corona Fúnebre Rosas y Crisantemos",
@@ -4722,15 +4722,15 @@
    "producto": "Corona Fúnebre Tradicional",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "ec2e3710"
   },
   "corona-funebre-tradicional-multicolor-l": {
    "producto": "Corona Fúnebre Tradicional",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "cbf57422"
   },
   "corona-funebre-premium-flores-blancas-blanco-l": {
    "producto": "Corona Fúnebre Premium Flores Blancas",
