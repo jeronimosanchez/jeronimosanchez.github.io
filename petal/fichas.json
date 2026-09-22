@@ -1047,8 +1047,8 @@
    "producto": "Arreglo Condolencias Lujo",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "dcfabc30"
   },
   "arreglo-floral-blanco-y-verde-m": {
    "producto": "Arreglo Floral",
@@ -1824,8 +1824,8 @@
    "producto": "Ramo 100 Rosas Rojas Premium",
    "color": "Rojo",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "10706eb9"
   },
   "ramo-bienvenida-nuevo-hogar-multicolor-m": {
    "producto": "Ramo Bienvenida Nuevo Hogar",
@@ -3077,8 +3077,8 @@
    "producto": "Ramo de Novia Calas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "e01e9683"
   },
   "ramo-de-novia-lirios-blanco-l": {
    "producto": "Ramo de Novia Lirios",
@@ -3119,8 +3119,8 @@
    "producto": "Ramo de Novia Tulipanes",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "07dd6fd6"
   },
   "ramo-de-pampa-seca-beige-l": {
    "producto": "Ramo de Pampa Seca",
