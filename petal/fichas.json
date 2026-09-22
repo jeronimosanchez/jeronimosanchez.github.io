@@ -1012,8 +1012,8 @@
    "producto": "Aloe Vera Mini",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "763c8387"
   },
   "anthurium-blanco-unico": {
    "producto": "Anthurium",
@@ -1208,8 +1208,8 @@
    "producto": "Cactus Echinocactus",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "b9be4521"
   },
   "cactus-opuntia-verde-m": {
    "producto": "Cactus Opuntia",
@@ -3553,8 +3553,8 @@
    "producto": "Sansevieria (Lengua Suegra)",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "976262e5"
   },
   "sedum-burrito-verde-s": {
    "producto": "Sedum Burrito",
@@ -4596,15 +4596,15 @@
    "producto": "Corona Fúnebre Gladiolos",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "9bab91d3"
   },
   "corona-funebre-gladiolos-rosa-l": {
    "producto": "Corona Fúnebre Gladiolos",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "d9abbef9"
   },
   "corona-funebre-gladiolos-multicolor-m": {
    "producto": "Corona Fúnebre Gladiolos",
@@ -4708,15 +4708,15 @@
    "producto": "Corona Fúnebre Claveles y Margaritas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "2f82dc9c"
   },
   "corona-funebre-claveles-y-margaritas-blanco-l": {
    "producto": "Corona Fúnebre Claveles y Margaritas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "ccd9c836"
   },
   "corona-funebre-tradicional-multicolor-m": {
    "producto": "Corona Fúnebre Tradicional",
