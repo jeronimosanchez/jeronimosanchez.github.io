@@ -1103,22 +1103,22 @@
    "producto": "Arreglo Peonías",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "275e0dff"
   },
   "arreglo-peonias-rosa-m": {
    "producto": "Arreglo Peonías",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "567c5ac5"
   },
   "arreglo-peonias-rosa-l": {
    "producto": "Arreglo Peonías",
    "color": "Rosa",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "provisional",
+   "v": "25635505"
   },
   "arreglo-primavera-flores-silvestres-multicolor-s": {
    "producto": "Arreglo Primavera Flores Silvestres",
@@ -1292,29 +1292,29 @@
    "producto": "Centro de Mesa Boda Peonías",
    "color": "Rosa",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "f02eee30"
   },
   "centro-de-mesa-boda-peonias-rosa-m": {
    "producto": "Centro de Mesa Boda Peonías",
    "color": "Rosa",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "488ad21e"
+   "estado": "final",
+   "v": "9d969044"
   },
   "centro-de-mesa-boda-rosas-blanco-s": {
    "producto": "Centro de Mesa Boda Rosas",
    "color": "Blanco",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "a3e001ea"
   },
   "centro-de-mesa-boda-rosas-blanco-m": {
    "producto": "Centro de Mesa Boda Rosas",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "b78ad227"
   },
   "centro-de-mesa-navideno-verde-y-rojo-m": {
    "producto": "Centro de Mesa Navideño",
@@ -3588,8 +3588,8 @@
    "producto": "Terrario Suculentas Geométrico",
    "color": "Verde",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "b6cda016"
   },
   "tomillo-limon-maceta-verde-s": {
    "producto": "Tomillo Limón Maceta",
@@ -4736,8 +4736,8 @@
    "producto": "Corona Fúnebre Premium Flores Blancas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "provisional",
+   "v": "253c0570"
   }
  }
 }
