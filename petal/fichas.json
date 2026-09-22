@@ -1138,8 +1138,8 @@
    "producto": "Arreglo Verano Lavanda Provenzal",
    "color": "Morado",
    "talla": "S",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "7e25e9a4"
   },
   "aspidistra-verde-l": {
    "producto": "Aspidistra",
@@ -1166,8 +1166,8 @@
    "producto": "Bonsái Ficus Retusa",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "19933bbb"
   },
   "bonsai-olmo-chino-verde-l": {
    "producto": "Bonsái Olmo Chino",
@@ -1250,15 +1250,15 @@
    "producto": "Centro Navidad Pino Natural",
    "color": "Verde y Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "f10809b4"
+   "estado": "provisional",
+   "v": "3f9e08e5"
   },
   "centro-otono-calabaza-naranja-m": {
    "producto": "Centro Otoño Calabaza",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "a1c74600"
   },
   "centro-de-mesa-boda-eucalipto-verde-s": {
    "producto": "Centro de Mesa Boda Eucalipto",
@@ -1719,8 +1719,8 @@
    "producto": "Monstera Deliciosa",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "07f34bf5"
   },
   "orquidea-phalaenopsis-amarillo-m": {
    "producto": "Orquídea Phalaenopsis",
