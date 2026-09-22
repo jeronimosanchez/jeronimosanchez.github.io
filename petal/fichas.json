@@ -1201,8 +1201,8 @@
    "producto": "Buganvilla Maceta",
    "color": "Verde",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "66188d2c"
   },
   "cactus-echinocactus-verde-m": {
    "producto": "Cactus Echinocactus",
@@ -1383,8 +1383,8 @@
    "producto": "Cesta de Frutas y Flores",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "24e2ee69"
   },
   "cesta-de-margaritas-silvestres-blanco-s": {
    "producto": "Cesta de Margaritas Silvestres",
@@ -1397,8 +1397,8 @@
    "producto": "Clemátide Trepadora Maceta",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "a58d07bf"
   },
   "cojin-funerario-claveles-blanco-l": {
    "producto": "Cojín Funerario Claveles",
@@ -1607,8 +1607,8 @@
    "producto": "Filodendro Scandens",
    "color": "Verde",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "e36d5f84"
+   "estado": "provisional",
+   "v": "1ab91e27"
   },
   "fittonia-blanco-s": {
    "producto": "Fittonia",
@@ -4505,8 +4505,8 @@
    "producto": "Kalanchoe Maceta",
    "color": "Rojo",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "b8b9fd10"
   },
   "kalanchoe-maceta-rosa-m": {
    "producto": "Kalanchoe Maceta",
