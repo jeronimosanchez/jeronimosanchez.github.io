@@ -1026,8 +1026,8 @@
    "producto": "Anthurium",
    "color": "Rojo",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "9c77ab69"
+   "estado": "provisional",
+   "v": "84b51b18"
   },
   "arco-floral-boda-girasoles-y-margaritas-amarillo-y-blanco-xl": {
    "producto": "Arco Floral Boda Girasoles y Margaritas",
@@ -1446,15 +1446,15 @@
    "producto": "Corona Funeral Gladiolos",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "32590d2e"
   },
   "corona-funeral-gladiolos-multicolor-l": {
    "producto": "Corona Funeral Gladiolos",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "provisional",
+   "v": "1f39e97a"
   },
   "corona-funebre-claveles-blanco-m": {
    "producto": "Corona Fúnebre Claveles",
@@ -1684,8 +1684,8 @@
    "producto": "Iris",
    "color": "Morado",
    "talla": "Único",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "f2797fd7"
   },
   "jazmin-maceta-verde-m": {
    "producto": "Jazmín Maceta",
@@ -1880,8 +1880,8 @@
    "producto": "Ramo Enhorabuena Graduación",
    "color": "Multicolor",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "d5555a7f"
   },
   "ramo-exotico-strelitzia-naranja-y-azul-l": {
    "producto": "Ramo Exótico Strelitzia",
@@ -1894,8 +1894,8 @@
    "producto": "Ramo Funerario Económico",
    "color": "Blanco",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "6765b0ca"
+   "estado": "final",
+   "v": "d9b2889f"
   },
   "ramo-gracias-tulipanes-mix-multicolor-m": {
    "producto": "Ramo Gracias Tulipanes Mix",
