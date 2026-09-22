@@ -1747,8 +1747,8 @@
    "producto": "Orquídea Phalaenopsis",
    "color": "Morado",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "5ce69de8"
+   "estado": "provisional",
+   "v": "92bd7686"
   },
   "orquidea-phalaenopsis-rosa-m": {
    "producto": "Orquídea Phalaenopsis",
@@ -1831,8 +1831,8 @@
    "producto": "Ramo Bienvenida Nuevo Hogar",
    "color": "Multicolor",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "01304eb3"
+   "estado": "final",
+   "v": "feb45066"
   },
   "ramo-blanco-pureza-blanco-m": {
    "producto": "Ramo Blanco Pureza",
@@ -1887,8 +1887,8 @@
    "producto": "Ramo Exótico Strelitzia",
    "color": "Naranja y Azul",
    "talla": "L",
-   "estado": "sin foto",
-   "v": "aa65215d"
+   "estado": "provisional",
+   "v": "fe7fb7ab"
   },
   "ramo-funerario-economico-blanco-m": {
    "producto": "Ramo Funerario Económico",
@@ -1943,8 +1943,8 @@
    "producto": "Ramo Otoño Tonos Cálidos",
    "color": "Naranja",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "29d87eb2"
+   "estado": "final",
+   "v": "acf45710"
   },
   "ramo-pascua-lirios-blanco-l": {
    "producto": "Ramo Pascua Lirios",
@@ -2517,8 +2517,8 @@
    "producto": "Ramo de Flores Secas Vintage",
    "color": "Beige",
    "talla": "M",
-   "estado": "sin foto",
-   "v": "8c0a88f2"
+   "estado": "final",
+   "v": "2327dfc1"
   },
   "ramo-de-fresias-amarillo-s": {
    "producto": "Ramo de Fresias",
