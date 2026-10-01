@@ -1817,8 +1817,8 @@
    "producto": "Ramo Dama Honor Lirios",
    "color": "Rosa",
    "talla": "M",
-   "estado": "provisional",
-   "v": "1a249206"
+   "estado": "final",
+   "v": "6b36f4e6"
   },
   "ramo-dia-de-la-madre-lirios-blanco-l": {
    "producto": "Ramo Día de la Madre Lirios",
@@ -1993,7 +1993,7 @@
    "color": "Morado",
    "talla": "L",
    "estado": "final",
-   "v": "0bcb547e"
+   "v": "ca4ef147"
   },
   "ramo-de-anemonas-rosa-s": {
    "producto": "Ramo de Anémonas",
@@ -2013,8 +2013,8 @@
    "producto": "Ramo de Anémonas",
    "color": "Rosa",
    "talla": "L",
-   "estado": "provisional",
-   "v": "db7637c7"
+   "estado": "final",
+   "v": "14efd969"
   },
   "ramo-de-astromelias-blanco-s": {
    "producto": "Ramo de Astromelias",
@@ -2168,7 +2168,7 @@
    "color": "Amarillo",
    "talla": "S",
    "estado": "final",
-   "v": "b7f4622a"
+   "v": "2c5ace5f"
   },
   "ramo-de-calas-amarillo-m": {
    "producto": "Ramo de Calas",
@@ -2182,7 +2182,7 @@
    "color": "Amarillo",
    "talla": "L",
    "estado": "final",
-   "v": "de52fe26"
+   "v": "8df8b73f"
   },
   "ramo-de-calas-blanco-s": {
    "producto": "Ramo de Calas",
@@ -2202,8 +2202,8 @@
    "producto": "Ramo de Calas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "provisional",
-   "v": "51329ac9"
+   "estado": "final",
+   "v": "81d091f9"
   },
   "ramo-de-calas-morado-s": {
    "producto": "Ramo de Calas",
@@ -2223,8 +2223,8 @@
    "producto": "Ramo de Calas",
    "color": "Morado",
    "talla": "L",
-   "estado": "provisional",
-   "v": "236d6a36"
+   "estado": "final",
+   "v": "96b6e1c4"
   },
   "ramo-de-claveles-amarillo-s": {
    "producto": "Ramo de Claveles",
@@ -3043,42 +3043,42 @@
    "color": "Blanco",
    "talla": "L",
    "estado": "final",
-   "v": "825670ba"
+   "v": "5acd8cce"
   },
   "ramo-de-novia-lirios-blanco-l": {
    "producto": "Ramo de Novia Lirios",
    "color": "Blanco",
    "talla": "L",
-   "estado": "provisional",
-   "v": "90ae58f6"
+   "estado": "final",
+   "v": "fd72d223"
   },
   "ramo-de-novia-romantico-multicolor-l": {
    "producto": "Ramo de Novia Romántico",
    "color": "Multicolor",
    "talla": "L",
    "estado": "final",
-   "v": "539a2936"
+   "v": "e1b26ca6"
   },
   "ramo-de-novia-orquideas-blanco-l": {
    "producto": "Ramo de Novia Orquídeas",
    "color": "Blanco",
    "talla": "L",
-   "estado": "provisional",
-   "v": "0354baa0"
+   "estado": "final",
+   "v": "b51616ae"
   },
   "ramo-de-novia-peonias-rosa-l": {
    "producto": "Ramo de Novia Peonías",
    "color": "Rosa",
    "talla": "L",
    "estado": "final",
-   "v": "cc3e65d1"
+   "v": "a3396728"
   },
   "ramo-de-novia-rosas-blanco-l": {
    "producto": "Ramo de Novia Rosas",
    "color": "Blanco",
    "talla": "L",
    "estado": "final",
-   "v": "8c1bc077"
+   "v": "a332291e"
   },
   "ramo-de-novia-tulipanes-blanco-l": {
    "producto": "Ramo de Novia Tulipanes",
@@ -3218,7 +3218,7 @@
    "color": "Rojo",
    "talla": "L",
    "estado": "final",
-   "v": "d8d87a18"
+   "v": "115595d2"
   },
   "ramo-de-ranunculos-rosa-s": {
    "producto": "Ramo de Ranúnculos",
@@ -3770,22 +3770,22 @@
    "producto": "Ramo de Alhelí",
    "color": "Rojo",
    "talla": "S",
-   "estado": "provisional",
-   "v": "11a17297"
+   "estado": "final",
+   "v": "504a7616"
   },
   "ramo-de-alheli-rojo-m": {
    "producto": "Ramo de Alhelí",
    "color": "Rojo",
    "talla": "M",
-   "estado": "provisional",
-   "v": "82253e0e"
+   "estado": "final",
+   "v": "365e17af"
   },
   "ramo-de-alheli-rojo-l": {
    "producto": "Ramo de Alhelí",
    "color": "Rojo",
    "talla": "L",
-   "estado": "provisional",
-   "v": "81ac9695"
+   "estado": "final",
+   "v": "4763d01e"
   },
   "ramo-de-guisantes-de-olor-rosa-s": {
    "producto": "Ramo de Guisantes de Olor",
